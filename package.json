@@ -1,9 +1,9 @@
 {
   "name": "@bentwnghk/ui",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Lobe UI is an open-source UI component library for building AIGC web apps",
   "keywords": [
-    "lobehub",
+    "bentwnghk",
     "components",
     "chatbot components",
     "react components",
@@ -42,6 +42,7 @@
     "prepublishOnly": "father doctor && npm run build",
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
+    "release": "semantic-release",
     "setup": "dumi setup",
     "start": "npm run docs:dev",
     "test": "vitest --passWithNoTests",
@@ -142,6 +143,7 @@
     "react-dom": "^18",
     "remark": "^14",
     "remark-cli": "^11",
+    "semantic-release": "^21",
     "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"

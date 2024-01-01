@@ -2,6 +2,436 @@
 
 # Changelog
 
+## Version 1.0.0
+
+<sup>Released on **2024-01-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **avatar**: Refactor Avatar component.
+- **chat**: Redesign `ChatItem` `ChatList` props, add time support.
+- **components**: Refactor Footer and Toc components.
+- **dumi-theme**: Split site token and stylish, update lobehub theme.
+- **fluentemoji**: Replace useLocalStorageState with useState hook.
+- **lobehub**: Remove unused code, update interfaces and dependencies.
+- **theme**: Refactor the token theme.
+- **misc**: Add loading to ThreeLogo, color tokens, custom token types, dumi preview action bar, fefactor import and code format, fix Highlighter style and add selection style, Refactor ActionsBar, Refactor ActionsBar, Refactor ChatInputArea, Refactor ChatList, refactor dumi docs layout, Refactor promise to edge speech, remove monorepo, Replace CDN, rm @dqbd/tiktoken, Update package dependencies and replace 'lodash' with 'lodash-es', update zustand usage to v4.4, use `clipboard.writeText` to replace `copy-to-clipboard`, 优化到 react18 代码实现，重构 ChatItem 相关的代码.
+
+#### ✨ Features
+
+- **actionicon**: Add tooltip feature to ActionIcon component.
+- **actionicongroup**: Add onActionClick prop and update UI.
+- **apiheader**: Add configuration for component API header.
+- **assets**: Add assets cdn.
+- **avatar**: Add default values for background prop and modify size of FluentEmoji component.
+- **chat-input-area**: Add SafeArea to ChatInputAreaMobile.
+- **chat-list**: Add `HistoryDivider`.
+- **chat**: Add ActionsBar to ChatList, add ChatItem and ChatList components.
+- **chatlist**: Update logic for rendering chat items based on role.
+- **colorscales**: Improve user experience by hiding unnecessary elements.
+- **components**: Add "color" and "fill" props to ActionIcon and Icon components.
+- **config-provider**: Support custom cdn.
+- **draggable-panel**: Add maxWidth prop to DraggablePanel component.
+- **editable-message**: Add EditableMessage components.
+- **fluentemoji**: Add dependency and create fallback variable, Add useLocalStorageState hook and improve emoji rendering.
+- **form**: Add `Form` component.
+- **giscus**: Support lobe theme.
+- **header**: Add className and style prop support for logo, nav, and actions.
+- **highlighter**: Add export for SyntaxHighlighterProps.
+- **icon**: Add Icon spin prop and ActionIcon loading state.
+- **index-tsx**: Make "proxy" property optional in Config interface.
+- **issue-template**: Add templates for bug report, feature request, and question.
+- **logo**: Add SvgProps to Divider component signature.
+- **mobiletabbar**: Add optional onClick function to MobileTabBarItemProps, Modify condition for determining active item.
+- **package.json**: Add lint:md script.
+- **spotlight**: Add Spotlight components.
+- **src/avatar**: Add description prop and update documentation.
+- **src/colorscales/index.md**: Add new color scales for Volcano and Orange.
+- **themeprovider**: Add support for new fonts, Update getAntdTheme function and import getLobeTheme from '@/tokens'.
+- **wip**: Tts, tts.
+- **misc**: Add "avatar" prop to FormItem and modify FormTitle component, Add "children" prop and update styles in ListItem component, Add "extra" prop to FormGroup component, Add "use-merge-value" and "useControlledState" hooks to ChatInputArea, Add @react-spring/three dependency and implement hover state and rotation in Logo.tsx, Add `BackToBottom`, add `CodeEditor`, add `Giscus`, Add `remark-gfm` to dependencies and modify `dumi-theme-lobehub`'s content styles, add ActionIconGroup component, Add Alert, Add Alert component, add Avatar、ListItem components, Add banner prop to Alert component, Add borderRadius and size props to SpotlightCardItem and SpotlightCard components, Add chat input component with event handlers, styling, and props, Add ChatHeader component with specific functionality and styling, add ChatInputArea, add classNames prop to DraggablePanel, Add code highlighting component and update styling in ChatInputArea, add color scales, add ContextMenu, add Conversation component, add EditableMessageList component, Add EmojiPicker component and update Avatar component, Add exrta to Alert, add FluentEmoji, Add gap props to SliderWithInput, Add GaussianBackground, Add global styles for font, colors, and scrollbar customization, add GradientButton, Add Image and ImageGallery, Add import statement for 'ChevronDown' icon and expandIcon component, add Input, Add LogoThree component to Lobe UI, add MessageModal component, Add Meta component for generating meta tags and links, Add new component "Img" and make changes to multiple components and styles, Add new components, modify existing components, and export components, Add new components, props, and styles, Add new dependencies and ErrorBoundary components, Add new dependency, update styles and functionality, and enhance emoji display, Add new features and update multiple components, Add new features to Highlighter and CodeBlock components, Add new features to React components and Markdown module, Add new files and modify existing ones for grid background and showcase, Add new optional props and modify JSX structure and styles in ChatHeader component, Add new prop and update rendering logic in ChatList and ListItem components, Add new props and functionality to components, update styles, and adjust form layout, Add new props and import MessageModal component, Add new props and improve customization options in components, Add new styles and properties to components, Add new styles and props to ChatItem, EditableMessage, and ListItem, Add onClick and style props to Avatar component, Add onDoubleClick prop to multiple components, Add opacity to FormDivider and change background color of mobileGroupBody and MobileTabBar, add python support in useHighlight.ts, Add remark-math, Add responsive parameter to useStyles function in src/Form/style.ts, Add showSearch prop to select component, and extand langs, add Snippet, Add spline logo, add StoryBook mode, Add tooltip delay prop to ActionIcon component, Add TTS hooks, Add useResponsive hook and conditional rendering in FormGroup and index, Add useState and useEffect hooks to InputHighlight component, Avatar supports ReactNode, better docs theme, ChatList 支持复制与编辑消息，Enable double-click functionality in Item component, Enhance functionality and usability of ChatInputArea component, Export "getEmoji" function and "neutralColorScales" variable, Implement chat item feature, Implement SpotlightCard component in Lobe UI, Implement theme switch component and add color palettes for different themes, Import `useHover` and `useRef` hooks, update `displayMode` prop, use `useHover` in `TokenTag` component, and modify component styling, Import component, add and remove features, modify code, and update tsconfig.json, Introduce conditional rendering and new components, Introduce Flexbox component and conditional rendering in Logo component, Introduce new features and make code updates in multiple files, Introduce SelectWithImg component and export various components, Modify border color in ChatHeader and update "pin" variable in DraggablePanel, Modify image attributes and add new Img component, Pref using react lazy, Rename usePressSpeechRecognition to usePersistedSpeechRecognition, Replace 'Nav' component with 'GroupNav' component, Update Changelog.md and package.json, Update ChatList onActionsClick, Update CSS styles in MobileNavBar and MobileTabBar components, Update dependencies and import modules for package.json, SyntaxHighlighter, Markdown component, and useHighlight hook, Update fill prop in SvgIcon and modify Flexbox props in ListItem, Update Modal components, update SearchBar style, Update tts hooks, use memo wrapper in markdown, 优化 EditableText 与 ControlInput 组件以支持标题编辑需求，兼容插件模式，初始化基础组件，支持 InputArea 右侧区域的自定义，支持 loading 渲染，支持 renderMessageExtra, 支持展示 token 使用量，新增 EditableText、SearchBar 组件，新增 Highlighter、Markdown 组件，新增 MessageInput、Swatches 组件，暴露 Form 子组件.
+
+#### 🐛 Bug Fixes
+
+- **build**: Add browser platform support to cjs, make lobe-ui as pure esm package, remove cjs support.
+- **chat-item**: Fix flexbox.
+- **deps**: Fix `rehype-raw` version, Fix father version.
+- **list-item**: Fix type.
+- **toc**: Fix top style.
+- **misc**: `onBlur` does not work, Add "onAvatarsClick" prop to ChatList component, Add exports for two functions and rename export function, add lost dependencies, add missing deps, Add optional parameters for "onActionClick" function, add types, Avatar base64 src, ChatInputArea should add maxHeight api, Clean console log, clean deps, DraggablePanelHeader children not working, Fix ActionBar, Fix antd 5.7.1 ButtonProps, fix antd as peer not deps, fix ApiHeader encodeURIComponent, Fix ChatList demo, Fix ChatList map key, Fix ChatList render, fix Delete key, fix demos, fix dependence, fix editable message, fix error, Fix form flex, fix form item label, fix Hero and Features components link, Fix highlight, Fix highlight, Fix highlight, Fix highlight, Fix highlight and use bun in workflow, fix Icon display size, Fix lazy, fix light algorithm, Fix markdown code style, Fix markdown ol style, fix message modal, Fix MessageInput, Fix Modal, Fix Modal height, fix onActionClick props, fix recursive deps, Fix sidebar layout, fix SpotlightCard render, fix ssr error, fix tokenTag ref, Fix type, Fix type, Fix type, fix type error, Fix type export, Fix types, fix types, fix types, fix types, fix types, Fix typo, Fix: Fix checkbox style and demo typo, form group children support ReactNode, Lock @types/react, message modal, Refactor Modal component to handle dynamic content height, Remove dependency "rehype-raw", Remove input highlight, remove tts temporally to fix app build, rename folder name, rename StroyBook with StoryBook, replace static `prefixCls` with dynamic `prefixCls`, stylelint, the `props` of the chat input section do not work, The mobile end cannot stop generating, Turn off revalidateOnFocus in swr, Type, type-check, Typo, Update getVoiceList.ts, Update index.tsx, Update useHighlight.ts, Update useHighlight.ts, Update useHighlight.ts, Update useHighlight.ts, Update useHighlight.ts, 优化类型，修复 ChatItem 编辑态宽度过小的问题，修复 Highlight 重新初始化的问题，修正 List Item 样式问题，修正 renderMessage 问题，修正找不到 ref 的报错，移除 pangu 依赖，移除不必要的 hover 效果，补充 form props.
+
+#### 💄 Styles
+
+- **avatar**: Update Avatar border color.
+- **dumi-theme-lobehub**: Update Content style for headings and paragraphs.
+- **font**: Better font render.
+- **input**: Update background-color logic for block type input.
+- **logo**: Update Logo component.
+- **package.json**: Add stylelint and lint:fix scripts, update dependencies and lint scripts.
+- **readme**: Add text-alignment and word-wrap to p tags.
+- **src/highlighter/theme.ts**: Update color variables for better readability.
+- **syntaxhighlighter**: Update variable name in codeToHtml.
+- **theme**: Remove commented code, update editor foreground color, Update font variables in base theme.
+- **tokens**: Update color and border values in token files, Update color palette and gray scale colors.
+- **misc**: Add NavBar variant, Add new options to Alert, Add objectFit props to images, Add props to Burger add ActionIcon, error 兼容移动端样式，Fix ChatInputArea style, Fix ChatInputArea style, fix ChatList error scroll error, Fix form style, fix function message width on mobile, Fix inline code style, fix input style, Fix line height in chat item, Fix ListItem style, fix ol style, fix props, Fix warp in markdown render, improve list pin style, improve styles, Modify minsacle in image preview, Remove fallback string in chatitem, Remove image hover in mobile mode, Remove playholder fallback in editable message, Remove styled-components and dayjs locales define, Rename Form itemsType, update `SyntaxHighlighter` and `form`, Update CSS styles for ChatItem component and override Ant Design styles, Update FONT_CODE in baseTheme to use ui-monospace, Update Form, Update generateCustomStylish.ts, Update generateCustomStylish.ts, Update generateCustomStylish.ts, Update generateCustomStylish.ts, Update markdown image style, Update MessageInput style, Update Modal and Form style, update modal style, Update pin style, update scrollbar, Update style files, Update style files in DocLayout and related components, Update styles for components, Update styles for form, message modal, and search bar components, 优化 Chat Error 展示样式，优化 ChatList ActionBar 数量，优化 Swatch 分割线颜色，优化 tag 样式，优化组件.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **avatar**: Refactor Avatar component ([0cf2963](https://github.com/bentwnghk/lobe-ui/commit/0cf2963))
+- **chat**: Redesign `ChatItem` `ChatList` props, add time support ([6a230e2](https://github.com/bentwnghk/lobe-ui/commit/6a230e2))
+- **components**: Refactor Footer and Toc components ([e01bdcf](https://github.com/bentwnghk/lobe-ui/commit/e01bdcf))
+- **dumi-theme**: Split site token and stylish ([15f2803](https://github.com/bentwnghk/lobe-ui/commit/15f2803))
+- **dumi-theme**: Update lobehub theme ([e394af0](https://github.com/bentwnghk/lobe-ui/commit/e394af0))
+- **fluentemoji**: Replace useLocalStorageState with useState hook ([a61706a](https://github.com/bentwnghk/lobe-ui/commit/a61706a))
+- **lobehub**: Remove unused code, update interfaces and dependencies ([7f428fe](https://github.com/bentwnghk/lobe-ui/commit/7f428fe))
+- **theme**: Refactor the token theme, closes [#58](https://github.com/bentwnghk/lobe-ui/issues/58) ([d4ea059](https://github.com/bentwnghk/lobe-ui/commit/d4ea059))
+- **misc**: Add loading to ThreeLogo ([9206e6c](https://github.com/bentwnghk/lobe-ui/commit/9206e6c))
+- **misc**: Color tokens ([325ce42](https://github.com/bentwnghk/lobe-ui/commit/325ce42))
+- **misc**: Custom token types ([ee62106](https://github.com/bentwnghk/lobe-ui/commit/ee62106))
+- **misc**: Dumi preview action bar ([8dbe3ac](https://github.com/bentwnghk/lobe-ui/commit/8dbe3ac))
+- **misc**: Fefactor import and code format ([2642199](https://github.com/bentwnghk/lobe-ui/commit/2642199))
+- **misc**: Fix Highlighter style and add selection style ([4d5cd85](https://github.com/bentwnghk/lobe-ui/commit/4d5cd85))
+- **misc**: Refactor ActionsBar ([a17c48f](https://github.com/bentwnghk/lobe-ui/commit/a17c48f))
+- **misc**: Refactor ActionsBar ([5220382](https://github.com/bentwnghk/lobe-ui/commit/5220382))
+- **misc**: Refactor ChatInputArea ([584d5cd](https://github.com/bentwnghk/lobe-ui/commit/584d5cd))
+- **misc**: Refactor ChatList ([0a23256](https://github.com/bentwnghk/lobe-ui/commit/0a23256))
+- **misc**: Refactor dumi docs layout ([80fa42f](https://github.com/bentwnghk/lobe-ui/commit/80fa42f))
+- **misc**: Refactor promise to edge speech ([42233f9](https://github.com/bentwnghk/lobe-ui/commit/42233f9))
+- **misc**: Remove monorepo ([ec91005](https://github.com/bentwnghk/lobe-ui/commit/ec91005))
+- **misc**: Replace CDN ([a51ef94](https://github.com/bentwnghk/lobe-ui/commit/a51ef94))
+- **misc**: Rm @dqbd/tiktoken ([39ca53b](https://github.com/bentwnghk/lobe-ui/commit/39ca53b))
+- **misc**: Update package dependencies and replace 'lodash' with 'lodash-es' ([f74d58f](https://github.com/bentwnghk/lobe-ui/commit/f74d58f))
+- **misc**: Update zustand usage to v4.4, closes [#40](https://github.com/bentwnghk/lobe-ui/issues/40) ([8de6c80](https://github.com/bentwnghk/lobe-ui/commit/8de6c80))
+- **misc**: Use `clipboard.writeText` to replace `copy-to-clipboard`, closes [#110](https://github.com/bentwnghk/lobe-ui/issues/110) ([97a95e2](https://github.com/bentwnghk/lobe-ui/commit/97a95e2))
+- **misc**: 优化到 react18 代码实现 ([d3bcab9](https://github.com/bentwnghk/lobe-ui/commit/d3bcab9))
+- **misc**: 重构 ChatItem 相关的代码 ([caa4a6f](https://github.com/bentwnghk/lobe-ui/commit/caa4a6f))
+
+#### What's improved
+
+- **actionicon**: Add tooltip feature to ActionIcon component ([5d38627](https://github.com/bentwnghk/lobe-ui/commit/5d38627))
+- **actionicongroup**: Add onActionClick prop and update UI ([22bb028](https://github.com/bentwnghk/lobe-ui/commit/22bb028))
+- **apiheader**: Add configuration for component API header ([1359942](https://github.com/bentwnghk/lobe-ui/commit/1359942))
+- **assets**: Add assets cdn ([5e3e62c](https://github.com/bentwnghk/lobe-ui/commit/5e3e62c))
+- **avatar**: Add default values for background prop and modify size of FluentEmoji component ([4b7d547](https://github.com/bentwnghk/lobe-ui/commit/4b7d547))
+- **chat-input-area**: Add SafeArea to ChatInputAreaMobile ([83087b4](https://github.com/bentwnghk/lobe-ui/commit/83087b4))
+- **chat-list**: Add `HistoryDivider` ([1707cdb](https://github.com/bentwnghk/lobe-ui/commit/1707cdb))
+- **chat**: Add ActionsBar to ChatList ([027a2b4](https://github.com/bentwnghk/lobe-ui/commit/027a2b4))
+- **chat**: Add ChatItem and ChatList components ([e3bacd8](https://github.com/bentwnghk/lobe-ui/commit/e3bacd8))
+- **chatlist**: Update logic for rendering chat items based on role ([fc59b17](https://github.com/bentwnghk/lobe-ui/commit/fc59b17))
+- **colorscales**: Improve user experience by hiding unnecessary elements ([ee8b7be](https://github.com/bentwnghk/lobe-ui/commit/ee8b7be))
+- **components**: Add "color" and "fill" props to ActionIcon and Icon components ([1b5a7c9](https://github.com/bentwnghk/lobe-ui/commit/1b5a7c9))
+- **config-provider**: Support custom cdn, closes [#39](https://github.com/bentwnghk/lobe-ui/issues/39) ([8899285](https://github.com/bentwnghk/lobe-ui/commit/8899285))
+- **draggable-panel**: Add maxWidth prop to DraggablePanel component ([70903dd](https://github.com/bentwnghk/lobe-ui/commit/70903dd))
+- **editable-message**: Add EditableMessage components ([0986c72](https://github.com/bentwnghk/lobe-ui/commit/0986c72))
+- **fluentemoji**: Add dependency and create fallback variable ([a76123d](https://github.com/bentwnghk/lobe-ui/commit/a76123d))
+- **fluentemoji**: Add useLocalStorageState hook and improve emoji rendering ([193c131](https://github.com/bentwnghk/lobe-ui/commit/193c131))
+- **form**: Add `Form` component ([e1aed9b](https://github.com/bentwnghk/lobe-ui/commit/e1aed9b))
+- **giscus**: Support lobe theme ([93d285e](https://github.com/bentwnghk/lobe-ui/commit/93d285e))
+- **header**: Add className and style prop support for logo, nav, and actions ([e0e604e](https://github.com/bentwnghk/lobe-ui/commit/e0e604e))
+- **highlighter**: Add export for SyntaxHighlighterProps ([a203f45](https://github.com/bentwnghk/lobe-ui/commit/a203f45))
+- **icon**: Add Icon spin prop and ActionIcon loading state ([9adcda4](https://github.com/bentwnghk/lobe-ui/commit/9adcda4))
+- **index-tsx**: Make "proxy" property optional in Config interface ([e4b381d](https://github.com/bentwnghk/lobe-ui/commit/e4b381d))
+- **issue-template**: Add templates for bug report, feature request, and question ([2e1c012](https://github.com/bentwnghk/lobe-ui/commit/2e1c012))
+- **logo**: Add SvgProps to Divider component signature ([2a4182c](https://github.com/bentwnghk/lobe-ui/commit/2a4182c))
+- **mobiletabbar**: Add optional onClick function to MobileTabBarItemProps ([db7e907](https://github.com/bentwnghk/lobe-ui/commit/db7e907))
+- **mobiletabbar**: Modify condition for determining active item ([0b86faa](https://github.com/bentwnghk/lobe-ui/commit/0b86faa))
+- **package.json**: Add lint:md script ([baab529](https://github.com/bentwnghk/lobe-ui/commit/baab529))
+- **spotlight**: Add Spotlight components ([f55e805](https://github.com/bentwnghk/lobe-ui/commit/f55e805))
+- **src/avatar**: Add description prop and update documentation ([6432a0f](https://github.com/bentwnghk/lobe-ui/commit/6432a0f))
+- **src/colorscales/index.md**: Add new color scales for Volcano and Orange ([7a6a7ff](https://github.com/bentwnghk/lobe-ui/commit/7a6a7ff))
+- **themeprovider**: Add support for new fonts ([79d7865](https://github.com/bentwnghk/lobe-ui/commit/79d7865))
+- **themeprovider**: Update getAntdTheme function and import getLobeTheme from '@/tokens' ([c1e65e7](https://github.com/bentwnghk/lobe-ui/commit/c1e65e7))
+- **wip**: Tts ([7e49e84](https://github.com/bentwnghk/lobe-ui/commit/7e49e84))
+- **wip**: Tts ([096a6a0](https://github.com/bentwnghk/lobe-ui/commit/096a6a0))
+- **misc**: Add "avatar" prop to FormItem and modify FormTitle component ([5c68a7c](https://github.com/bentwnghk/lobe-ui/commit/5c68a7c))
+- **misc**: Add "children" prop and update styles in ListItem component ([9451ab8](https://github.com/bentwnghk/lobe-ui/commit/9451ab8))
+- **misc**: Add "extra" prop to FormGroup component ([9d3ec8d](https://github.com/bentwnghk/lobe-ui/commit/9d3ec8d))
+- **misc**: Add "use-merge-value" and "useControlledState" hooks to ChatInputArea ([d92f839](https://github.com/bentwnghk/lobe-ui/commit/d92f839))
+- **misc**: Add @react-spring/three dependency and implement hover state and rotation in Logo.tsx ([7fb62c5](https://github.com/bentwnghk/lobe-ui/commit/7fb62c5))
+- **misc**: Add `BackToBottom` ([ff190b3](https://github.com/bentwnghk/lobe-ui/commit/ff190b3))
+- **misc**: Add `CodeEditor` ([3a83a2a](https://github.com/bentwnghk/lobe-ui/commit/3a83a2a))
+- **misc**: Add `Giscus` ([4c9b291](https://github.com/bentwnghk/lobe-ui/commit/4c9b291))
+- **misc**: Add `remark-gfm` to dependencies and modify `dumi-theme-lobehub`'s content styles ([2d24d10](https://github.com/bentwnghk/lobe-ui/commit/2d24d10))
+- **misc**: Add ActionIconGroup component ([eea5bff](https://github.com/bentwnghk/lobe-ui/commit/eea5bff))
+- **misc**: Add Alert ([36ba265](https://github.com/bentwnghk/lobe-ui/commit/36ba265))
+- **misc**: Add Alert component ([acf84e2](https://github.com/bentwnghk/lobe-ui/commit/acf84e2))
+- **misc**: Add Avatar、ListItem components ([a4cc946](https://github.com/bentwnghk/lobe-ui/commit/a4cc946))
+- **misc**: Add banner prop to Alert component ([d4a9323](https://github.com/bentwnghk/lobe-ui/commit/d4a9323))
+- **misc**: Add borderRadius and size props to SpotlightCardItem and SpotlightCard components ([f48d3ac](https://github.com/bentwnghk/lobe-ui/commit/f48d3ac))
+- **misc**: Add chat input component with event handlers, styling, and props ([3a16540](https://github.com/bentwnghk/lobe-ui/commit/3a16540))
+- **misc**: Add ChatHeader component with specific functionality and styling ([c7f5747](https://github.com/bentwnghk/lobe-ui/commit/c7f5747))
+- **misc**: Add ChatInputArea ([b1303f1](https://github.com/bentwnghk/lobe-ui/commit/b1303f1))
+- **misc**: Add classNames prop to DraggablePanel ([2dcd23a](https://github.com/bentwnghk/lobe-ui/commit/2dcd23a))
+- **misc**: Add code highlighting component and update styling in ChatInputArea ([a9a316f](https://github.com/bentwnghk/lobe-ui/commit/a9a316f))
+- **misc**: Add color scales ([21d17aa](https://github.com/bentwnghk/lobe-ui/commit/21d17aa))
+- **misc**: Add ContextMenu ([e3498d7](https://github.com/bentwnghk/lobe-ui/commit/e3498d7))
+- **misc**: Add Conversation component ([1ba8af8](https://github.com/bentwnghk/lobe-ui/commit/1ba8af8))
+- **misc**: Add EditableMessageList component ([2107a49](https://github.com/bentwnghk/lobe-ui/commit/2107a49))
+- **misc**: Add EmojiPicker component and update Avatar component ([22aa45d](https://github.com/bentwnghk/lobe-ui/commit/22aa45d))
+- **misc**: Add exrta to Alert ([7c21f47](https://github.com/bentwnghk/lobe-ui/commit/7c21f47))
+- **misc**: Add FluentEmoji ([19bc04e](https://github.com/bentwnghk/lobe-ui/commit/19bc04e))
+- **misc**: Add gap props to SliderWithInput ([f1a3898](https://github.com/bentwnghk/lobe-ui/commit/f1a3898))
+- **misc**: Add GaussianBackground ([62a5eac](https://github.com/bentwnghk/lobe-ui/commit/62a5eac))
+- **misc**: Add global styles for font, colors, and scrollbar customization ([01f735e](https://github.com/bentwnghk/lobe-ui/commit/01f735e))
+- **misc**: Add GradientButton ([448cb53](https://github.com/bentwnghk/lobe-ui/commit/448cb53))
+- **misc**: Add Image and ImageGallery ([21fd1bc](https://github.com/bentwnghk/lobe-ui/commit/21fd1bc))
+- **misc**: Add import statement for 'ChevronDown' icon and expandIcon component ([1a6ea96](https://github.com/bentwnghk/lobe-ui/commit/1a6ea96))
+- **misc**: Add Input ([3eec31a](https://github.com/bentwnghk/lobe-ui/commit/3eec31a))
+- **misc**: Add LogoThree component to Lobe UI ([0122bf7](https://github.com/bentwnghk/lobe-ui/commit/0122bf7))
+- **misc**: Add MessageModal component ([969867e](https://github.com/bentwnghk/lobe-ui/commit/969867e))
+- **misc**: Add Meta component for generating meta tags and links ([c5ea0e2](https://github.com/bentwnghk/lobe-ui/commit/c5ea0e2))
+- **misc**: Add new component "Img" and make changes to multiple components and styles ([40a6ea0](https://github.com/bentwnghk/lobe-ui/commit/40a6ea0))
+- **misc**: Add new components, modify existing components, and export components ([a6addc2](https://github.com/bentwnghk/lobe-ui/commit/a6addc2))
+- **misc**: Add new components, props, and styles ([b2d5317](https://github.com/bentwnghk/lobe-ui/commit/b2d5317))
+- **misc**: Add new dependencies and ErrorBoundary components ([9db343a](https://github.com/bentwnghk/lobe-ui/commit/9db343a))
+- **misc**: Add new dependency, update styles and functionality, and enhance emoji display ([12ffd53](https://github.com/bentwnghk/lobe-ui/commit/12ffd53))
+- **misc**: Add new features and update multiple components ([a523abe](https://github.com/bentwnghk/lobe-ui/commit/a523abe))
+- **misc**: Add new features to Highlighter and CodeBlock components ([f35d147](https://github.com/bentwnghk/lobe-ui/commit/f35d147))
+- **misc**: Add new features to React components and Markdown module ([de45aa6](https://github.com/bentwnghk/lobe-ui/commit/de45aa6))
+- **misc**: Add new files and modify existing ones for grid background and showcase ([5b1dfa4](https://github.com/bentwnghk/lobe-ui/commit/5b1dfa4))
+- **misc**: Add new optional props and modify JSX structure and styles in ChatHeader component ([7d6ede5](https://github.com/bentwnghk/lobe-ui/commit/7d6ede5))
+- **misc**: Add new prop and update rendering logic in ChatList and ListItem components ([f0fdd27](https://github.com/bentwnghk/lobe-ui/commit/f0fdd27))
+- **misc**: Add new props and functionality to components, update styles, and adjust form layout ([d16f239](https://github.com/bentwnghk/lobe-ui/commit/d16f239))
+- **misc**: Add new props and import MessageModal component ([b47892c](https://github.com/bentwnghk/lobe-ui/commit/b47892c))
+- **misc**: Add new props and improve customization options in components ([f73bf0a](https://github.com/bentwnghk/lobe-ui/commit/f73bf0a))
+- **misc**: Add new styles and properties to components ([11b30a4](https://github.com/bentwnghk/lobe-ui/commit/11b30a4))
+- **misc**: Add new styles and props to ChatItem, EditableMessage, and ListItem ([434ab82](https://github.com/bentwnghk/lobe-ui/commit/434ab82))
+- **misc**: Add onClick and style props to Avatar component ([d31caba](https://github.com/bentwnghk/lobe-ui/commit/d31caba))
+- **misc**: Add onDoubleClick prop to multiple components ([01eaf3c](https://github.com/bentwnghk/lobe-ui/commit/01eaf3c))
+- **misc**: Add opacity to FormDivider and change background color of mobileGroupBody and MobileTabBar ([9ea2bdb](https://github.com/bentwnghk/lobe-ui/commit/9ea2bdb))
+- **misc**: Add python support in useHighlight.ts ([0d6de6e](https://github.com/bentwnghk/lobe-ui/commit/0d6de6e))
+- **misc**: Add remark-math ([725d30e](https://github.com/bentwnghk/lobe-ui/commit/725d30e))
+- **misc**: Add responsive parameter to useStyles function in src/Form/style.ts ([f28601d](https://github.com/bentwnghk/lobe-ui/commit/f28601d))
+- **misc**: Add showSearch prop to select component, and extand langs ([280e8cf](https://github.com/bentwnghk/lobe-ui/commit/280e8cf))
+- **misc**: Add Snippet ([f23a34d](https://github.com/bentwnghk/lobe-ui/commit/f23a34d))
+- **misc**: Add spline logo ([bff8c22](https://github.com/bentwnghk/lobe-ui/commit/bff8c22))
+- **misc**: Add StoryBook mode ([3785b6d](https://github.com/bentwnghk/lobe-ui/commit/3785b6d))
+- **misc**: Add tooltip delay prop to ActionIcon component ([074dd66](https://github.com/bentwnghk/lobe-ui/commit/074dd66))
+- **misc**: Add TTS hooks ([e82f047](https://github.com/bentwnghk/lobe-ui/commit/e82f047))
+- **misc**: Add useResponsive hook and conditional rendering in FormGroup and index ([134b604](https://github.com/bentwnghk/lobe-ui/commit/134b604))
+- **misc**: Add useState and useEffect hooks to InputHighlight component ([64a24fb](https://github.com/bentwnghk/lobe-ui/commit/64a24fb))
+- **misc**: Avatar supports ReactNode ([e93b196](https://github.com/bentwnghk/lobe-ui/commit/e93b196))
+- **misc**: Better docs theme ([f701fde](https://github.com/bentwnghk/lobe-ui/commit/f701fde))
+- **misc**: ChatList 支持复制与编辑消息 ([8fcb001](https://github.com/bentwnghk/lobe-ui/commit/8fcb001))
+- **misc**: Enable double-click functionality in Item component ([498f004](https://github.com/bentwnghk/lobe-ui/commit/498f004))
+- **misc**: Enhance functionality and usability of ChatInputArea component ([6c36a25](https://github.com/bentwnghk/lobe-ui/commit/6c36a25))
+- **misc**: Export "getEmoji" function and "neutralColorScales" variable ([24dac43](https://github.com/bentwnghk/lobe-ui/commit/24dac43))
+- **misc**: Implement chat item feature ([1d60060](https://github.com/bentwnghk/lobe-ui/commit/1d60060))
+- **misc**: Implement SpotlightCard component in Lobe UI ([f400cfe](https://github.com/bentwnghk/lobe-ui/commit/f400cfe))
+- **misc**: Implement theme switch component and add color palettes for different themes ([6c42e5f](https://github.com/bentwnghk/lobe-ui/commit/6c42e5f))
+- **misc**: Import `useHover` and `useRef` hooks, update `displayMode` prop, use `useHover` in `TokenTag` component, and modify component styling ([b0ecdba](https://github.com/bentwnghk/lobe-ui/commit/b0ecdba))
+- **misc**: Import component, add and remove features, modify code, and update tsconfig.json ([d330b20](https://github.com/bentwnghk/lobe-ui/commit/d330b20))
+- **misc**: Introduce conditional rendering and new components ([8530207](https://github.com/bentwnghk/lobe-ui/commit/8530207))
+- **misc**: Introduce Flexbox component and conditional rendering in Logo component ([47277b5](https://github.com/bentwnghk/lobe-ui/commit/47277b5))
+- **misc**: Introduce new features and make code updates in multiple files ([983fd5c](https://github.com/bentwnghk/lobe-ui/commit/983fd5c))
+- **misc**: Introduce SelectWithImg component and export various components ([8bc8923](https://github.com/bentwnghk/lobe-ui/commit/8bc8923))
+- **misc**: Modify border color in ChatHeader and update "pin" variable in DraggablePanel ([bec00f6](https://github.com/bentwnghk/lobe-ui/commit/bec00f6))
+- **misc**: Modify image attributes and add new Img component ([6dbd307](https://github.com/bentwnghk/lobe-ui/commit/6dbd307))
+- **misc**: Pref using react lazy ([a5b3fc8](https://github.com/bentwnghk/lobe-ui/commit/a5b3fc8))
+- **misc**: Rename usePressSpeechRecognition to usePersistedSpeechRecognition ([d083d2f](https://github.com/bentwnghk/lobe-ui/commit/d083d2f))
+- **misc**: Replace 'Nav' component with 'GroupNav' component ([a1128d6](https://github.com/bentwnghk/lobe-ui/commit/a1128d6))
+- **misc**: Update Changelog.md and package.json ([eaa8d56](https://github.com/bentwnghk/lobe-ui/commit/eaa8d56))
+- **misc**: Update ChatList onActionsClick ([1113677](https://github.com/bentwnghk/lobe-ui/commit/1113677))
+- **misc**: Update CSS styles in MobileNavBar and MobileTabBar components ([03250c6](https://github.com/bentwnghk/lobe-ui/commit/03250c6))
+- **misc**: Update dependencies and import modules for package.json, SyntaxHighlighter, Markdown component, and useHighlight hook ([3dcb43a](https://github.com/bentwnghk/lobe-ui/commit/3dcb43a))
+- **misc**: Update fill prop in SvgIcon and modify Flexbox props in ListItem ([ae7336d](https://github.com/bentwnghk/lobe-ui/commit/ae7336d))
+- **misc**: Update Modal components ([2ad18c4](https://github.com/bentwnghk/lobe-ui/commit/2ad18c4))
+- **misc**: Update SearchBar style ([1fd28be](https://github.com/bentwnghk/lobe-ui/commit/1fd28be))
+- **misc**: Update tts hooks ([d6f4da7](https://github.com/bentwnghk/lobe-ui/commit/d6f4da7))
+- **misc**: Use memo wrapper in markdown ([6db3b7a](https://github.com/bentwnghk/lobe-ui/commit/6db3b7a))
+- **misc**: 优化 EditableText 与 ControlInput 组件以支持标题编辑需求 ([bb585ba](https://github.com/bentwnghk/lobe-ui/commit/bb585ba))
+- **misc**: 兼容插件模式 ([aedfa53](https://github.com/bentwnghk/lobe-ui/commit/aedfa53))
+- **misc**: 初始化基础组件 ([4594db6](https://github.com/bentwnghk/lobe-ui/commit/4594db6))
+- **misc**: 支持 InputArea 右侧区域的自定义 ([1d272dd](https://github.com/bentwnghk/lobe-ui/commit/1d272dd))
+- **misc**: 支持 loading 渲染 ([1626f26](https://github.com/bentwnghk/lobe-ui/commit/1626f26))
+- **misc**: 支持 renderMessageExtra ([0f9692e](https://github.com/bentwnghk/lobe-ui/commit/0f9692e))
+- **misc**: 支持展示 token 使用量 ([df31d9a](https://github.com/bentwnghk/lobe-ui/commit/df31d9a))
+- **misc**: 新增 EditableText、SearchBar 组件 ([74fa2a5](https://github.com/bentwnghk/lobe-ui/commit/74fa2a5))
+- **misc**: 新增 Highlighter、Markdown 组件 ([2da8f3f](https://github.com/bentwnghk/lobe-ui/commit/2da8f3f))
+- **misc**: 新增 MessageInput、Swatches 组件 ([cac3028](https://github.com/bentwnghk/lobe-ui/commit/cac3028))
+- **misc**: 暴露 Form 子组件 ([85e6047](https://github.com/bentwnghk/lobe-ui/commit/85e6047))
+
+#### What's fixed
+
+- **build**: Add browser platform support to cjs ([c682056](https://github.com/bentwnghk/lobe-ui/commit/c682056))
+- **build**: Make lobe-ui as pure esm package ([d3aa186](https://github.com/bentwnghk/lobe-ui/commit/d3aa186))
+- **build**: Remove cjs support ([dea2da7](https://github.com/bentwnghk/lobe-ui/commit/dea2da7))
+- **chat-item**: Fix flexbox ([58721bd](https://github.com/bentwnghk/lobe-ui/commit/58721bd))
+- **deps**: Fix `rehype-raw` version ([86c0781](https://github.com/bentwnghk/lobe-ui/commit/86c0781))
+- **deps**: Fix father version ([945a9e8](https://github.com/bentwnghk/lobe-ui/commit/945a9e8))
+- **list-item**: Fix type ([bcb9e41](https://github.com/bentwnghk/lobe-ui/commit/bcb9e41))
+- **toc**: Fix top style ([49162cf](https://github.com/bentwnghk/lobe-ui/commit/49162cf))
+- **misc**: `onBlur` does not work ([1c1d400](https://github.com/bentwnghk/lobe-ui/commit/1c1d400))
+- **misc**: Add "onAvatarsClick" prop to ChatList component ([c69e9d6](https://github.com/bentwnghk/lobe-ui/commit/c69e9d6))
+- **misc**: Add exports for two functions and rename export function ([ef047aa](https://github.com/bentwnghk/lobe-ui/commit/ef047aa))
+- **misc**: Add lost dependencies ([02cbb2b](https://github.com/bentwnghk/lobe-ui/commit/02cbb2b))
+- **misc**: Add missing deps ([5cbe3bf](https://github.com/bentwnghk/lobe-ui/commit/5cbe3bf))
+- **misc**: Add optional parameters for "onActionClick" function ([22b46d7](https://github.com/bentwnghk/lobe-ui/commit/22b46d7))
+- **misc**: Add types ([58f7b4d](https://github.com/bentwnghk/lobe-ui/commit/58f7b4d))
+- **misc**: Avatar base64 src ([2aed500](https://github.com/bentwnghk/lobe-ui/commit/2aed500))
+- **misc**: ChatInputArea should add maxHeight api ([c4f9f32](https://github.com/bentwnghk/lobe-ui/commit/c4f9f32))
+- **misc**: Clean console log ([a18ea20](https://github.com/bentwnghk/lobe-ui/commit/a18ea20))
+- **misc**: Clean deps ([bfb859f](https://github.com/bentwnghk/lobe-ui/commit/bfb859f))
+- **misc**: DraggablePanelHeader children not working ([1ba6291](https://github.com/bentwnghk/lobe-ui/commit/1ba6291))
+- **misc**: Fix ActionBar ([375da62](https://github.com/bentwnghk/lobe-ui/commit/375da62))
+- **misc**: Fix antd 5.7.1 ButtonProps ([7dcbf47](https://github.com/bentwnghk/lobe-ui/commit/7dcbf47))
+- **misc**: Fix antd as peer not deps ([787670a](https://github.com/bentwnghk/lobe-ui/commit/787670a))
+- **misc**: Fix ApiHeader encodeURIComponent ([18cf950](https://github.com/bentwnghk/lobe-ui/commit/18cf950))
+- **misc**: Fix ChatList demo ([3058fa7](https://github.com/bentwnghk/lobe-ui/commit/3058fa7))
+- **misc**: Fix ChatList map key ([baf1cf3](https://github.com/bentwnghk/lobe-ui/commit/baf1cf3))
+- **misc**: Fix ChatList render ([71a2701](https://github.com/bentwnghk/lobe-ui/commit/71a2701))
+- **misc**: Fix Delete key ([708cc7e](https://github.com/bentwnghk/lobe-ui/commit/708cc7e))
+- **misc**: Fix demos ([baae6e3](https://github.com/bentwnghk/lobe-ui/commit/baae6e3))
+- **misc**: Fix dependence ([739b5df](https://github.com/bentwnghk/lobe-ui/commit/739b5df))
+- **misc**: Fix editable message ([fa9741c](https://github.com/bentwnghk/lobe-ui/commit/fa9741c))
+- **misc**: Fix error ([f38ae34](https://github.com/bentwnghk/lobe-ui/commit/f38ae34))
+- **misc**: Fix form flex ([e74f274](https://github.com/bentwnghk/lobe-ui/commit/e74f274))
+- **misc**: Fix form item label ([f7542a0](https://github.com/bentwnghk/lobe-ui/commit/f7542a0))
+- **misc**: Fix Hero and Features components link ([7910266](https://github.com/bentwnghk/lobe-ui/commit/7910266))
+- **misc**: Fix highlight ([cb803a5](https://github.com/bentwnghk/lobe-ui/commit/cb803a5))
+- **misc**: Fix highlight ([4ec6307](https://github.com/bentwnghk/lobe-ui/commit/4ec6307))
+- **misc**: Fix highlight ([2d3edd2](https://github.com/bentwnghk/lobe-ui/commit/2d3edd2))
+- **misc**: Fix highlight ([c3a28d5](https://github.com/bentwnghk/lobe-ui/commit/c3a28d5))
+- **misc**: Fix highlight and use bun in workflow ([881b992](https://github.com/bentwnghk/lobe-ui/commit/881b992))
+- **misc**: Fix Icon display size ([d3e3a19](https://github.com/bentwnghk/lobe-ui/commit/d3e3a19))
+- **misc**: Fix lazy ([99a7036](https://github.com/bentwnghk/lobe-ui/commit/99a7036))
+- **misc**: Fix light algorithm ([566ded9](https://github.com/bentwnghk/lobe-ui/commit/566ded9))
+- **misc**: Fix markdown code style ([1e82066](https://github.com/bentwnghk/lobe-ui/commit/1e82066))
+- **misc**: Fix markdown ol style ([98e9922](https://github.com/bentwnghk/lobe-ui/commit/98e9922))
+- **misc**: Fix message modal, closes [#107](https://github.com/bentwnghk/lobe-ui/issues/107) ([5bafec2](https://github.com/bentwnghk/lobe-ui/commit/5bafec2))
+- **misc**: Fix MessageInput ([83b9dc5](https://github.com/bentwnghk/lobe-ui/commit/83b9dc5))
+- **misc**: Fix Modal ([c88a7dd](https://github.com/bentwnghk/lobe-ui/commit/c88a7dd))
+- **misc**: Fix Modal height ([8b6977e](https://github.com/bentwnghk/lobe-ui/commit/8b6977e))
+- **misc**: Fix onActionClick props ([41409f4](https://github.com/bentwnghk/lobe-ui/commit/41409f4))
+- **misc**: Fix recursive deps ([c90ddc3](https://github.com/bentwnghk/lobe-ui/commit/c90ddc3))
+- **misc**: Fix sidebar layout ([c62db06](https://github.com/bentwnghk/lobe-ui/commit/c62db06))
+- **misc**: Fix SpotlightCard render ([ec89866](https://github.com/bentwnghk/lobe-ui/commit/ec89866))
+- **misc**: Fix ssr error ([b4c9656](https://github.com/bentwnghk/lobe-ui/commit/b4c9656))
+- **misc**: Fix tokenTag ref ([bc3f2c2](https://github.com/bentwnghk/lobe-ui/commit/bc3f2c2))
+- **misc**: Fix type ([9f2de1f](https://github.com/bentwnghk/lobe-ui/commit/9f2de1f))
+- **misc**: Fix type ([403fc7c](https://github.com/bentwnghk/lobe-ui/commit/403fc7c))
+- **misc**: Fix type ([8fce1d8](https://github.com/bentwnghk/lobe-ui/commit/8fce1d8))
+- **misc**: Fix type error ([746947e](https://github.com/bentwnghk/lobe-ui/commit/746947e))
+- **misc**: Fix type export ([1504f53](https://github.com/bentwnghk/lobe-ui/commit/1504f53))
+- **misc**: Fix types ([0ea681b](https://github.com/bentwnghk/lobe-ui/commit/0ea681b))
+- **misc**: Fix types ([e6cc1a4](https://github.com/bentwnghk/lobe-ui/commit/e6cc1a4))
+- **misc**: Fix types ([68a3c01](https://github.com/bentwnghk/lobe-ui/commit/68a3c01))
+- **misc**: Fix types ([bdcb236](https://github.com/bentwnghk/lobe-ui/commit/bdcb236))
+- **misc**: Fix types ([98021cb](https://github.com/bentwnghk/lobe-ui/commit/98021cb))
+- **misc**: Fix typo ([5bd0712](https://github.com/bentwnghk/lobe-ui/commit/5bd0712))
+- **misc**: Fix: Fix checkbox style and demo typo ([a1e81af](https://github.com/bentwnghk/lobe-ui/commit/a1e81af))
+- **misc**: Form group children support ReactNode ([f0cf4c4](https://github.com/bentwnghk/lobe-ui/commit/f0cf4c4))
+- **misc**: Lock @types/react ([7841e80](https://github.com/bentwnghk/lobe-ui/commit/7841e80))
+- **misc**: Message modal, closes [#109](https://github.com/bentwnghk/lobe-ui/issues/109) ([c9750a3](https://github.com/bentwnghk/lobe-ui/commit/c9750a3))
+- **misc**: Refactor Modal component to handle dynamic content height ([5b79dfd](https://github.com/bentwnghk/lobe-ui/commit/5b79dfd))
+- **misc**: Remove dependency "rehype-raw" ([085d3ce](https://github.com/bentwnghk/lobe-ui/commit/085d3ce))
+- **misc**: Remove input highlight ([3bef2d8](https://github.com/bentwnghk/lobe-ui/commit/3bef2d8))
+- **misc**: Remove tts temporally to fix app build ([02e67b7](https://github.com/bentwnghk/lobe-ui/commit/02e67b7))
+- **misc**: Rename folder name ([b27f3e5](https://github.com/bentwnghk/lobe-ui/commit/b27f3e5))
+- **misc**: Rename StroyBook with StoryBook ([8dfba16](https://github.com/bentwnghk/lobe-ui/commit/8dfba16))
+- **misc**: Replace static `prefixCls` with dynamic `prefixCls` ([ecc924a](https://github.com/bentwnghk/lobe-ui/commit/ecc924a))
+- **misc**: Stylelint ([993e145](https://github.com/bentwnghk/lobe-ui/commit/993e145))
+- **misc**: The `props` of the chat input section do not work ([e367f8f](https://github.com/bentwnghk/lobe-ui/commit/e367f8f))
+- **misc**: The mobile end cannot stop generating ([ef3d67a](https://github.com/bentwnghk/lobe-ui/commit/ef3d67a))
+- **misc**: Turn off revalidateOnFocus in swr ([bb0fcef](https://github.com/bentwnghk/lobe-ui/commit/bb0fcef))
+- **misc**: Type ([21e1fd2](https://github.com/bentwnghk/lobe-ui/commit/21e1fd2))
+- **misc**: Type-check ([a45e854](https://github.com/bentwnghk/lobe-ui/commit/a45e854))
+- **misc**: Typo ([06b0993](https://github.com/bentwnghk/lobe-ui/commit/06b0993))
+- **misc**: Update getVoiceList.ts ([2aa5211](https://github.com/bentwnghk/lobe-ui/commit/2aa5211))
+- **misc**: Update index.tsx ([820f8c2](https://github.com/bentwnghk/lobe-ui/commit/820f8c2))
+- **misc**: Update useHighlight.ts ([c88a729](https://github.com/bentwnghk/lobe-ui/commit/c88a729))
+- **misc**: Update useHighlight.ts ([b8bf32d](https://github.com/bentwnghk/lobe-ui/commit/b8bf32d))
+- **misc**: Update useHighlight.ts ([7c259d5](https://github.com/bentwnghk/lobe-ui/commit/7c259d5))
+- **misc**: Update useHighlight.ts ([0a8f702](https://github.com/bentwnghk/lobe-ui/commit/0a8f702))
+- **misc**: Update useHighlight.ts ([1ecd5b7](https://github.com/bentwnghk/lobe-ui/commit/1ecd5b7))
+- **misc**: 优化类型 ([c2d9547](https://github.com/bentwnghk/lobe-ui/commit/c2d9547))
+- **misc**: 修复 ChatItem 编辑态宽度过小的问题 ([daa2aa1](https://github.com/bentwnghk/lobe-ui/commit/daa2aa1))
+- **misc**: 修复 Highlight 重新初始化的问题 ([4006976](https://github.com/bentwnghk/lobe-ui/commit/4006976))
+- **misc**: 修正 List Item 样式问题 ([b31e8a8](https://github.com/bentwnghk/lobe-ui/commit/b31e8a8))
+- **misc**: 修正 renderMessage 问题 ([9616f1a](https://github.com/bentwnghk/lobe-ui/commit/9616f1a))
+- **misc**: 修正找不到 ref 的报错 ([c4f7cbc](https://github.com/bentwnghk/lobe-ui/commit/c4f7cbc))
+- **misc**: 移除 pangu 依赖 ([0ab0abf](https://github.com/bentwnghk/lobe-ui/commit/0ab0abf))
+- **misc**: 移除不必要的 hover 效果 ([b1d1ecd](https://github.com/bentwnghk/lobe-ui/commit/b1d1ecd))
+- **misc**: 补充 form props ([9a1107b](https://github.com/bentwnghk/lobe-ui/commit/9a1107b))
+
+#### Styles
+
+- **avatar**: Update Avatar border color ([dd99c25](https://github.com/bentwnghk/lobe-ui/commit/dd99c25))
+- **dumi-theme-lobehub**: Update Content style for headings and paragraphs ([56cb2c6](https://github.com/bentwnghk/lobe-ui/commit/56cb2c6))
+- **font**: Better font render ([de9966d](https://github.com/bentwnghk/lobe-ui/commit/de9966d))
+- **input**: Update background-color logic for block type input ([6dacaaa](https://github.com/bentwnghk/lobe-ui/commit/6dacaaa))
+- **logo**: Update Logo component ([552deb6](https://github.com/bentwnghk/lobe-ui/commit/552deb6))
+- **package.json**: Add stylelint and lint:fix scripts ([32bd81a](https://github.com/bentwnghk/lobe-ui/commit/32bd81a))
+- **package.json**: Update dependencies and lint scripts ([eb6a5d3](https://github.com/bentwnghk/lobe-ui/commit/eb6a5d3))
+- **readme**: Add text-alignment and word-wrap to p tags ([98887cb](https://github.com/bentwnghk/lobe-ui/commit/98887cb))
+- **src/highlighter/theme.ts**: Update color variables for better readability ([8b022c5](https://github.com/bentwnghk/lobe-ui/commit/8b022c5))
+- **syntaxhighlighter**: Update variable name in codeToHtml ([92eb4a3](https://github.com/bentwnghk/lobe-ui/commit/92eb4a3))
+- **theme**: Remove commented code, update editor foreground color ([7756743](https://github.com/bentwnghk/lobe-ui/commit/7756743))
+- **theme**: Update font variables in base theme ([9b53c78](https://github.com/bentwnghk/lobe-ui/commit/9b53c78))
+- **tokens**: Update color and border values in token files ([1ebcb83](https://github.com/bentwnghk/lobe-ui/commit/1ebcb83))
+- **tokens**: Update color palette and gray scale colors ([f8f5de0](https://github.com/bentwnghk/lobe-ui/commit/f8f5de0))
+- **misc**: Add NavBar variant ([731becb](https://github.com/bentwnghk/lobe-ui/commit/731becb))
+- **misc**: Add new options to Alert ([869c44e](https://github.com/bentwnghk/lobe-ui/commit/869c44e))
+- **misc**: Add objectFit props to images ([7e29b7d](https://github.com/bentwnghk/lobe-ui/commit/7e29b7d))
+- **misc**: Add props to Burger add ActionIcon ([eba50fa](https://github.com/bentwnghk/lobe-ui/commit/eba50fa))
+- **misc**: Error 兼容移动端样式 ([8081667](https://github.com/bentwnghk/lobe-ui/commit/8081667))
+- **misc**: Fix ChatInputArea style ([b9c89db](https://github.com/bentwnghk/lobe-ui/commit/b9c89db))
+- **misc**: Fix ChatInputArea style ([d4cb853](https://github.com/bentwnghk/lobe-ui/commit/d4cb853))
+- **misc**: Fix ChatList error scroll error ([9a7e7e8](https://github.com/bentwnghk/lobe-ui/commit/9a7e7e8))
+- **misc**: Fix form style ([618e2ad](https://github.com/bentwnghk/lobe-ui/commit/618e2ad))
+- **misc**: Fix function message width on mobile ([777396f](https://github.com/bentwnghk/lobe-ui/commit/777396f))
+- **misc**: Fix inline code style ([5a378cc](https://github.com/bentwnghk/lobe-ui/commit/5a378cc))
+- **misc**: Fix input style ([bd51c6c](https://github.com/bentwnghk/lobe-ui/commit/bd51c6c))
+- **misc**: Fix line height in chat item ([7d2f8a2](https://github.com/bentwnghk/lobe-ui/commit/7d2f8a2))
+- **misc**: Fix ListItem style ([c55a049](https://github.com/bentwnghk/lobe-ui/commit/c55a049))
+- **misc**: Fix ol style ([f89fa26](https://github.com/bentwnghk/lobe-ui/commit/f89fa26))
+- **misc**: Fix props ([4ec04ae](https://github.com/bentwnghk/lobe-ui/commit/4ec04ae))
+- **misc**: Fix warp in markdown render ([c5b4f6b](https://github.com/bentwnghk/lobe-ui/commit/c5b4f6b))
+- **misc**: Improve list pin style ([44fe8b3](https://github.com/bentwnghk/lobe-ui/commit/44fe8b3))
+- **misc**: Improve styles ([30926f1](https://github.com/bentwnghk/lobe-ui/commit/30926f1))
+- **misc**: Modify minsacle in image preview ([a38cd61](https://github.com/bentwnghk/lobe-ui/commit/a38cd61))
+- **misc**: Remove fallback string in chatitem ([133f0c2](https://github.com/bentwnghk/lobe-ui/commit/133f0c2))
+- **misc**: Remove image hover in mobile mode ([3167fb5](https://github.com/bentwnghk/lobe-ui/commit/3167fb5))
+- **misc**: Remove playholder fallback in editable message ([cfe797d](https://github.com/bentwnghk/lobe-ui/commit/cfe797d))
+- **misc**: Remove styled-components and dayjs locales define ([c917ec5](https://github.com/bentwnghk/lobe-ui/commit/c917ec5))
+- **misc**: Rename Form itemsType ([cdf4d2c](https://github.com/bentwnghk/lobe-ui/commit/cdf4d2c))
+- **misc**: Update `SyntaxHighlighter` and `form` ([4adfbfa](https://github.com/bentwnghk/lobe-ui/commit/4adfbfa))
+- **misc**: Update CSS styles for ChatItem component and override Ant Design styles ([95b1b97](https://github.com/bentwnghk/lobe-ui/commit/95b1b97))
+- **misc**: Update FONT_CODE in baseTheme to use ui-monospace ([38f4f89](https://github.com/bentwnghk/lobe-ui/commit/38f4f89))
+- **misc**: Update Form ([7be03f4](https://github.com/bentwnghk/lobe-ui/commit/7be03f4))
+- **misc**: Update generateCustomStylish.ts ([e752b0e](https://github.com/bentwnghk/lobe-ui/commit/e752b0e))
+- **misc**: Update generateCustomStylish.ts ([cf4776f](https://github.com/bentwnghk/lobe-ui/commit/cf4776f))
+- **misc**: Update generateCustomStylish.ts ([3c64426](https://github.com/bentwnghk/lobe-ui/commit/3c64426))
+- **misc**: Update generateCustomStylish.ts ([f106c44](https://github.com/bentwnghk/lobe-ui/commit/f106c44))
+- **misc**: Update markdown image style ([9fa540d](https://github.com/bentwnghk/lobe-ui/commit/9fa540d))
+- **misc**: Update MessageInput style ([986bded](https://github.com/bentwnghk/lobe-ui/commit/986bded))
+- **misc**: Update Modal and Form style ([34de436](https://github.com/bentwnghk/lobe-ui/commit/34de436))
+- **misc**: Update modal style ([221d5d4](https://github.com/bentwnghk/lobe-ui/commit/221d5d4))
+- **misc**: Update pin style ([933aa2a](https://github.com/bentwnghk/lobe-ui/commit/933aa2a))
+- **misc**: Update scrollbar ([bbc845a](https://github.com/bentwnghk/lobe-ui/commit/bbc845a))
+- **misc**: Update style files ([c9dcadd](https://github.com/bentwnghk/lobe-ui/commit/c9dcadd))
+- **misc**: Update style files in DocLayout and related components ([f11803a](https://github.com/bentwnghk/lobe-ui/commit/f11803a))
+- **misc**: Update styles for components ([ab24be1](https://github.com/bentwnghk/lobe-ui/commit/ab24be1))
+- **misc**: Update styles for form, message modal, and search bar components ([9d2fa63](https://github.com/bentwnghk/lobe-ui/commit/9d2fa63))
+- **misc**: 优化 Chat Error 展示样式 ([11a0db2](https://github.com/bentwnghk/lobe-ui/commit/11a0db2))
+- **misc**: 优化 ChatList ActionBar 数量，closes [#35](https://github.com/bentwnghk/lobe-ui/issues/35) ([883f77f](https://github.com/bentwnghk/lobe-ui/commit/883f77f))
+- **misc**: 优化 Swatch 分割线颜色 ([7426c5a](https://github.com/bentwnghk/lobe-ui/commit/7426c5a))
+- **misc**: 优化 tag 样式 ([4b62f5e](https://github.com/bentwnghk/lobe-ui/commit/4b62f5e))
+- **misc**: 优化组件 ([4e65416](https://github.com/bentwnghk/lobe-ui/commit/4e65416))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.125.6](https://github.com/lobehub/lobe-ui/compare/v1.125.5...v1.125.6)
 
 <sup>Released on **2023-12-30**</sup>

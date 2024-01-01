@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: New updates and improvements to @lobehub/ui
+description: New updates and improvements to @bentwnghk/ui
 nav:
   title: Changelog
   order: 999

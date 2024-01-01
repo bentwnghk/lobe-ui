@@ -1,7 +1,7 @@
 /**
  * iframe: true
  */
-import { Icon, MobileTabBar, type MobileTabBarProps } from '@lobehub/ui';
+import { Icon, MobileTabBar, type MobileTabBarProps } from '@bentwnghk/ui';
 import { MessageCircle } from 'lucide-react';
 
 const items: MobileTabBarProps['items'] = [

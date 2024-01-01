@@ -1,4 +1,4 @@
-import { Spotlight, SpotlightProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { Spotlight, SpotlightProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 
 const useStyles = createStyles(({ css, token }) => ({

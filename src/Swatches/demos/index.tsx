@@ -1,4 +1,4 @@
-import { Swatches } from '@lobehub/ui';
+import { Swatches } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { useState } from 'react';
 

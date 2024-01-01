@@ -1,4 +1,4 @@
-import { ActionIcon, Image } from '@lobehub/ui';
+import { ActionIcon, Image } from '@bentwnghk/ui';
 import { Trash } from 'lucide-react';
 
 export default () => {

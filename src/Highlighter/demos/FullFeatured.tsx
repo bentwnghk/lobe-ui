@@ -1,4 +1,4 @@
-import { Highlighter, HighlighterProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { Highlighter, HighlighterProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
 
 const code = `export default ({ children, className }: MarkdownProps) => {
   const { styles } = useStyles();

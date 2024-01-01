@@ -1,4 +1,4 @@
-import { StoryBook, TextArea, TextAreaProps, useControls, useCreateStore } from '@lobehub/ui';
+import { StoryBook, TextArea, TextAreaProps, useControls, useCreateStore } from '@bentwnghk/ui';
 
 export default () => {
   const store = useCreateStore();

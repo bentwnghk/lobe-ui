@@ -4,7 +4,7 @@ import {
   StoryBook,
   useControls,
   useCreateStore,
-} from '@lobehub/ui';
+} from '@bentwnghk/ui';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => {

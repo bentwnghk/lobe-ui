@@ -1,4 +1,4 @@
-import { Image, ImageGallery } from '@lobehub/ui';
+import { Image, ImageGallery } from '@bentwnghk/ui';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => {

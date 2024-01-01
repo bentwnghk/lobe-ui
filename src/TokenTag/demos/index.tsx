@@ -1,4 +1,4 @@
-import { StoryBook, TokenTag, TokenTagProps, useControls, useCreateStore } from '@lobehub/ui';
+import { StoryBook, TokenTag, TokenTagProps, useControls, useCreateStore } from '@bentwnghk/ui';
 
 export default () => {
   const store = useCreateStore();

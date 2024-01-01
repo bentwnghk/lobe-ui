@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@lobehub/ui';
+import { ThemeProvider } from '@bentwnghk/ui';
 import { Button } from 'antd';
 
 export default () => {

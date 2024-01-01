@@ -1,4 +1,4 @@
-import { ConfigProvider, Logo } from '@lobehub/ui';
+import { ConfigProvider, Logo } from '@bentwnghk/ui';
 
 export default () => {
   return (

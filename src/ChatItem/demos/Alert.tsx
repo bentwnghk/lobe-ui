@@ -5,7 +5,7 @@ import {
   StoryBook,
   useControls,
   useCreateStore,
-} from '@lobehub/ui';
+} from '@bentwnghk/ui';
 
 import { avatar } from './data';
 

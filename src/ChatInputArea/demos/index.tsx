@@ -4,7 +4,7 @@ import {
   ChatInputArea,
   ChatSendButton,
   TokenTag,
-} from '@lobehub/ui';
+} from '@bentwnghk/ui';
 import { Eraser, Languages } from 'lucide-react';
 import { Flexbox } from 'react-layout-kit';
 

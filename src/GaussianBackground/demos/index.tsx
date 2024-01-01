@@ -1,4 +1,4 @@
-import { GaussianBackground, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { GaussianBackground, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import React from 'react';
 

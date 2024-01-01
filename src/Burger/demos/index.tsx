@@ -1,4 +1,4 @@
-import { Burger, type BurgerProps } from '@lobehub/ui';
+import { Burger, type BurgerProps } from '@bentwnghk/ui';
 import { useState } from 'react';
 
 const items: BurgerProps['items'] = [

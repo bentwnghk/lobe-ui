@@ -1,21 +1,21 @@
 {
-  "name": "@lobehub/ui",
+  "name": "@bentwnghk/ui",
   "version": "1.125.6",
   "description": "Lobe UI is an open-source UI component library for building AIGC web apps",
   "keywords": [
-    "lobehub",
+    "bentwnghk",
     "components",
     "chatbot components",
     "react components",
     "react ui"
   ],
-  "homepage": "https://github.com/lobehub/lobe-ui",
+  "homepage": "https://github.com/bentwnghk/lobe-ui",
   "bugs": {
     "url": "https://github.com/lobehub/lobe-ui/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/lobe-ui.git"
+    "url": "https://github.com/bentwnghk/lobe-ui.git"
   },
   "license": "MIT",
   "author": "LobeHub <i@lobehub.com>",

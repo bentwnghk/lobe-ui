@@ -8,6 +8,9 @@
 
 <h1>Lobe UI</h1>
 
+> \[!IMPORTANT]\
+> semantic-release will only perform release operations if it recognizes key commits such as `🐛 fix: fix ...`.
+
 Lobe UI is an open-source UI component library for building _AIGC_ web apps
 
 English ・ [简体中文](./README.zh-CN.md) ・ [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]

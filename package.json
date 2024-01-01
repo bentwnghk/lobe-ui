@@ -42,7 +42,7 @@
     "prepublishOnly": "father doctor && npm run build",
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
-    "release": "semantic-release",
+    "//release": "semantic-release",
     "setup": "dumi setup",
     "start": "npm run docs:dev",
     "test": "vitest --passWithNoTests",
@@ -143,7 +143,7 @@
     "react-dom": "^18",
     "remark": "^14",
     "remark-cli": "^11",
-    "semantic-release": "^21",
+    "//semantic-release": "^21",
     "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"

@@ -1,6 +1,6 @@
 {
   "name": "@bentwnghk/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lobe UI is an open-source UI component library for building AIGC web apps",
   "keywords": [
     "bentwnghk",
@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/bentwnghk/lobe-ui",
   "bugs": {
-    "url": "https://github.com/lobehub/lobe-ui/issues/new"
+    "url": "https://github.com/bentwnghk/lobe-ui/issues/new"
   },
   "repository": {
     "type": "git",

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.11](https://github.com/bentwnghk/lobe-ui/compare/v1.0.10...v1.0.11)
+
+<sup>Released on **2024-01-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix LogoText.tsx.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix LogoText.tsx ([d5105b2](https://github.com/bentwnghk/lobe-ui/commit/d5105b2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.10](https://github.com/bentwnghk/lobe-ui/compare/v1.0.9...v1.0.10)
 
 <sup>Released on **2024-01-01**</sup>

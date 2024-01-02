@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.0.12](https://github.com/bentwnghk/lobe-ui/compare/v1.0.11...v1.0.12)
+
+<sup>Released on **2024-01-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add types.
+
+#### 💄 Styles
+
+- **misc**: Export copyToClipboard.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add types ([0cf1111](https://github.com/bentwnghk/lobe-ui/commit/0cf1111))
+
+#### Styles
+
+- **misc**: Export copyToClipboard ([1dfddf5](https://github.com/bentwnghk/lobe-ui/commit/1dfddf5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.11](https://github.com/bentwnghk/lobe-ui/compare/v1.0.10...v1.0.11)
 
 <sup>Released on **2024-01-02**</sup>

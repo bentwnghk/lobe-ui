@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.1.0](https://github.com/bentwnghk/lobe-ui/compare/v1.0.13...v1.1.0)
+
+<sup>Released on **2024-01-08**</sup>
+
+#### ✨ Features
+
+- **misc**: Add props to LogoThree.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add props to LogoThree ([e3e24a4](https://github.com/bentwnghk/lobe-ui/commit/e3e24a4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.13](https://github.com/bentwnghk/lobe-ui/compare/v1.0.12...v1.0.13)
 
 <sup>Released on **2024-01-05**</sup>

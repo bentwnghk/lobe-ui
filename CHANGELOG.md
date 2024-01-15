@@ -2,6 +2,52 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/bentwnghk/lobe-ui/compare/v1.1.0...v1.2.0)
+
+<sup>Released on **2024-01-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Add SortableList, markdown support custom components by componentProps.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Form type, fix Image preview=false not working, Fix Rename, fix Rename, fix tsconfig-check.json.
+
+#### 💄 Styles
+
+- **misc**: Update SortableList Style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add SortableList ([f94ad36](https://github.com/bentwnghk/lobe-ui/commit/f94ad36))
+- **misc**: Markdown support custom components by componentProps ([2cd1aeb](https://github.com/bentwnghk/lobe-ui/commit/2cd1aeb))
+
+#### What's fixed
+
+- **misc**: Fix Form type ([d0d509e](https://github.com/bentwnghk/lobe-ui/commit/d0d509e))
+- **misc**: Fix Image preview=false not working ([d520bce](https://github.com/bentwnghk/lobe-ui/commit/d520bce))
+- **misc**: Fix Rename ([ff6e8d3](https://github.com/bentwnghk/lobe-ui/commit/ff6e8d3))
+- **misc**: Fix Rename ([afb8016](https://github.com/bentwnghk/lobe-ui/commit/afb8016))
+- **misc**: Fix tsconfig-check.json ([f450ab1](https://github.com/bentwnghk/lobe-ui/commit/f450ab1))
+
+#### Styles
+
+- **misc**: Update SortableList Style ([864a8ef](https://github.com/bentwnghk/lobe-ui/commit/864a8ef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.1.0](https://github.com/bentwnghk/lobe-ui/compare/v1.0.13...v1.1.0)
 
 <sup>Released on **2024-01-08**</sup>

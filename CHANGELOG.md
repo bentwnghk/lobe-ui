@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.2.1](https://github.com/bentwnghk/lobe-ui/compare/v1.2.0...v1.2.1)
+
+<sup>Released on **2024-01-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Support loading onClick.
+
+#### 💄 Styles
+
+- **misc**: Use dvh instand of vh.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Support loading onClick ([40b188e](https://github.com/bentwnghk/lobe-ui/commit/40b188e))
+
+#### Styles
+
+- **misc**: Use dvh instand of vh ([2fb3b99](https://github.com/bentwnghk/lobe-ui/commit/2fb3b99))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.2.0](https://github.com/bentwnghk/lobe-ui/compare/v1.1.0...v1.2.0)
 
 <sup>Released on **2024-01-15**</sup>

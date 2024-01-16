@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.2](https://github.com/bentwnghk/lobe-ui/compare/v1.2.1...v1.2.2)
+
+<sup>Released on **2024-01-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ChatInputArea expand on mobile.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ChatInputArea expand on mobile ([c328655](https://github.com/bentwnghk/lobe-ui/commit/c328655))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.1](https://github.com/bentwnghk/lobe-ui/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2024-01-16**</sup>

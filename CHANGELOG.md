@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.2.3](https://github.com/bentwnghk/lobe-ui/compare/v1.2.2...v1.2.3)
+
+<sup>Released on **2024-01-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: No display of time, No display of time, No display of time on mobile.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: No display of time ([4ea7314](https://github.com/bentwnghk/lobe-ui/commit/4ea7314))
+- **misc**: No display of time ([0b6f78c](https://github.com/bentwnghk/lobe-ui/commit/0b6f78c))
+- **misc**: No display of time on mobile ([b1ad391](https://github.com/bentwnghk/lobe-ui/commit/b1ad391))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.2](https://github.com/bentwnghk/lobe-ui/compare/v1.2.1...v1.2.2)
 
 <sup>Released on **2024-01-16**</sup>

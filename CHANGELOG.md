@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.4](https://github.com/bentwnghk/lobe-ui/compare/v1.2.3...v1.2.4)
+
+<sup>Released on **2024-01-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve css logical properties.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve css logical properties ([6c08f43](https://github.com/bentwnghk/lobe-ui/commit/6c08f43))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.3](https://github.com/bentwnghk/lobe-ui/compare/v1.2.2...v1.2.3)
 
 <sup>Released on **2024-01-25**</sup>

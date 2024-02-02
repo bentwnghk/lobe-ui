@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.3.1](https://github.com/bentwnghk/lobe-ui/compare/v1.3.0...v1.3.1)
+
+<sup>Released on **2024-02-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix form group title type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix form group title type ([fe24ab8](https://github.com/bentwnghk/lobe-ui/commit/fe24ab8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/bentwnghk/lobe-ui/compare/v1.2.6...v1.3.0)
 
 <sup>Released on **2024-01-30**</sup>

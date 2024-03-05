@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.4.1](https://github.com/bentwnghk/lobe-ui/compare/v1.4.0...v1.4.1)
+
+<sup>Released on **2024-03-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename, revert svg logo problem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix rename ([3bba529](https://github.com/bentwnghk/lobe-ui/commit/3bba529))
+- **misc**: Revert svg logo problem ([e6fea00](https://github.com/bentwnghk/lobe-ui/commit/e6fea00))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.4.0](https://github.com/bentwnghk/lobe-ui/compare/v1.3.2...v1.4.0)
 
 <sup>Released on **2024-03-05**</sup>

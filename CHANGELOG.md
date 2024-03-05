@@ -2,6 +2,49 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/bentwnghk/lobe-ui/compare/v1.3.2...v1.4.0)
+
+<sup>Released on **2024-03-05**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update version to 'latest' for vendor assets.
+
+#### ✨ Features
+
+- **misc**: Click Show Details can expand text, Update Logo render, Use ReactSVG to load svg logos.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update version to 'latest' for vendor assets ([2fa3acc](https://github.com/bentwnghk/lobe-ui/commit/2fa3acc))
+
+#### What's improved
+
+- **misc**: Click Show Details can expand text ([12a22b3](https://github.com/bentwnghk/lobe-ui/commit/12a22b3))
+- **misc**: Update Logo render ([5975f48](https://github.com/bentwnghk/lobe-ui/commit/5975f48))
+- **misc**: Use ReactSVG to load svg logos ([1d0b79f](https://github.com/bentwnghk/lobe-ui/commit/1d0b79f))
+
+#### What's fixed
+
+- **misc**: Fix rename ([4b421dc](https://github.com/bentwnghk/lobe-ui/commit/4b421dc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.3.2](https://github.com/bentwnghk/lobe-ui/compare/v1.3.1...v1.3.2)
 
 <sup>Released on **2024-02-22**</sup>

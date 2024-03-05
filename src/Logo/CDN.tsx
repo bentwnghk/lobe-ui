@@ -12,7 +12,7 @@ export const Logo3dCDN = memo<Omit<ImgProps, 'alt' | 'src'> & { size?: number }>
     const genCdnUrl = useCdnFn();
     return (
       <Img
-        alt="lobehub"
+        alt="Mr.🆖 AI"
         height={size}
         src={genCdnUrl(LOGO_3D)}
         style={{ flex: 'none', lineHeight: 1, ...style }}

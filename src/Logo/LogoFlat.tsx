@@ -12,7 +12,7 @@ const LogoFlat = memo<SvgProps & DivProps & { size?: number }>(
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
-      <title>LobeHub</title>
+      <title>Mr.🆖 AI</title>
       <path
         d="M294 172.516c0 75.655-59.442 128.5-134 128.5-74.558 0-134-53.845-134-129.5 0-22.501 5-32.142 31.5-35.672 47.5-6.329 72.542-3.828 102.5-3.828 29.959 0 72.556-1.271 102.5 3.828 24.5 4.171 30 8.671 31.5 36.672z"
         fill="#FFB02E"

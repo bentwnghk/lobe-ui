@@ -9,7 +9,7 @@ const Logo3D = memo<Omit<ImgProps, 'alt' | 'src'> & { size?: number }>(
   ({ size = '1em', style, ...rest }) => {
     return (
       <Img
-        alt="lobehub"
+        alt="Mr.🆖 AI"
         height={size}
         src={base64}
         style={{ flex: 'none', lineHeight: 1, ...style }}

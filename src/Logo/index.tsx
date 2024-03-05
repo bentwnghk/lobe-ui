@@ -38,7 +38,7 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     case '3d': {
       logoComponent = (
         <Img
-          alt="lobehub"
+          alt="Mr.🆖 Chat"
           height={size}
           src={genCdnUrl(LOGO_3D)}
           style={style}
@@ -50,7 +50,7 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     }
     case 'flat': {
       logoComponent = (
-        <Img alt="lobehub" height={size} src={genCdnUrl(LOGO_FLAT)} style={style} width={size} />
+        <Img alt="Mr.🆖 Chat" height={size} src={genCdnUrl(LOGO_FLAT)} style={style} width={size} />
       );
       break;
     }
@@ -73,7 +73,7 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     case 'combine': {
       logoComponent = (
         <>
-          <Img alt="lobehub" height={size} src={genCdnUrl(LOGO_3D)} width={size} />
+          <Img alt="Mr.🆖 Chat" height={size} src={genCdnUrl(LOGO_3D)} width={size} />
           <LogoText style={{ height: size, marginLeft: Math.round(size / 4), width: 'auto' }} />
         </>
       );

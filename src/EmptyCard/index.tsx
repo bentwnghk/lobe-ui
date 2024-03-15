@@ -1,3 +1,4 @@
+import { ImageProps } from 'antd';
 import { X } from 'lucide-react';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -5,7 +6,7 @@ import useMergeState from 'use-merge-value';
 
 import ActionIcon from '@/ActionIcon';
 import Img from '@/Img';
-import type { DivProps } from '@/types';
+import { DivProps, ImgProps } from '@/types';
 
 import { useStyles } from './style';
 
@@ -15,6 +16,7 @@ export interface EmptyCardProps extends DivProps {
   defaultVisible?: boolean;
   desc: string;
   height?: number;
+  imageProps?: ImgProps & ImageProps & { priority?:boolean };
   onVisibleChange?: (visible: boolean) => void;
   title: string;
   visible?: boolean;
@@ -32,6 +34,7 @@ const EmptyCard = memo<EmptyCardProps>(
     desc,
     width,
     height,
+    imageProps,
     ...rest
   }) => {
     const [value, setValue] = useMergeState(true, {
@@ -51,7 +54,14 @@ const EmptyCard = memo<EmptyCardProps>(
           size={{ blockSize: 24, fontSize: 16 }}
         />
         {cover && (
-          <Img alt={alt} className={styles.image} height={height} src={cover} width={width} />
+          <Img
+            alt={alt}
+            className={styles.image}
+            height={height}
+            src={cover}
+            width={width}
+            {...imageProps}
+          />
         )}
         <div className={styles.content}>
           {title && <h3>{title}</h3>}

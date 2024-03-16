@@ -1,4 +1,4 @@
-import { Video } from '@lobehub/ui';
+import { Video } from '@bentwnghk/ui';
 
 export default () => {
   return (

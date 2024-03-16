@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/bentwnghk/lobe-ui/compare/v1.4.5...v1.5.0)
+
+<sup>Released on **2024-03-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Mdx Components.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rename.
+
+#### 💄 Styles
+
+- **misc**: Update Markdown style and add more Mdx components.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Mdx Components ([03f272a](https://github.com/bentwnghk/lobe-ui/commit/03f272a))
+
+#### What's fixed
+
+- **misc**: Rename ([83bffe7](https://github.com/bentwnghk/lobe-ui/commit/83bffe7))
+
+#### Styles
+
+- **misc**: Update Markdown style and add more Mdx components ([463eca1](https://github.com/bentwnghk/lobe-ui/commit/463eca1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.5](https://github.com/bentwnghk/lobe-ui/compare/v1.4.4...v1.4.5)
 
 <sup>Released on **2024-03-16**</sup>

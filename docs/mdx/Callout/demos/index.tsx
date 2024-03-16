@@ -1,5 +1,5 @@
-import { Typography } from '@lobehub/ui';
-import { Callout } from '@lobehub/ui/mdx';
+import { Typography } from '@bentwnghk/ui';
+import { Callout } from '@bentwnghk/ui/mdx';
 
 export default () => (
   <Typography>

@@ -1,5 +1,5 @@
-import { Typography } from '@lobehub/ui';
-import { Tabs } from '@lobehub/ui/mdx';
+import { Typography } from '@bentwnghk/ui';
+import { Tabs } from '@bentwnghk/ui/mdx';
 
 export default () => (
   <Typography>

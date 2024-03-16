@@ -10,7 +10,9 @@
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
       "@bentwnghk/ui": ["src"],
-      "@bentwnghk/ui/*": ["src/*"]
+      "@bentwnghk/ui/*": ["src/*"],
+      "@bentwnghk/ui/mdx": ["src/mdx"],
+      "@bentwnghk/ui/mdx/*": ["src/mdx/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,

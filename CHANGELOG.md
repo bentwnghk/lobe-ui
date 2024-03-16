@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.5](https://github.com/bentwnghk/lobe-ui/compare/v1.4.4...v1.4.5)
+
+<sup>Released on **2024-03-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Rename ([f56898d](https://github.com/bentwnghk/lobe-ui/commit/f56898d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.4](https://github.com/bentwnghk/lobe-ui/compare/v1.4.3...v1.4.4)
 
 <sup>Released on **2024-03-16**</sup>

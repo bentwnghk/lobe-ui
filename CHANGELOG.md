@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.5.9](https://github.com/bentwnghk/lobe-ui/compare/v1.5.8...v1.5.9)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Hide scrollbar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Hide scrollbar ([9e07e01](https://github.com/bentwnghk/lobe-ui/commit/9e07e01))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.8](https://github.com/bentwnghk/lobe-ui/compare/v1.5.7...v1.5.8)
 
 <sup>Released on **2024-03-17**</sup>

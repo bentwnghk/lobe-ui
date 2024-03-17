@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.5.5](https://github.com/bentwnghk/lobe-ui/compare/v1.5.4...v1.5.5)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build, Fix export.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix build ([8d19c5c](https://github.com/bentwnghk/lobe-ui/commit/8d19c5c))
+- **misc**: Fix export ([4de4fe4](https://github.com/bentwnghk/lobe-ui/commit/4de4fe4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.4](https://github.com/bentwnghk/lobe-ui/compare/v1.5.3...v1.5.4)
 
 <sup>Released on **2024-03-17**</sup>

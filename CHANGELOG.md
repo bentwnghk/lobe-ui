@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.5.6](https://github.com/bentwnghk/lobe-ui/compare/v1.5.5...v1.5.6)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix mdx export.
+
+#### 💄 Styles
+
+- **misc**: Update mdx style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix mdx export ([9694a30](https://github.com/bentwnghk/lobe-ui/commit/9694a30))
+
+#### Styles
+
+- **misc**: Update mdx style ([e1b5522](https://github.com/bentwnghk/lobe-ui/commit/e1b5522))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.5](https://github.com/bentwnghk/lobe-ui/compare/v1.5.4...v1.5.5)
 
 <sup>Released on **2024-03-17**</sup>

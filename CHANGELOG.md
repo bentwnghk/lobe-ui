@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.5.8](https://github.com/bentwnghk/lobe-ui/compare/v1.5.7...v1.5.8)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ThemeProvider missing style and className.
+
+#### 💄 Styles
+
+- **misc**: Fix cards grid.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ThemeProvider missing style and className ([e7c023c](https://github.com/bentwnghk/lobe-ui/commit/e7c023c))
+
+#### Styles
+
+- **misc**: Fix cards grid ([4f28ed7](https://github.com/bentwnghk/lobe-ui/commit/4f28ed7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.7](https://github.com/bentwnghk/lobe-ui/compare/v1.5.6...v1.5.7)
 
 <sup>Released on **2024-03-17**</sup>

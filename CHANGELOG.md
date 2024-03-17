@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.5.4](https://github.com/bentwnghk/lobe-ui/compare/v1.5.3...v1.5.4)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Callout style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Callout style ([2842c79](https://github.com/bentwnghk/lobe-ui/commit/2842c79))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.3](https://github.com/bentwnghk/lobe-ui/compare/v1.5.2...v1.5.3)
 
 <sup>Released on **2024-03-17**</sup>

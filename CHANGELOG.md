@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.6.1](https://github.com/bentwnghk/lobe-ui/compare/v1.6.0...v1.6.1)
+
+<sup>Released on **2024-03-18**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rsc missing.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix rsc missing ([58bcae1](https://github.com/bentwnghk/lobe-ui/commit/58bcae1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.6.0](https://github.com/bentwnghk/lobe-ui/compare/v1.5.9...v1.6.0)
 
 <sup>Released on **2024-03-17**</sup>

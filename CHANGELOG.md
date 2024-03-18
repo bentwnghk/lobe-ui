@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.7.0](https://github.com/bentwnghk/lobe-ui/compare/v1.6.2...v1.7.0)
+
+<sup>Released on **2024-03-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grid.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rename.
+
+#### 💄 Styles
+
+- **misc**: Fix global style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grid ([18e2aab](https://github.com/bentwnghk/lobe-ui/commit/18e2aab))
+
+#### What's fixed
+
+- **misc**: Rename ([40e444d](https://github.com/bentwnghk/lobe-ui/commit/40e444d))
+
+#### Styles
+
+- **misc**: Fix global style ([3c54485](https://github.com/bentwnghk/lobe-ui/commit/3c54485))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.6.2](https://github.com/bentwnghk/lobe-ui/compare/v1.6.1...v1.6.2)
 
 <sup>Released on **2024-03-18**</sup>

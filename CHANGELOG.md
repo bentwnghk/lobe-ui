@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.7.3](https://github.com/bentwnghk/lobe-ui/compare/v1.7.2...v1.7.3)
+
+<sup>Released on **2024-03-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Tabs props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Tabs props ([0b13d98](https://github.com/bentwnghk/lobe-ui/commit/0b13d98))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.7.2](https://github.com/bentwnghk/lobe-ui/compare/v1.7.1...v1.7.2)
 
 <sup>Released on **2024-03-21**</sup>

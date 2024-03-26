@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.9.1](https://github.com/bentwnghk/lobe-ui/compare/v1.9.0...v1.9.1)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Revert version change to static the image cdn cache control.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Revert version change to static the image cdn cache control ([de54673](https://github.com/bentwnghk/lobe-ui/commit/de54673))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.9.0](https://github.com/bentwnghk/lobe-ui/compare/v1.8.1...v1.9.0)
 
 <sup>Released on **2024-03-26**</sup>

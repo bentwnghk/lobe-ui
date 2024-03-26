@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.8.1](https://github.com/bentwnghk/lobe-ui/compare/v1.8.0...v1.8.1)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix missing unoptimized for chatItem, fix missing unoptimized for chatItem, fix missing unoptimized for fluentEmoji.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix missing unoptimized for chatItem ([7bc1978](https://github.com/bentwnghk/lobe-ui/commit/7bc1978))
+- **misc**: Fix missing unoptimized for chatItem ([ffaf632](https://github.com/bentwnghk/lobe-ui/commit/ffaf632))
+- **misc**: Fix missing unoptimized for fluentEmoji ([6a1ce23](https://github.com/bentwnghk/lobe-ui/commit/6a1ce23))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.8.0](https://github.com/bentwnghk/lobe-ui/compare/v1.7.3...v1.8.0)
 
 <sup>Released on **2024-03-24**</sup>

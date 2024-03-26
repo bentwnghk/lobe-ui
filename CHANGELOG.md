@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.9.0](https://github.com/bentwnghk/lobe-ui/compare/v1.8.1...v1.9.0)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Support imgUnoptimized in CP.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove unoptimized default props, remove unoptimized default props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support imgUnoptimized in CP ([545d911](https://github.com/bentwnghk/lobe-ui/commit/545d911))
+
+#### What's fixed
+
+- **misc**: Remove unoptimized default props ([cf8ef49](https://github.com/bentwnghk/lobe-ui/commit/cf8ef49))
+- **misc**: Remove unoptimized default props ([eba22a4](https://github.com/bentwnghk/lobe-ui/commit/eba22a4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.8.1](https://github.com/bentwnghk/lobe-ui/compare/v1.8.0...v1.8.1)
 
 <sup>Released on **2024-03-26**</sup>

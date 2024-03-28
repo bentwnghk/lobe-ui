@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.9.3](https://github.com/bentwnghk/lobe-ui/compare/v1.9.2...v1.9.3)
+
+<sup>Released on **2024-03-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix LogoSpline Props.
+
+#### 💄 Styles
+
+- **misc**: Update LogoThree loading.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix LogoSpline Props ([225ebab](https://github.com/bentwnghk/lobe-ui/commit/225ebab))
+
+#### Styles
+
+- **misc**: Update LogoThree loading ([7547eed](https://github.com/bentwnghk/lobe-ui/commit/7547eed))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.9.2](https://github.com/bentwnghk/lobe-ui/compare/v1.9.1...v1.9.2)
 
 <sup>Released on **2024-03-26**</sup>

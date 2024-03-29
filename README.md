@@ -8,9 +8,6 @@
 
 <h1>Lobe UI</h1>
 
-> \[!IMPORTANT]\
-> semantic-release will only perform release operations if it recognizes key commits such as `🐛 fix: fix ...`.
-
 Lobe UI is an open-source UI component library for building _AIGC_ web apps
 
 English ・ [简体中文](./README.zh-CN.md) ・ [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
@@ -60,20 +57,20 @@ To install Lobe UI, run the following command:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ bun add @bentwnghk/ui
+$ bun add @lobehub/ui
 ```
 
 ### Compile with NextJS
 
 > \[!NOTE]\
-> By work correct with nextjs ssr, add `transpilePackages: ['@bentwnghk/ui']` to `next.config.js`. For example:
+> By work correct with nextjs page router SSR, add `transpilePackages: ['@lobehub/ui']` to `next.config.js`. For example:
 
 ```js
 // next.config.js
 const nextConfig = {
   // ...other config
 
-  transpilePackages: ['@bentwnghk/ui'],
+  transpilePackages: ['@lobehub/ui'],
 };
 ```
 
@@ -90,7 +87,7 @@ const nextConfig = {
 > and it is recommended to use [antd-style](https://ant-design.github.io/antd-style/) as the default css-in-js styling solution.
 
 ```tsx
-import { ThemeProvider, Button } from '@bentwnghk/ui'
+import { ThemeProvider, Button } from '@lobehub/ui'
 import { Button } from 'antd'
 
 export default () => (
@@ -162,6 +159,7 @@ Every bit counts and your one-time donation sparkles in our galaxy of support! Y
 
 - **[🤖 Lobe Chat][lobe-chat] :** An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
 - **[🤯 Lobe Theme][lobe-theme] :** The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.
+- **[🥨 Lobe Icons][lobe-icons] :** Popular AI / LLM Model Brand SVG Logo and Icon Collection.
 - **[🌏 Lobe i18n][lobe-i18n] :** Lobe i18n is an automation tool for the i18n (internationalization) translation process, powered by ChatGPT. It supports features such as automatic splitting of large files, incremental updates, and customization options for the OpenAI model, API proxy, and temperature.
 - **[💌 Lobe Commit][lobe-commit] :** Lobe Commit is a CLI tool that leverages Langchain/ChatGPT to generate Gitmoji-based commit messages.
 
@@ -216,10 +214,11 @@ This project is [MIT](./LICENSE) licensed.
 [lobe-commit]: https://github.com/lobehub/lobe-commit/tree/master/packages/lobe-commit
 [lobe-i18n]: https://github.com/lobehub/lobe-commit/tree/master/packages/lobe-i18n
 [lobe-theme]: https://github.com/lobehub/sd-webui-lobe-theme
-[npm-downloads-link]: https://www.npmjs.com/package/@bentwnghk/ui
-[npm-downloads-shield]: https://img.shields.io/npm/dt/@bentwnghk/ui?labelColor=black&style=flat-square
-[npm-release-link]: https://www.npmjs.com/package/@bentwnghk/ui
-[npm-release-shield]: https://img.shields.io/npm/v/@bentwnghk/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[lobe-icons]: https://github.com/lobehub/lobe-icons
+[npm-downloads-link]: https://www.npmjs.com/package/@lobehub/ui
+[npm-downloads-shield]: https://img.shields.io/npm/dt/@lobehub/ui?labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@lobehub/ui
+[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub

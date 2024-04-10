@@ -1,33 +1,33 @@
 import { Typography } from '@bentwnghk/ui';
-import { Cards } from '@bentwnghk/ui/mdx';
+import { Card, Cards } from '@bentwnghk/ui/mdx';
 import { Warehouse } from 'lucide-react';
 
 export default () => (
   <Typography>
     <Cards>
-      <Cards.Card href="/mdx/callout" icon={Warehouse} title="Callout" />
-      <Cards.Card href="/mdx/callout" icon={Warehouse} title="Tabs" />
-      <Cards.Card href="/mdx/callouts" icon={Warehouse} title="Steps" />
+      <Card href="/mdx/callout" icon={Warehouse} title="Callout" />
+      <Card href="/mdx/callout" icon={Warehouse} title="Tabs" />
+      <Card href="/mdx/callouts" icon={Warehouse} title="Steps" />
     </Cards>
     <Cards>
-      <Cards.Card desc="Demo desction text" href="/mdx/callout" icon={Warehouse} title="Callout" />
-      <Cards.Card desc="Demo desction text" href="/mdx/callout" icon={Warehouse} title="Tabs" />
-      <Cards.Card desc="Demo desction text" href="/mdx/callouts" icon={Warehouse} title="Steps" />
+      <Card desc="Demo desction text" href="/mdx/callout" icon={Warehouse} title="Callout" />
+      <Card desc="Demo desction text" href="/mdx/callout" icon={Warehouse} title="Tabs" />
+      <Card desc="Demo desction text" href="/mdx/callouts" icon={Warehouse} title="Steps" />
     </Cards>
     <Cards>
-      <Cards.Card
+      <Card
         href="/mdx/callout"
         icon={Warehouse}
         image="https://gw.alipayobjects.com/zos/kitchen/sLO%24gbrQtp/lobe-chat.webp"
         title="Callout"
       />
-      <Cards.Card
+      <Card
         href="/mdx/callout"
         icon={Warehouse}
         image="https://gw.alipayobjects.com/zos/kitchen/sLO%24gbrQtp/lobe-chat.webp"
         title="Tabs"
       />
-      <Cards.Card
+      <Card
         href="/mdx/callouts"
         icon={Warehouse}
         image="https://gw.alipayobjects.com/zos/kitchen/sLO%24gbrQtp/lobe-chat.webp"

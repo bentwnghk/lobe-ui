@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.2](https://github.com/bentwnghk/lobe-ui/compare/v1.10.1...v1.10.2)
+
+<sup>Released on **2024-04-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix mdx image size.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix mdx image size ([d9c4316](https://github.com/bentwnghk/lobe-ui/commit/d9c4316))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.1](https://github.com/bentwnghk/lobe-ui/compare/v1.10.0...v1.10.1)
 
 <sup>Released on **2024-04-11**</sup>

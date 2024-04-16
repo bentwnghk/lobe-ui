@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.10.3](https://github.com/bentwnghk/lobe-ui/compare/v1.10.2...v1.10.3)
+
+<sup>Released on **2024-04-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Markdown hard break only in chat mode.
+
+#### 💄 Styles
+
+- **misc**: Support hard breaks.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Markdown hard break only in chat mode ([f1a1fe7](https://github.com/bentwnghk/lobe-ui/commit/f1a1fe7))
+
+#### Styles
+
+- **misc**: Support hard breaks, closes [#139](https://github.com/bentwnghk/lobe-ui/issues/139) ([7b58a47](https://github.com/bentwnghk/lobe-ui/commit/7b58a47))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.2](https://github.com/bentwnghk/lobe-ui/compare/v1.10.1...v1.10.2)
 
 <sup>Released on **2024-04-13**</sup>

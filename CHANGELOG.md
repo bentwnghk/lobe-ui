@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.4](https://github.com/bentwnghk/lobe-ui/compare/v1.10.3...v1.10.4)
+
+<sup>Released on **2024-04-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Searchbar support loading.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Searchbar support loading ([1485956](https://github.com/bentwnghk/lobe-ui/commit/1485956))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.3](https://github.com/bentwnghk/lobe-ui/compare/v1.10.2...v1.10.3)
 
 <sup>Released on **2024-04-16**</sup>

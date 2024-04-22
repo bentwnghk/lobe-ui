@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.10.6](https://github.com/bentwnghk/lobe-ui/compare/v1.10.5...v1.10.6)
+
+<sup>Released on **2024-04-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix spline, Fix Spline react, Fix type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix spline ([b6b26c0](https://github.com/bentwnghk/lobe-ui/commit/b6b26c0))
+- **misc**: Fix Spline react ([e099164](https://github.com/bentwnghk/lobe-ui/commit/e099164))
+- **misc**: Fix type ([03e24d8](https://github.com/bentwnghk/lobe-ui/commit/03e24d8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.5](https://github.com/bentwnghk/lobe-ui/compare/v1.10.4...v1.10.5)
 
 <sup>Released on **2024-04-19**</sup>

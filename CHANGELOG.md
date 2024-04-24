@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.7](https://github.com/bentwnghk/lobe-ui/compare/v1.10.6...v1.10.7)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update mdx components props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update mdx components props ([8518467](https://github.com/bentwnghk/lobe-ui/commit/8518467))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.6](https://github.com/bentwnghk/lobe-ui/compare/v1.10.5...v1.10.6)
 
 <sup>Released on **2024-04-22**</sup>

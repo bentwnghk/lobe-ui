@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.10.8](https://github.com/bentwnghk/lobe-ui/compare/v1.10.7...v1.10.8)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Link type, Fix md render <p> in <li>, Fix mdx Link.
+
+#### 💄 Styles
+
+- **misc**: Update Form style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Link type ([5f4edbf](https://github.com/bentwnghk/lobe-ui/commit/5f4edbf))
+- **misc**: Fix md render <p> in <li> ([cf75d6a](https://github.com/bentwnghk/lobe-ui/commit/cf75d6a))
+- **misc**: Fix mdx Link ([3c25858](https://github.com/bentwnghk/lobe-ui/commit/3c25858))
+
+#### Styles
+
+- **misc**: Update Form style ([734a226](https://github.com/bentwnghk/lobe-ui/commit/734a226))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.7](https://github.com/bentwnghk/lobe-ui/compare/v1.10.6...v1.10.7)
 
 <sup>Released on **2024-04-24**</sup>

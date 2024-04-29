@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.10](https://github.com/bentwnghk/lobe-ui/compare/v1.10.9...v1.10.10)
+
+<sup>Released on **2024-04-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Form.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Form ([5ef398e](https://github.com/bentwnghk/lobe-ui/commit/5ef398e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.9](https://github.com/bentwnghk/lobe-ui/compare/v1.10.8...v1.10.9)
 
 <sup>Released on **2024-04-28**</sup>

@@ -31,7 +31,6 @@ const useStyles = createStyles(({ css, token }) => {
     expand: css`
       position: absolute;
       height: 100%;
-      background: ${token.colorBgLayout};
     `,
     expandButton: css`
       position: absolute;
@@ -53,6 +52,7 @@ export interface MobileChatInputAreaProps extends ChatInputAreaInnerProps {
   expand?: boolean;
   setExpand?: (expand: boolean) => void;
   style?: CSSProperties;
+  safeArea?: boolean;
   textAreaLeftAddons?: ReactNode;
   textAreaRightAddons?: ReactNode;
   topAddons?: ReactNode;

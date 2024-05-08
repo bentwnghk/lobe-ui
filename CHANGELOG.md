@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.13](https://github.com/bentwnghk/lobe-ui/compare/v1.10.12...v1.10.13)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update ChatInputArea.tsx.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update ChatInputArea.tsx ([365086d](https://github.com/bentwnghk/lobe-ui/commit/365086d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.12](https://github.com/bentwnghk/lobe-ui/compare/v1.10.11...v1.10.12)
 
 <sup>Released on **2024-05-07**</sup>

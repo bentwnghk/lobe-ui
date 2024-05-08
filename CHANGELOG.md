@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.14](https://github.com/bentwnghk/lobe-ui/compare/v1.10.13...v1.10.14)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Drawer in pwa.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Drawer in pwa ([3c460b4](https://github.com/bentwnghk/lobe-ui/commit/3c460b4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.13](https://github.com/bentwnghk/lobe-ui/compare/v1.10.12...v1.10.13)
 
 <sup>Released on **2024-05-08**</sup>

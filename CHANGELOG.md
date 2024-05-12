@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.16](https://github.com/bentwnghk/lobe-ui/compare/v1.10.15...v1.10.16)
+
+<sup>Released on **2024-05-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin dumi.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin dumi ([61bf173](https://github.com/bentwnghk/lobe-ui/commit/61bf173))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.15](https://github.com/bentwnghk/lobe-ui/compare/v1.10.14...v1.10.15)
 
 <sup>Released on **2024-05-08**</sup>

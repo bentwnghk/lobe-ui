@@ -2,6 +2,23 @@
 
 # Changelog
 
+### [Version 1.10.17](https://github.com/bentwnghk/lobe-ui/compare/v1.10.16...v1.10.17)
+
+<sup>Released on **2024-05-15**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.16](https://github.com/bentwnghk/lobe-ui/compare/v1.10.15...v1.10.16)
 
 <sup>Released on **2024-05-12**</sup>

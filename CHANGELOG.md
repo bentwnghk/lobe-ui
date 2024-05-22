@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.11.0](https://github.com/bentwnghk/lobe-ui/compare/v1.10.18...v1.11.0)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add enableResponsive to Modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add enableResponsive to Modal ([dfe0542](https://github.com/bentwnghk/lobe-ui/commit/dfe0542))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.18](https://github.com/bentwnghk/lobe-ui/compare/v1.10.17...v1.10.18)
 
 <sup>Released on **2024-05-20**</sup>

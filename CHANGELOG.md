@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.12.1](https://github.com/bentwnghk/lobe-ui/compare/v1.12.0...v1.12.1)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix Logo combine in safari.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix Logo combine in safari ([a4269b2](https://github.com/bentwnghk/lobe-ui/commit/a4269b2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.12.0](https://github.com/bentwnghk/lobe-ui/compare/v1.11.1...v1.12.0)
 
 <sup>Released on **2024-05-23**</sup>

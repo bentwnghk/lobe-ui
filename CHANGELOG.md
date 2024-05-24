@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.13.0](https://github.com/bentwnghk/lobe-ui/compare/v1.12.1...v1.13.0)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor fluent emoji.
+
+#### ✨ Features
+
+- **misc**: Update FluentEmoji cdn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor fluent emoji ([6e09de5](https://github.com/bentwnghk/lobe-ui/commit/6e09de5))
+
+#### What's improved
+
+- **misc**: Update FluentEmoji cdn ([69f0caa](https://github.com/bentwnghk/lobe-ui/commit/69f0caa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.1](https://github.com/bentwnghk/lobe-ui/compare/v1.12.0...v1.12.1)
 
 <sup>Released on **2024-05-24**</sup>

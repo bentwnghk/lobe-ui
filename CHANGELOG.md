@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.13.2](https://github.com/bentwnghk/lobe-ui/compare/v1.13.1...v1.13.2)
+
+<sup>Released on **2024-05-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Change TokenTag fontfamily.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Change TokenTag fontfamily ([463ea49](https://github.com/bentwnghk/lobe-ui/commit/463ea49))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.13.1](https://github.com/bentwnghk/lobe-ui/compare/v1.13.0...v1.13.1)
 
 <sup>Released on **2024-05-24**</sup>

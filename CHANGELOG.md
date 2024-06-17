@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.15.0](https://github.com/bentwnghk/lobe-ui/compare/v1.14.4...v1.15.0)
+
+<sup>Released on **2024-06-17**</sup>
+
+#### ✨ Features
+
+- **misc**: Add LobeChat Brand.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build, Fix Logo3d, Fix package.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add LobeChat Brand ([89b5287](https://github.com/bentwnghk/lobe-ui/commit/89b5287))
+
+#### What's fixed
+
+- **misc**: Fix build ([1277060](https://github.com/bentwnghk/lobe-ui/commit/1277060))
+- **misc**: Fix Logo3d ([507324c](https://github.com/bentwnghk/lobe-ui/commit/507324c))
+- **misc**: Fix package ([ce34be5](https://github.com/bentwnghk/lobe-ui/commit/ce34be5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.14.4](https://github.com/bentwnghk/lobe-ui/compare/v1.14.3...v1.14.4)
 
 <sup>Released on **2024-06-10**</sup>

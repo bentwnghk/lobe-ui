@@ -13,7 +13,7 @@ const LogoMono = memo<SvgProps & DivProps & { size?: number }>(
         xmlns="http://www.w3.org/2000/svg"
         {...rest}
       >
-        <title>LobeHub</title>
+        <title>Mr.🆖 Chat</title>
         <path
           d="M22.951 13.475C22.951 19.672 18.082 24 11.975 24 5.87 24 1 19.59 1 13.393c0-1.843.41-2.633 2.58-2.922 3.89-.518 5.942-.313 8.396-.313 2.453 0 5.942-.104 8.395.313 2.007.342 2.457.71 2.58 3.004z"
           fill="#BFBFBF"

@@ -12,13 +12,15 @@
       "@bentwnghk/ui": ["src"],
       "@bentwnghk/ui/*": ["src/*"],
       "@bentwnghk/ui/mdx": ["src/mdx"],
-      "@bentwnghk/ui/mdx/*": ["src/mdx/*"]
+      "@bentwnghk/ui/mdx/*": ["src/mdx/*"],
+      "@bentwnghk/ui/brand": ["src/brand"],
+      "@bentwnghk/ui/brand/*": ["src/brand/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "types": ["vitest/globals"]
   },
-  "exclude": ["mdx.d.ts"],
+  "exclude": ["mdx.d.ts", "brand.d.ts"],
   "include": ["src", "docs", "tests", ".dumirc.ts", ".fatherrc.ts"]
 }

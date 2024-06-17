@@ -1,8 +1,10 @@
-import { Logo, LogoProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+
+import { LobeHub, LobeHubProps } from '@/brand';
 
 export default () => {
   const store = useCreateStore();
-  const control: LogoProps | any = useControls(
+  const control: LobeHubProps | any = useControls(
     {
       extra: 'UI',
       size: {
@@ -17,7 +19,7 @@ export default () => {
 
   return (
     <StoryBook levaStore={store}>
-      <Logo type="combine" {...control} />
+      <LobeHub type="combine" {...control} />
     </StoryBook>
   );
 };

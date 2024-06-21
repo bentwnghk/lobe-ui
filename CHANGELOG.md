@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.16.0](https://github.com/bentwnghk/lobe-ui/compare/v1.15.1...v1.16.0)
+
+<sup>Released on **2024-06-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Collapse.
+
+#### 💄 Styles
+
+- **misc**: Fix Collapse style, Fix Collapse style, Fix Collapse style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Collapse ([343d762](https://github.com/bentwnghk/lobe-ui/commit/343d762))
+
+#### Styles
+
+- **misc**: Fix Collapse style ([c5299c6](https://github.com/bentwnghk/lobe-ui/commit/c5299c6))
+- **misc**: Fix Collapse style ([e75cf1a](https://github.com/bentwnghk/lobe-ui/commit/e75cf1a))
+- **misc**: Fix Collapse style ([b24a38a](https://github.com/bentwnghk/lobe-ui/commit/b24a38a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.15.1](https://github.com/bentwnghk/lobe-ui/compare/v1.15.0...v1.15.1)
 
 <sup>Released on **2024-06-19**</sup>

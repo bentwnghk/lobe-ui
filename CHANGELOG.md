@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.16.1](https://github.com/bentwnghk/lobe-ui/compare/v1.16.0...v1.16.1)
+
+<sup>Released on **2024-06-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Table style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Table style ([982a73d](https://github.com/bentwnghk/lobe-ui/commit/982a73d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.16.0](https://github.com/bentwnghk/lobe-ui/compare/v1.15.1...v1.16.0)
 
 <sup>Released on **2024-06-21**</sup>

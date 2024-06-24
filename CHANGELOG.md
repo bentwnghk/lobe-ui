@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.16.2](https://github.com/bentwnghk/lobe-ui/compare/v1.16.1...v1.16.2)
+
+<sup>Released on **2024-06-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Do not break in-between words in tooltips, Fix LaTeX Render.
+
+#### 💄 Styles
+
+- **misc**: Update table minwidth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Do not break in-between words in tooltips, closes [#167](https://github.com/bentwnghk/lobe-ui/issues/167) ([92369b2](https://github.com/bentwnghk/lobe-ui/commit/92369b2))
+- **misc**: Fix LaTeX Render, closes [#168](https://github.com/bentwnghk/lobe-ui/issues/168) ([ee0b740](https://github.com/bentwnghk/lobe-ui/commit/ee0b740))
+
+#### Styles
+
+- **misc**: Update table minwidth ([427a73b](https://github.com/bentwnghk/lobe-ui/commit/427a73b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.16.1](https://github.com/bentwnghk/lobe-ui/compare/v1.16.0...v1.16.1)
 
 <sup>Released on **2024-06-21**</sup>

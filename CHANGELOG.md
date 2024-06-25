@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.17.0](https://github.com/bentwnghk/lobe-ui/compare/v1.16.2...v1.17.0)
+
+<sup>Released on **2024-06-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Add FileTypeIcon.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix dir name, Fix type, hydration mismatch in grid background.
+
+#### 💄 Styles
+
+- **misc**: Fix variant in MaterialFileTypeIcon, Increase gaps between ChatItem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add FileTypeIcon ([e43086f](https://github.com/bentwnghk/lobe-ui/commit/e43086f))
+
+#### What's fixed
+
+- **misc**: Fix dir name ([d91dc53](https://github.com/bentwnghk/lobe-ui/commit/d91dc53))
+- **misc**: Fix type ([6b289c9](https://github.com/bentwnghk/lobe-ui/commit/6b289c9))
+- **misc**: Hydration mismatch in grid background, closes [#171](https://github.com/bentwnghk/lobe-ui/issues/171) ([bbe43c4](https://github.com/bentwnghk/lobe-ui/commit/bbe43c4))
+
+#### Styles
+
+- **misc**: Fix variant in MaterialFileTypeIcon ([1066729](https://github.com/bentwnghk/lobe-ui/commit/1066729))
+- **misc**: Increase gaps between ChatItem, closes [#170](https://github.com/bentwnghk/lobe-ui/issues/170) ([dd487de](https://github.com/bentwnghk/lobe-ui/commit/dd487de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.16.2](https://github.com/bentwnghk/lobe-ui/compare/v1.16.1...v1.16.2)
 
 <sup>Released on **2024-06-24**</sup>

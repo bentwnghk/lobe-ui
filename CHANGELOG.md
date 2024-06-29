@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.18.0](https://github.com/bentwnghk/lobe-ui/compare/v1.17.2...v1.18.0)
+
+<sup>Released on **2024-06-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Update SearchBar.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix type.
+
+#### 💄 Styles
+
+- **misc**: Update ChatHeader, Update ChatHeader style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update SearchBar ([3dd86e2](https://github.com/bentwnghk/lobe-ui/commit/3dd86e2))
+
+#### What's fixed
+
+- **misc**: Fix type ([3931dc2](https://github.com/bentwnghk/lobe-ui/commit/3931dc2))
+
+#### Styles
+
+- **misc**: Update ChatHeader ([b527ba6](https://github.com/bentwnghk/lobe-ui/commit/b527ba6))
+- **misc**: Update ChatHeader style ([1947931](https://github.com/bentwnghk/lobe-ui/commit/1947931))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.17.2](https://github.com/bentwnghk/lobe-ui/compare/v1.17.1...v1.17.2)
 
 <sup>Released on **2024-06-29**</sup>

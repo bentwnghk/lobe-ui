@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.18.1](https://github.com/bentwnghk/lobe-ui/compare/v1.18.0...v1.18.1)
+
+<sup>Released on **2024-07-01**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix eslint.
+
+#### 💄 Styles
+
+- **misc**: Update stylelint.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix eslint ([34ade8d](https://github.com/bentwnghk/lobe-ui/commit/34ade8d))
+
+#### Styles
+
+- **misc**: Update stylelint ([8d78464](https://github.com/bentwnghk/lobe-ui/commit/8d78464))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.18.0](https://github.com/bentwnghk/lobe-ui/compare/v1.17.2...v1.18.0)
 
 <sup>Released on **2024-06-29**</sup>

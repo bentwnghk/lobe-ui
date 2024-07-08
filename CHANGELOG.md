@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.18.2](https://github.com/bentwnghk/lobe-ui/compare/v1.18.1...v1.18.2)
+
+<sup>Released on **2024-07-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Extra Backslash in Code Blocks ($0 -> /$0), highlighter scroll bugs.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Extra Backslash in Code Blocks ($0 -> /$0), closes [#177](https://github.com/bentwnghk/lobe-ui/issues/177) ([f77df56](https://github.com/bentwnghk/lobe-ui/commit/f77df56))
+- **misc**: Highlighter scroll bugs, closes [#178](https://github.com/bentwnghk/lobe-ui/issues/178) ([079bc9a](https://github.com/bentwnghk/lobe-ui/commit/079bc9a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.18.1](https://github.com/bentwnghk/lobe-ui/compare/v1.18.0...v1.18.1)
 
 <sup>Released on **2024-07-01**</sup>

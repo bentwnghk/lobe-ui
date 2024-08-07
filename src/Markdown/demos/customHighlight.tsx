@@ -1,4 +1,4 @@
-import { ActionIcon, Markdown } from '@lobehub/ui';
+import { ActionIcon, Markdown } from '@bentwnghk/ui';
 import { AlertCircleIcon } from 'lucide-react';
 
 const code = `\`\`\`tsx

@@ -1,10 +1,10 @@
-import { Highlighter, HighlighterProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Mermaid, MermaidProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
 
 import { code } from './data';
 
 export default () => {
   const store = useCreateStore();
-  const options: HighlighterProps | any = useControls(
+  const options: MermaidProps | any = useControls(
     {
       children: {
         rows: true,
@@ -17,14 +17,13 @@ export default () => {
         options: ['ghost', 'block', 'pure'],
         value: 'block',
       },
-      wrap: false,
     },
     { store },
   );
 
   return (
     <StoryBook levaStore={store}>
-      <Highlighter {...options} style={{ ...options.style, width: '100%' }} />
+      <Mermaid fullFeatured {...options} style={{ ...options.style, width: '100%' }} />
     </StoryBook>
   );
 };

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.21.1](https://github.com/bentwnghk/lobe-ui/compare/v1.21.0...v1.21.1)
+
+<sup>Released on **2024-08-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix size in MaterialFileTypeIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix size in MaterialFileTypeIcon ([3f73a8d](https://github.com/bentwnghk/lobe-ui/commit/3f73a8d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.21.0](https://github.com/bentwnghk/lobe-ui/compare/v1.20.1...v1.21.0)
 
 <sup>Released on **2024-08-13**</sup>

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.21.2](https://github.com/bentwnghk/lobe-ui/compare/v1.21.1...v1.21.2)
+
+<sup>Released on **2024-08-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add props to Markdown.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add props to Markdown ([bd2c66b](https://github.com/bentwnghk/lobe-ui/commit/bd2c66b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.21.1](https://github.com/bentwnghk/lobe-ui/compare/v1.21.0...v1.21.1)
 
 <sup>Released on **2024-08-13**</sup>

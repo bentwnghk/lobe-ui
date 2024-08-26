@@ -1,4 +1,4 @@
-import { EmojiPicker } from '@lobehub/ui';
+import { EmojiPicker } from '@bentwnghk/ui';
 import { useState } from 'react';
 
 export default () => {

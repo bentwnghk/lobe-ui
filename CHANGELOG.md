@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.23.2](https://github.com/bentwnghk/lobe-ui/compare/v1.23.1...v1.23.2)
+
+<sup>Released on **2024-09-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add new card style, Update Card style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add new card style ([38778e6](https://github.com/bentwnghk/lobe-ui/commit/38778e6))
+- **misc**: Update Card style ([5a4dbfd](https://github.com/bentwnghk/lobe-ui/commit/5a4dbfd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.23.1](https://github.com/bentwnghk/lobe-ui/compare/v1.23.0...v1.23.1)
 
 <sup>Released on **2024-09-23**</sup>

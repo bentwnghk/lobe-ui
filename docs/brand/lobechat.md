@@ -3,7 +3,7 @@ nav: Brand
 group: Combine
 title: LobeChat
 apiHeader:
-  pkg: '@lobehub/ui/brand'
+  pkg: '@bentwnghk/ui/brand'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/docs/brand/lobechat.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/brand/LobeChat.tsx'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Example
 
 ```tsx
-import { LobeChat } from '@lobehub/ui/brand';
+import { LobeChat } from '@bentwnghk/ui/brand';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

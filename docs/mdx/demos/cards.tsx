@@ -1,5 +1,5 @@
-import { Typography } from '@lobehub/ui';
-import { Card, Cards } from '@lobehub/ui/mdx';
+import { Typography } from '@bentwnghk/ui';
+import { Card, Cards } from '@bentwnghk/ui/mdx';
 import { Divider } from 'antd';
 import { Warehouse } from 'lucide-react';
 

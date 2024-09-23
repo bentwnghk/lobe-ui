@@ -3,7 +3,7 @@ nav: Mdx
 group: Built-ins
 title: Cards
 apiHeader:
-  pkg: '@lobehub/ui/mdx'
+  pkg: '@bentwnghk/ui/mdx'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/docs/mdx/cards.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/mdx/Cards/index.tsx'
 ---

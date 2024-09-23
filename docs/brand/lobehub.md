@@ -3,7 +3,7 @@ nav: Brand
 group: Combine
 title: LobeHub
 apiHeader:
-  pkg: '@lobehub/ui/brand'
+  pkg: '@bentwnghk/ui/brand'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/docs/brand/lobehub.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/brand/LobeHub.tsx'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Example
 
 ```tsx
-import { LobeHub } from '@lobehub/ui/brand';
+import { LobeHub } from '@bentwnghk/ui/brand';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

@@ -3,7 +3,7 @@ nav: Brand
 group: Components
 title: LobeHubText
 apiHeader:
-  pkg: '@lobehub/ui/brand'
+  pkg: '@bentwnghk/ui/brand'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/docs/brand/lobehub-text.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/brand/components/LobeHubText.tsx'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Example
 
 ```tsx
-import { LobeHubText } from '@lobehub/ui/brand';
+import { LobeHubText } from '@bentwnghk/ui/brand';
 
 export default () => <LobeHubText size={64} />;
 ```

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.23.4](https://github.com/bentwnghk/lobe-ui/compare/v1.23.3...v1.23.4)
+
+<sup>Released on **2024-10-14**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix markdown styles in safari.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix markdown styles in safari, closes [#210](https://github.com/bentwnghk/lobe-ui/issues/210) ([00060e4](https://github.com/bentwnghk/lobe-ui/commit/00060e4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.23.3](https://github.com/bentwnghk/lobe-ui/compare/v1.23.2...v1.23.3)
 
 <sup>Released on **2024-09-23**</sup>

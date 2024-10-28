@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@lobehub/ui';
+import { ThemeProvider } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { Flexbox } from 'react-layout-kit';
 

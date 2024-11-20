@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, List, ListItemProps } from '@lobehub/ui';
+import { ActionIcon, Avatar, List, ListItemProps } from '@bentwnghk/ui';
 import { MoreHorizontalIcon } from 'lucide-react';
 import { Flexbox } from 'react-layout-kit';
 

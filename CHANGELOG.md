@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.24.1](https://github.com/bentwnghk/lobe-ui/compare/v1.24.0...v1.24.1)
+
+<sup>Released on **2024-11-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix InnerContainer in MobileChatInputArea (fix, Fix type in ChatMessage (fix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix InnerContainer in MobileChatInputArea (fix, closes [#222](https://github.com/bentwnghk/lobe-ui/issues/222) ([e8919fa](https://github.com/bentwnghk/lobe-ui/commit/e8919fa))
+- **misc**: Fix type in ChatMessage (fix, closes [#221](https://github.com/bentwnghk/lobe-ui/issues/221) ([d3fe658](https://github.com/bentwnghk/lobe-ui/commit/d3fe658))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.24.0](https://github.com/bentwnghk/lobe-ui/compare/v1.23.5...v1.24.0)
 
 <sup>Released on **2024-10-28**</sup>

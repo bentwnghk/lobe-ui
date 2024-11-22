@@ -1,3 +1,3 @@
-import { AuroraBackground } from '@lobehub/ui';
+import { AuroraBackground } from '@bentwnghk/ui';
 
 export default () => <AuroraBackground />;

@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.25.0](https://github.com/bentwnghk/lobe-ui/compare/v1.24.1...v1.25.0)
+
+<sup>Released on **2024-11-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update dumi.
+
+#### ✨ Features
+
+- **misc**: Add AuroraBackground.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update dumi ([18a7beb](https://github.com/bentwnghk/lobe-ui/commit/18a7beb))
+
+#### What's improved
+
+- **misc**: Add AuroraBackground ([dfcc635](https://github.com/bentwnghk/lobe-ui/commit/dfcc635))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.24.1](https://github.com/bentwnghk/lobe-ui/compare/v1.24.0...v1.24.1)
 
 <sup>Released on **2024-11-20**</sup>

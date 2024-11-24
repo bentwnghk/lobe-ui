@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.25.2](https://github.com/bentwnghk/lobe-ui/compare/v1.25.1...v1.25.2)
+
+<sup>Released on **2024-11-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ssr.
+
+#### 💄 Styles
+
+- **misc**: Update Hero.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ssr ([46800e8](https://github.com/bentwnghk/lobe-ui/commit/46800e8))
+
+#### Styles
+
+- **misc**: Update Hero ([d0af37d](https://github.com/bentwnghk/lobe-ui/commit/d0af37d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.1](https://github.com/bentwnghk/lobe-ui/compare/v1.25.0...v1.25.1)
 
 <sup>Released on **2024-11-24**</sup>

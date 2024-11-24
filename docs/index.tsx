@@ -50,7 +50,7 @@ export default () => {
             antd-style
           </a>{' '}
           as the default css-in-js styling solution.
-        </div>
+        </p>
       </Center>
       <Highlighter language={'tsx'} style={{ width: '100%' }} type={'ghost'}>
         {example}

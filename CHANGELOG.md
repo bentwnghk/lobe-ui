@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.25.3](https://github.com/bentwnghk/lobe-ui/compare/v1.25.2...v1.25.3)
+
+<sup>Released on **2024-11-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build, Fix ssrInline.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix build ([b4ca490](https://github.com/bentwnghk/lobe-ui/commit/b4ca490))
+- **misc**: Fix ssrInline ([3d2c569](https://github.com/bentwnghk/lobe-ui/commit/3d2c569))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.2](https://github.com/bentwnghk/lobe-ui/compare/v1.25.1...v1.25.2)
 
 <sup>Released on **2024-11-24**</sup>

@@ -1,4 +1,4 @@
-import { Features, FeaturesProps, Highlighter, Snippet } from '@bentwnghk/ui';
+import { Features, FeaturesProps, Highlighter, Snippet } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { MoonStar, Palette, Zap } from 'lucide-react';
 import { Center } from 'react-layout-kit';
@@ -24,7 +24,7 @@ const items: FeaturesProps['items'] = [
   },
 ];
 
-const example = `import { ThemeProvider, GradientButton } from '@bentwnghk/ui'
+const example = `import { ThemeProvider, GradientButton } from '@lobehub/ui'
 
 export default () => (
   <ThemeProvider>
@@ -41,7 +41,7 @@ export default () => {
     >
       <Center>
         <h2 style={{ fontSize: 20, textAlign: 'center' }}>Start building your AIGC app now</h2>
-        <Snippet language={'bash'}>{'$ bun add @bentwnghk/ui'}</Snippet>
+        <Snippet language={'bash'}>{'$ bun add @lobehub/ui'}</Snippet>
         <p style={{ color: theme.colorTextSecondary, textAlign: 'center' }}>
           The Lobe UI components are developed based on{' '}
           <a href={'https://ant.design/components/overview'} rel="noreferrer" target={'_blank'}>

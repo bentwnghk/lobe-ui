@@ -35,11 +35,14 @@ export default () => (
 export default () => {
   const theme = useTheme();
   return (
-    <Center gap={48}>
+    <Center
+      gap={48}
+      style={{ maxWidth: 960, overflow: 'hidden', position: 'relative', width: '100%' }}
+    >
       <Center>
-        <h2 style={{ fontSize: 20 }}>🤯 Start building your AIGC app now</h2>
+        <h2 style={{ fontSize: 20, textAlign: 'center' }}>Start building your AIGC app now</h2>
         <Snippet language={'bash'}>{'$ bun add @bentwnghk/ui'}</Snippet>
-        <div style={{ color: theme.colorTextDescription, textAlign: 'center' }}>
+        <p style={{ color: theme.colorTextSecondary, textAlign: 'center' }}>
           The Lobe UI components are developed based on{' '}
           <a href={'https://ant.design/components/overview'} rel="noreferrer" target={'_blank'}>
             Antd components
@@ -52,7 +55,11 @@ export default () => {
           as the default css-in-js styling solution.
         </p>
       </Center>
-      <Highlighter language={'tsx'} style={{ width: '100%' }} type={'ghost'}>
+      <Highlighter
+        language={'tsx'}
+        style={{ background: theme.colorFillTertiary, width: '100%' }}
+        type={'ghost'}
+      >
         {example}
       </Highlighter>
       <Features items={items} />

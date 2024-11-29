@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.6](https://github.com/bentwnghk/lobe-ui/compare/v1.25.5...v1.25.6)
+
+<sup>Released on **2024-11-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update deps.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update deps ([65ebdbb](https://github.com/bentwnghk/lobe-ui/commit/65ebdbb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.5](https://github.com/bentwnghk/lobe-ui/compare/v1.25.4...v1.25.5)
 
 <sup>Released on **2024-11-26**</sup>

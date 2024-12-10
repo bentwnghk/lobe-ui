@@ -3,7 +3,7 @@ nav: Components
 group: Effect
 title: GridBackground
 apiHeader:
-  pkg: '@lobehub/ui/awesome'
+  pkg: '@bentwnghk/ui/awesome'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/GridBackground/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/GridBackground/index.tsx'
 ---

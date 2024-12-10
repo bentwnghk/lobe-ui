@@ -1,4 +1,4 @@
-import Pre, { PreMermaid, PreSingleLine } from '@lobehub/ui/mdx/mdxComponents/Pre';
+import Pre, { PreMermaid, PreSingleLine } from '@bentwnghk/ui/mdx/mdxComponents/Pre';
 import { FC } from 'react';
 
 import { type HighlighterProps } from '@/Highlighter';

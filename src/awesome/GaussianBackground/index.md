@@ -3,7 +3,7 @@ nav: Awesome
 group: Effect
 title: GaussianBackground
 apiHeader:
-  pkg: '@lobehub/ui/awesome'
+  pkg: '@bentwnghk/ui/awesome'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/GaussianBackground/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/GaussianBackground/index.tsx'
 ---

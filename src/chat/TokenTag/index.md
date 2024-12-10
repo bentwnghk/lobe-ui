@@ -4,7 +4,7 @@ group: Data Display
 title: TokenTag
 description: The TokenTag component is used to display a token tag with a FluentEmoji icon and a text indicating the remaining tokens.
 apiHeader:
-  pkg: '@lobehub/ui/chat'
+  pkg: '@bentwnghk/ui/chat'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/chat/TokenTag/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/chat/TokenTag/index.tsx'
 ---

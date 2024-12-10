@@ -3,7 +3,7 @@ nav: Awesome
 group: Data Display
 title: SpotlightCard
 apiHeader:
-  pkg: '@lobehub/ui/awesome'
+  pkg: '@bentwnghk/ui/awesome'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/SpotlightCard/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/awesome/SpotlightCard/index.tsx'
 ---

@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.25.9](https://github.com/bentwnghk/lobe-ui/compare/v1.25.8...v1.25.9)
+
+<sup>Released on **2024-12-10**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Split package.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix files in package.json.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Split package ([b3779de](https://github.com/bentwnghk/lobe-ui/commit/b3779de))
+
+#### What's fixed
+
+- **misc**: Fix files in package.json ([b187ad1](https://github.com/bentwnghk/lobe-ui/commit/b187ad1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.8](https://github.com/bentwnghk/lobe-ui/compare/v1.25.7...v1.25.8)
 
 <sup>Released on **2024-12-07**</sup>

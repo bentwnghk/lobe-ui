@@ -1,4 +1,5 @@
-import { StoryBook, Tooltip, TooltipProps, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Tooltip, TooltipProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Button } from 'antd';
 
 export default () => {

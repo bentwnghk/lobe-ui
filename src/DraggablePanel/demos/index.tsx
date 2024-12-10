@@ -1,10 +1,5 @@
-import {
-  DraggablePanel,
-  DraggablePanelProps,
-  StoryBook,
-  useControls,
-  useCreateStore,
-} from '@bentwnghk/ui';
+import { DraggablePanel, DraggablePanelProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => {

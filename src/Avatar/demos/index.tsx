@@ -1,4 +1,5 @@
-import { ActionIconProps, Avatar, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { type ActionIconProps, Avatar } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { useCdnFn } from '@/ConfigProvider';
 

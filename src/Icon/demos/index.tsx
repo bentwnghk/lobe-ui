@@ -1,4 +1,5 @@
-import { Icon, IconProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Icon, IconProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import * as LucideIcon from 'lucide-react';
 
 export default () => {

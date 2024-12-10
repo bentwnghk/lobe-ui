@@ -1,4 +1,5 @@
-import { Alert, AlertProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Alert, AlertProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

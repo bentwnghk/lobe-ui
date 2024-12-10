@@ -1,4 +1,5 @@
-import { Markdown, MarkdownProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Markdown, MarkdownProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { content } from '@/Markdown/demos/data';
 

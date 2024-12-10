@@ -1,10 +1,5 @@
-import {
-  FileTypeIcon,
-  FileTypeIconProps,
-  StoryBook,
-  useControls,
-  useCreateStore,
-} from '@bentwnghk/ui';
+import { FileTypeIcon, FileTypeIconProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

@@ -1,4 +1,5 @@
-import { Highlighter, HighlighterProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Highlighter, HighlighterProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { code } from './data';
 

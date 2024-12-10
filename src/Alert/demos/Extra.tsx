@@ -1,11 +1,5 @@
-import {
-  Alert,
-  AlertProps,
-  Highlighter,
-  StoryBook,
-  useControls,
-  useCreateStore,
-} from '@bentwnghk/ui';
+import { Alert, AlertProps, Highlighter } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 const demoError = {
   details: {

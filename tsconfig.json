@@ -16,7 +16,15 @@
       "@bentwnghk/ui/mdx": ["src/mdx"],
       "@bentwnghk/ui/mdx/*": ["src/mdx/*"],
       "@bentwnghk/ui/brand": ["src/brand"],
-      "@bentwnghk/ui/brand/*": ["src/brand/*"]
+      "@bentwnghk/ui/brand/*": ["src/brand/*"],
+      "@bentwnghk/ui/mobile": ["src/mobile"],
+      "@bentwnghk/ui/mobile/*": ["src/mobile/*"],
+      "@bentwnghk/ui/chat": ["src/chat"],
+      "@bentwnghk/ui/chat/*": ["src/chat/*"],
+      "@bentwnghk/ui/storybook": ["src/storybook"],
+      "@bentwnghk/ui/storybook/*": ["src/storybook/*"],
+      "@bentwnghk/ui/awesome": ["src/awesome"],
+      "@bentwnghk/ui/awesome/*": ["src/awesome/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,

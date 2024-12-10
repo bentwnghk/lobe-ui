@@ -1,10 +1,5 @@
-import {
-  ActionIconGroup,
-  ActionIconGroupProps,
-  StoryBook,
-  useControls,
-  useCreateStore,
-} from '@bentwnghk/ui';
+import { ActionIconGroup, ActionIconGroupProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { dropdownMenu, items } from './data';
 

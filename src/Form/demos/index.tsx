@@ -1,4 +1,5 @@
-import { Form, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Form } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Button } from 'antd';
 
 import { items } from '@/Form/demos/data';

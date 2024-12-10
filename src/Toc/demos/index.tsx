@@ -1,4 +1,5 @@
-import { StoryBook, Toc, type TocProps, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Toc, type TocProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 const items: TocProps['items'] = [
   {

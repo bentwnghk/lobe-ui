@@ -1,4 +1,5 @@
-import { ActionIcon, ActionIconProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { ActionIcon, ActionIconProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Settings } from 'lucide-react';
 
 export default () => {

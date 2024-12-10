@@ -1,7 +1,6 @@
-import { ActionIcon, Collapse, CollapseProps, StoryBook } from '@bentwnghk/ui';
+import { ActionIcon, Collapse, CollapseProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { SettingsIcon } from 'lucide-react';
-
-import { useControls, useCreateStore } from '@/index';
 
 const items: CollapseProps['items'] = [
   {

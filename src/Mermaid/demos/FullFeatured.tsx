@@ -1,4 +1,5 @@
-import { Mermaid, MermaidProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Mermaid, MermaidProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { code } from './data';
 

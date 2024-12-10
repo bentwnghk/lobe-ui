@@ -1,4 +1,5 @@
-import { Input, InputProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Input, InputProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

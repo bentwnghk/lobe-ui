@@ -1,4 +1,5 @@
-import { StoryBook, TabsNav, useControls, useCreateStore } from '@bentwnghk/ui';
+import { TabsNav } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

@@ -1,4 +1,5 @@
-import { Grid, GridProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Grid, GridProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

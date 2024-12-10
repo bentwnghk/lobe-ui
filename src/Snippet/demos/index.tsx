@@ -1,4 +1,5 @@
-import { Snippet, SnippetProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { Snippet, SnippetProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

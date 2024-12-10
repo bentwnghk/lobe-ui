@@ -1,11 +1,6 @@
 import { getEmoji, getEmojiNameByCharacter } from '@lobehub/fluent-emoji';
-import {
-  FluentEmoji,
-  type FluentEmojiProps,
-  StoryBook,
-  useControls,
-  useCreateStore,
-} from '@bentwnghk/ui';
+import { FluentEmoji, type FluentEmojiProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Button } from 'antd';
 import { Flexbox } from 'react-layout-kit';
 

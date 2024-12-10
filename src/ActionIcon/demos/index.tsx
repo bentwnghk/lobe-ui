@@ -1,4 +1,5 @@
-import { ActionIcon, ActionIconProps, StoryBook, useControls, useCreateStore } from '@bentwnghk/ui';
+import { ActionIcon, ActionIconProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { folder } from 'leva';
 import * as LucideIcon from 'lucide-react';
 

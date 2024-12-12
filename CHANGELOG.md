@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.10](https://github.com/bentwnghk/lobe-ui/compare/v1.25.9...v1.25.10)
+
+<sup>Released on **2024-12-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix shiki.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix shiki ([ae5e71e](https://github.com/bentwnghk/lobe-ui/commit/ae5e71e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.9](https://github.com/bentwnghk/lobe-ui/compare/v1.25.8...v1.25.9)
 
 <sup>Released on **2024-12-10**</sup>

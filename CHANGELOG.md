@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.25.11](https://github.com/bentwnghk/lobe-ui/compare/v1.25.10...v1.25.11)
+
+<sup>Released on **2024-12-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix useHighlight.
+
+#### 💄 Styles
+
+- **misc**: Add error output when shiki failed to highlight.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix useHighlight ([7067207](https://github.com/bentwnghk/lobe-ui/commit/7067207))
+
+#### Styles
+
+- **misc**: Add error output when shiki failed to highlight, closes [#234](https://github.com/bentwnghk/lobe-ui/issues/234) ([ef6729e](https://github.com/bentwnghk/lobe-ui/commit/ef6729e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.10](https://github.com/bentwnghk/lobe-ui/compare/v1.25.9...v1.25.10)
 
 <sup>Released on **2024-12-12**</sup>

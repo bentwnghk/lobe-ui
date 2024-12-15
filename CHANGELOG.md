@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.12](https://github.com/bentwnghk/lobe-ui/compare/v1.25.11...v1.25.12)
+
+<sup>Released on **2024-12-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Rm StyleProvider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Rm StyleProvider ([a4c45e1](https://github.com/bentwnghk/lobe-ui/commit/a4c45e1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.11](https://github.com/bentwnghk/lobe-ui/compare/v1.25.10...v1.25.11)
 
 <sup>Released on **2024-12-13**</sup>

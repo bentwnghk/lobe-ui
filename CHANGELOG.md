@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.13](https://github.com/bentwnghk/lobe-ui/compare/v1.25.12...v1.25.13)
+
+<sup>Released on **2024-12-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update CopyButton.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update CopyButton ([e492790](https://github.com/bentwnghk/lobe-ui/commit/e492790))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.12](https://github.com/bentwnghk/lobe-ui/compare/v1.25.11...v1.25.12)
 
 <sup>Released on **2024-12-15**</sup>

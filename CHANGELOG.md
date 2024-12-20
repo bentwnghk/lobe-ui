@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.26.0](https://github.com/bentwnghk/lobe-ui/compare/v1.25.13...v1.26.0)
+
+<sup>Released on **2024-12-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Parkles: highlighter supports setting default folding of code blocks.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Parkles: highlighter supports setting default folding of code blocks, closes [#236](https://github.com/bentwnghk/lobe-ui/issues/236) ([e18d1f8](https://github.com/bentwnghk/lobe-ui/commit/e18d1f8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.13](https://github.com/bentwnghk/lobe-ui/compare/v1.25.12...v1.25.13)
 
 <sup>Released on **2024-12-17**</sup>

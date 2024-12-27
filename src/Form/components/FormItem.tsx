@@ -1,3 +1,5 @@
+'use client';
+
 import { FormItemProps as AntdFormItemProps, Form } from 'antd';
 import { createStyles } from 'antd-style';
 import { isNumber } from 'lodash-es';
@@ -14,6 +16,10 @@ export const useStyles = createStyles(
       &.${prefixCls}-form-item {
         padding-block: 16px;
         padding-inline: 0;
+
+        .${prefixCls}-form-item-label {
+          text-align: start;
+        }
 
         .${prefixCls}-row {
           gap: 12px;

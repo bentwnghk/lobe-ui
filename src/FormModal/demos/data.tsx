@@ -1,4 +1,4 @@
-import type { FormProps } from '@lobehub/ui';
+import type { FormProps } from '@bentwnghk/ui';
 import { InputNumber, Segmented, Select, Switch } from 'antd';
 
 export const items: FormProps['items'] = [

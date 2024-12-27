@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.27.0](https://github.com/bentwnghk/lobe-ui/compare/v1.26.1...v1.27.0)
+
+<sup>Released on **2024-12-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add FormModal.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix FormModal, Fix FormModal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add FormModal ([8fad511](https://github.com/bentwnghk/lobe-ui/commit/8fad511))
+
+#### What's fixed
+
+- **misc**: Fix FormModal ([30e4cd7](https://github.com/bentwnghk/lobe-ui/commit/30e4cd7))
+- **misc**: Fix FormModal ([e57c42c](https://github.com/bentwnghk/lobe-ui/commit/e57c42c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.26.1](https://github.com/bentwnghk/lobe-ui/compare/v1.26.0...v1.26.1)
 
 <sup>Released on **2024-12-23**</sup>

@@ -1,7 +1,6 @@
 import { Button } from 'antd';
 import { useResponsive } from 'antd-style';
 import { forwardRef } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 import Form, { type FormInstance, type FormProps } from '@/Form';
 import Modal, { type ModalProps } from '@/Modal';
@@ -42,12 +41,13 @@ export interface FormModalProps extends PickModalProps, PickFormProps {
   classNames?: {
     form?: FormProps['className'];
   } & ModalProps['classNames'];
-  finishButtonProps?: ModalProps['okButtonProps'];
-  finishLoading?: ModalProps['confirmLoading'];
-  finishText?: ModalProps['okText'];
+  onSubmit?: ModalProps['onOk'];
   styles?: {
     form?: FormProps['style'];
   } & ModalProps['styles'];
+  submitButtonProps?: ModalProps['okButtonProps'];
+  submitLoading?: ModalProps['confirmLoading'];
+  submitText?: ModalProps['okText'];
 }
 
 const FormModal = forwardRef<FormInstance, FormModalProps>(
@@ -58,7 +58,6 @@ const FormModal = forwardRef<FormInstance, FormModalProps>(
       style,
       closable,
       styles = {},
-      children,
       allowFullscreen,
       title,
       wrapClassName,
@@ -81,12 +80,14 @@ const FormModal = forwardRef<FormInstance, FormModalProps>(
       forceRender,
       loading,
       footer,
-      finishButtonProps,
-      finishLoading,
+      submitButtonProps,
+      submitLoading,
       onFinish,
-      finishText,
+      submitText,
       variant = 'pure',
       gap,
+      onSubmit,
+      children,
       ...rest
     },
     ref,
@@ -106,7 +107,7 @@ const FormModal = forwardRef<FormInstance, FormModalProps>(
         classNames={modalClassNames}
         closable={closable}
         closeIcon={closeIcon}
-        confirmLoading={finishLoading}
+        confirmLoading={submitLoading}
         destroyOnClose={destroyOnClose}
         enableResponsive={enableResponsive}
         focusTriggerAfterClose={focusTriggerAfterClose}
@@ -135,38 +136,42 @@ const FormModal = forwardRef<FormInstance, FormModalProps>(
       >
         <Form
           className={cx(s.form, formClassName)}
+          classNames={{
+            footer: cx(s.footer, footerClassName),
+          }}
           clearOnDestroy={destroyOnClose}
+          footer={
+            footer || (
+              <Button
+                block
+                htmlType="submit"
+                loading={submitLoading}
+                onClick={onSubmit}
+                type={'primary'}
+                {...submitButtonProps}
+                style={{
+                  flex: 1,
+                  ...submitButtonProps?.style,
+                }}
+              >
+                {submitText || 'Submit'}
+              </Button>
+            )
+          }
           gap={gap || (variant === 'pure' ? 24 : gap)}
           onFinish={onFinish}
           ref={ref}
-          style={formStyle}
+          style={{
+            paddingBottom: 68,
+            ...formStyle,
+          }}
+          styles={{
+            footer: footerStyle,
+          }}
           variant={variant}
           {...rest}
         >
           {children}
-          <Flexbox
-            className={cx(s.footer, footerClassName)}
-            gap={8}
-            horizontal
-            style={footerStyle}
-            width={'100%'}
-          >
-            {footer || (
-              <Button
-                block
-                htmlType="submit"
-                loading={finishLoading}
-                type={'primary'}
-                {...finishButtonProps}
-                style={{
-                  flex: 1,
-                  ...finishButtonProps?.style,
-                }}
-              >
-                {finishText || 'Submit'}
-              </Button>
-            )}
-          </Flexbox>
         </Form>
       </Modal>
     );

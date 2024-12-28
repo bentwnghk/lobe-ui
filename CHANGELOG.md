@@ -2,6 +2,34 @@
 
 # Changelog
 
+### [Version 1.27.1](https://github.com/bentwnghk/lobe-ui/compare/v1.27.0...v1.27.1)
+
+<sup>Released on **2024-12-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add FormModal Demo, Support Multi Form, Update Form footer style, Update Form Props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add FormModal Demo ([fda8f94](https://github.com/bentwnghk/lobe-ui/commit/fda8f94))
+- **misc**: Support Multi Form ([c941be4](https://github.com/bentwnghk/lobe-ui/commit/c941be4))
+- **misc**: Update Form footer style ([9f58c9a](https://github.com/bentwnghk/lobe-ui/commit/9f58c9a))
+- **misc**: Update Form Props ([47fe030](https://github.com/bentwnghk/lobe-ui/commit/47fe030))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.27.0](https://github.com/bentwnghk/lobe-ui/compare/v1.26.1...v1.27.0)
 
 <sup>Released on **2024-12-27**</sup>

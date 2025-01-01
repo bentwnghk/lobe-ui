@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.3](https://github.com/bentwnghk/lobe-ui/compare/v1.27.2...v1.27.3)
+
+<sup>Released on **2025-01-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix FormModal Footer.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix FormModal Footer ([e513e31](https://github.com/bentwnghk/lobe-ui/commit/e513e31))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.2](https://github.com/bentwnghk/lobe-ui/compare/v1.27.1...v1.27.2)
 
 <sup>Released on **2025-01-01**</sup>

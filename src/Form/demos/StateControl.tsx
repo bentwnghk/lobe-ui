@@ -1,5 +1,5 @@
-import { Form, type FormProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Form, type FormProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { InputNumber, Segmented, Select, Switch } from 'antd';
 import { Palette, PanelLeftClose } from 'lucide-react';
 import { useState } from 'react';

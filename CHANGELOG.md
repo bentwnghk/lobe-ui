@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.28.0](https://github.com/bentwnghk/lobe-ui/compare/v1.27.3...v1.28.0)
+
+<sup>Released on **2025-01-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Add BrandLoading.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix sideEffects.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add BrandLoading ([0c08701](https://github.com/bentwnghk/lobe-ui/commit/0c08701))
+
+#### What's fixed
+
+- **misc**: Fix sideEffects ([19253fa](https://github.com/bentwnghk/lobe-ui/commit/19253fa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.3](https://github.com/bentwnghk/lobe-ui/compare/v1.27.2...v1.27.3)
 
 <sup>Released on **2025-01-01**</sup>

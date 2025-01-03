@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.28.1](https://github.com/bentwnghk/lobe-ui/compare/v1.28.0...v1.28.1)
+
+<sup>Released on **2025-01-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix BrandLoading size, Fix form group style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix BrandLoading size ([ccb9c4f](https://github.com/bentwnghk/lobe-ui/commit/ccb9c4f))
+- **misc**: Fix form group style ([69ec600](https://github.com/bentwnghk/lobe-ui/commit/69ec600))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.28.0](https://github.com/bentwnghk/lobe-ui/compare/v1.27.3...v1.28.0)
 
 <sup>Released on **2025-01-03**</sup>

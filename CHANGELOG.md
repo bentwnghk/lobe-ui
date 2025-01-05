@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.28.2](https://github.com/bentwnghk/lobe-ui/compare/v1.28.1...v1.28.2)
+
+<sup>Released on **2025-01-05**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix CodeEditor.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix CodeEditor ([90569fc](https://github.com/bentwnghk/lobe-ui/commit/90569fc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.1](https://github.com/bentwnghk/lobe-ui/compare/v1.28.0...v1.28.1)
 
 <sup>Released on **2025-01-03**</sup>

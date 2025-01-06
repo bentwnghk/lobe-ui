@@ -4,7 +4,7 @@ group: Components
 title: Mdx
 atomId: Mdx
 apiHeader:
-  pkg: '@lobehub/ui/mdx'
+  pkg: '@bentwnghk/ui/mdx'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/mdx/Mdx/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/mdx/Mdx/index.ts'
 ---

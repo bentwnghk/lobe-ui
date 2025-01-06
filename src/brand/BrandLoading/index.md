@@ -3,7 +3,7 @@ nav: Brand
 group: Components
 title: BrandLoading
 apiHeader:
-  pkg: '@lobehub/ui/brand'
+  pkg: '@bentwnghk/ui/brand'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/brand/BrandLoading/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/brand/BrandLoading/index.tsx'
 ---
@@ -11,13 +11,13 @@ apiHeader:
 ## Example
 
 ```tsx
-import { BrandLoading, LobeHubText } from '@lobehub/ui/brand';
+import { BrandLoading, LobeHubText } from '@bentwnghk/ui/brand';
 
 export default () => <BrandLoading text={LobeHubText} size={64} />;
 ```
 
 ```tsx
-import { BrandLoading, LobeChatText } from '@lobehub/ui/brand';
+import { BrandLoading, LobeChatText } from '@bentwnghk/ui/brand';
 
 export default () => <BrandLoading text={LobeChatText} size={64} />;
 ```

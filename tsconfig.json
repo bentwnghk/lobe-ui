@@ -8,6 +8,11 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6",
+    "types": ["vitest/globals"],
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
@@ -25,13 +30,15 @@
       "@bentwnghk/ui/storybook/*": ["src/storybook/*"],
       "@bentwnghk/ui/awesome": ["src/awesome"],
       "@bentwnghk/ui/awesome/*": ["src/awesome/*"]
-    },
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "es6",
-    "types": ["vitest/globals"]
+    }
   },
-  "exclude": ["mdx.d.ts", "brand.d.ts"],
+  "exclude": [
+    "mdx.d.ts",
+    "brand.d.ts",
+    "mobile.d.ts",
+    "chat.d.ts",
+    "storybook.d.ts",
+    "awesome.d.ts"
+  ],
   "include": ["src", "docs", "tests", ".dumirc.ts", ".fatherrc.ts"]
 }

@@ -2,6 +2,49 @@
 
 # Changelog
 
+## [Version 1.30.0](https://github.com/bentwnghk/lobe-ui/compare/v1.29.0...v1.30.0)
+
+<sup>Released on **2025-01-06**</sup>
+
+#### ✨ Features
+
+- **misc**: Add clean-package, Fix tsconfig, Support React 19.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix deps.
+
+#### 💄 Styles
+
+- **misc**: Add clean-publish.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add clean-package ([b710351](https://github.com/bentwnghk/lobe-ui/commit/b710351))
+- **misc**: Fix tsconfig ([3d15c90](https://github.com/bentwnghk/lobe-ui/commit/3d15c90))
+- **misc**: Support React 19 ([f6b2a29](https://github.com/bentwnghk/lobe-ui/commit/f6b2a29))
+
+#### What's fixed
+
+- **misc**: Fix deps ([3264d2a](https://github.com/bentwnghk/lobe-ui/commit/3264d2a))
+
+#### Styles
+
+- **misc**: Add clean-publish ([fc3d7a6](https://github.com/bentwnghk/lobe-ui/commit/fc3d7a6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.29.0](https://github.com/bentwnghk/lobe-ui/compare/v1.28.2...v1.29.0)
 
 <sup>Released on **2025-01-06**</sup>

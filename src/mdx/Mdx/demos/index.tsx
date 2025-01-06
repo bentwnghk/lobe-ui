@@ -1,5 +1,5 @@
-import { Mdx, MdxProps } from '@lobehub/ui/mdx';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Mdx, MdxProps } from '@bentwnghk/ui/mdx';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { content } from './data';
 

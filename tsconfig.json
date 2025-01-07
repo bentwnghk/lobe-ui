@@ -29,7 +29,9 @@
       "@bentwnghk/ui/storybook": ["src/storybook"],
       "@bentwnghk/ui/storybook/*": ["src/storybook/*"],
       "@bentwnghk/ui/awesome": ["src/awesome"],
-      "@bentwnghk/ui/awesome/*": ["src/awesome/*"]
+      "@bentwnghk/ui/awesome/*": ["src/awesome/*"],
+      "@bentwnghk/ui/color": ["src/color"],
+      "@bentwnghk/ui/color/*": ["src/color/*"]
     }
   },
   "exclude": [

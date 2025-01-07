@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.32.0](https://github.com/bentwnghk/lobe-ui/compare/v1.31.0...v1.32.0)
+
+<sup>Released on **2025-01-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Publish @lobehub/ui/color.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Publish @lobehub/ui/color ([48fb8dc](https://github.com/bentwnghk/lobe-ui/commit/48fb8dc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.31.0](https://github.com/bentwnghk/lobe-ui/compare/v1.30.0...v1.31.0)
 
 <sup>Released on **2025-01-07**</sup>

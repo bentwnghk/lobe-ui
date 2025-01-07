@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.31.0](https://github.com/bentwnghk/lobe-ui/compare/v1.30.0...v1.31.0)
+
+<sup>Released on **2025-01-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Update antd.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update antd ([ad2de6e](https://github.com/bentwnghk/lobe-ui/commit/ad2de6e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.30.0](https://github.com/bentwnghk/lobe-ui/compare/v1.29.0...v1.30.0)
 
 <sup>Released on **2025-01-06**</sup>

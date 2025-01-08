@@ -29,4 +29,4 @@ jobs:
         run: bun run build
 
       - name: Release
-        run: bunx pkg-pr-new publish
+        run: bunx pkg-pr-new publish --comment=update

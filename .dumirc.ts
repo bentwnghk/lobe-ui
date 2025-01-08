@@ -35,6 +35,12 @@ const themeConfig: SiteThemeConfig = {
       type: 'primary',
     },
   ],
+  analytics: {
+    plausible: {
+      domain: 'ui.lobehub.com',
+      scriptBaseUrl: 'https://plausible.lobehub-inc.cn',
+    },
+  },
   apiHeader: {
     docUrl: `{github}/tree/master/src/{atomId}/index.md`,
     match: ['/components'],
@@ -48,6 +54,7 @@ const themeConfig: SiteThemeConfig = {
     repo: 'lobehub/lobe-ui',
     repoId: 'R_kgDOJloKoA',
   },
+  lastUpdated: true,
   metadata: {
     openGraph: {
       image:
@@ -58,7 +65,7 @@ const themeConfig: SiteThemeConfig = {
   nav,
   prefersColor: {
     default: 'dark',
-    switch: true,
+    switch: false,
   },
   socialLinks: {
     discord: 'https://discord.gg/AYFPHvv2jT',
@@ -82,8 +89,10 @@ export default defineConfig({
   define: {
     'process.env': process.env,
   },
+  exportStatic: {},
   extraBabelPlugins: ['babel-plugin-antd-style'],
   favicons: ['https://lobehub.com/favicon.ico'],
+  jsMinifier: 'swc',
   locales: [{ id: 'en-US', name: 'English' }],
   mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
@@ -101,15 +110,10 @@ export default defineConfig({
     ],
     entryFile: isProduction ? './src/index.ts' : undefined,
   },
-  scripts: [
-    {
-      'data-domain': 'ui.lobehub.com',
-      'src': 'https://plausible.lobehub-inc.cn/js/script.js',
-    },
-  ],
   sitemap: {
     hostname: 'https://ui.lobehub.com',
   },
+  ssr: isProduction ? {} : false,
   styles: [
     `html, body { background: transparent;  }
 

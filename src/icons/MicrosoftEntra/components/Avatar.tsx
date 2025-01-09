@@ -1,6 +1,6 @@
 'use client';
 
-import { IconAvatar, type IconAvatarProps } from '@lobehub/icons';
+import { IconAvatar, type IconAvatarProps } from '@bentwnghk/icons';
 import { memo } from 'react';
 
 import { COLOR_PRIMARY, TITLE } from '../style';

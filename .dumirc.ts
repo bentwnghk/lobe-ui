@@ -85,7 +85,7 @@ const themeConfig: SiteThemeConfig = {
 };
 
 const alias: Record<string, string> = {};
-for (const pkg of packages) alias[`@lobehub/ui/${pkg}`] = resolve(__dirname, `./src/${pkg}`);
+for (const pkg of packages) alias[`@bentwnghk/ui/${pkg}`] = resolve(__dirname, `./src/${pkg}`);
 
 export default defineConfig({
   alias,

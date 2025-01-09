@@ -1,6 +1,6 @@
 'use client';
 
-import { type IconType, useFillId } from '@lobehub/icons';
+import { type IconType, useFillId } from '@bentwnghk/icons';
 import { forwardRef } from 'react';
 
 import { TITLE } from '../style';

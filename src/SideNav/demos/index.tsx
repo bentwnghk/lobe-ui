@@ -1,4 +1,5 @@
-import { ActionIcon, Logo, SideNav } from '@bentwnghk/ui';
+import { ActionIcon, SideNav } from '@bentwnghk/ui';
+import { LobeHub } from '@bentwnghk/ui/brand';
 import { Album, MessageSquare, Settings2 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -7,7 +8,7 @@ export default () => {
 
   return (
     <SideNav
-      avatar={<Logo size={40} />}
+      avatar={<LobeHub size={40} />}
       bottomActions={<ActionIcon icon={Settings2} />}
       topActions={
         <>

@@ -1,9 +1,10 @@
-import { ConfigProvider, Logo } from '@bentwnghk/ui';
+import { ConfigProvider } from '@bentwnghk/ui';
+import { LobeHub } from '@bentwnghk/ui/brand';
 
 export default () => {
   return (
     <ConfigProvider config={{ proxy: 'unpkg' }}>
-      <Logo />
+      <LobeHub />
     </ConfigProvider>
   );
 };

@@ -1,4 +1,4 @@
-import { LogoSpline, LogoThreeProps } from '@bentwnghk/ui';
+import { LogoSpline, LogoThreeProps } from '@bentwnghk/ui/brand';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {

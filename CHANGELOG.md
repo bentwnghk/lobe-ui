@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.34.0](https://github.com/bentwnghk/lobe-ui/compare/v1.33.1...v1.34.0)
+
+<sup>Released on **2025-01-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Auth Icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Auth Icons, closes [#242](https://github.com/bentwnghk/lobe-ui/issues/242) ([46ce0b6](https://github.com/bentwnghk/lobe-ui/commit/46ce0b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.1](https://github.com/bentwnghk/lobe-ui/compare/v1.33.0...v1.33.1)
 
 <sup>Released on **2025-01-08**</sup>

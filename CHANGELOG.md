@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.34.1](https://github.com/bentwnghk/lobe-ui/compare/v1.34.0...v1.34.1)
+
+<sup>Released on **2025-01-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix file type icon.
+
+#### 💄 Styles
+
+- **misc**: Improve brand text loading.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix file type icon, closes [#243](https://github.com/bentwnghk/lobe-ui/issues/243) ([03817d3](https://github.com/bentwnghk/lobe-ui/commit/03817d3))
+
+#### Styles
+
+- **misc**: Improve brand text loading, closes [#239](https://github.com/bentwnghk/lobe-ui/issues/239) ([f0ed033](https://github.com/bentwnghk/lobe-ui/commit/f0ed033))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.34.0](https://github.com/bentwnghk/lobe-ui/compare/v1.33.1...v1.34.0)
 
 <sup>Released on **2025-01-09**</sup>

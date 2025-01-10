@@ -10,4 +10,4 @@ export {
 } from './MicrosoftEntra';
 export { default as NextAuth, type CompoundedIcon as NextAuthProps } from './NextAuth';
 export { default as Zitadel, type CompoundedIcon as ZitadelProps } from './Zitadel';
-export { Cloudflare, type CloudflareProps, Github, type GithubProps } from '@lobehub/icons';
+export { Cloudflare, type CloudflareProps, Github, type GithubProps } from '@bentwnghk/icons';

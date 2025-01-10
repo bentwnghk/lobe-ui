@@ -1,4 +1,5 @@
-import { FileTypeIcon, FileTypeIconProps } from '@bentwnghk/ui/icons';
+import { FileTypeIcon, FileTypeIconProps } from '@bentwnghk/ui';
+
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {

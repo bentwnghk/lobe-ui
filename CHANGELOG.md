@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.34.4](https://github.com/bentwnghk/lobe-ui/compare/v1.34.3...v1.34.4)
+
+<sup>Released on **2025-01-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Code blocks cannot switch highlight languages (resolve, Fix Form vertical layout.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Code blocks cannot switch highlight languages (resolve, closes [#251](https://github.com/bentwnghk/lobe-ui/issues/251) ([465d2fe](https://github.com/bentwnghk/lobe-ui/commit/465d2fe))
+- **misc**: Fix Form vertical layout ([13bbb75](https://github.com/bentwnghk/lobe-ui/commit/13bbb75))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.3](https://github.com/bentwnghk/lobe-ui/compare/v1.34.2...v1.34.3)
 
 <sup>Released on **2025-01-24**</sup>

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.6](https://github.com/bentwnghk/lobe-ui/compare/v1.34.5...v1.34.6)
+
+<sup>Released on **2025-01-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve message editing.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve message editing, closes [#254](https://github.com/bentwnghk/lobe-ui/issues/254) ([1eddcfa](https://github.com/bentwnghk/lobe-ui/commit/1eddcfa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.5](https://github.com/bentwnghk/lobe-ui/compare/v1.34.4...v1.34.5)
 
 <sup>Released on **2025-01-27**</sup>

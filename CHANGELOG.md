@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.34.7](https://github.com/bentwnghk/lobe-ui/compare/v1.34.6...v1.34.7)
+
+<sup>Released on **2025-02-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add remark plugin ahead, Update form footer.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add remark plugin ahead, closes [#257](https://github.com/bentwnghk/lobe-ui/issues/257) ([9904ba0](https://github.com/bentwnghk/lobe-ui/commit/9904ba0))
+- **misc**: Update form footer ([ab6af8d](https://github.com/bentwnghk/lobe-ui/commit/ab6af8d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.6](https://github.com/bentwnghk/lobe-ui/compare/v1.34.5...v1.34.6)
 
 <sup>Released on **2025-01-27**</sup>

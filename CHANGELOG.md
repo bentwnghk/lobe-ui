@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.8](https://github.com/bentwnghk/lobe-ui/compare/v1.34.7...v1.34.8)
+
+<sup>Released on **2025-02-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Code blocks direction in lists.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Code blocks direction in lists, closes [#259](https://github.com/bentwnghk/lobe-ui/issues/259) ([af5ce46](https://github.com/bentwnghk/lobe-ui/commit/af5ce46))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.7](https://github.com/bentwnghk/lobe-ui/compare/v1.34.6...v1.34.7)
 
 <sup>Released on **2025-02-01**</sup>

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.9](https://github.com/bentwnghk/lobe-ui/compare/v1.34.8...v1.34.9)
+
+<sup>Released on **2025-02-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve message error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve message error, closes [#263](https://github.com/bentwnghk/lobe-ui/issues/263) ([ba83fb8](https://github.com/bentwnghk/lobe-ui/commit/ba83fb8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.8](https://github.com/bentwnghk/lobe-ui/compare/v1.34.7...v1.34.8)
 
 <sup>Released on **2025-02-05**</sup>

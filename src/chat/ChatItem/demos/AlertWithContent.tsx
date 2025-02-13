@@ -1,6 +1,6 @@
-import { Highlighter } from '@lobehub/ui';
-import { ChatItem, ChatItemProps } from '@lobehub/ui/chat';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Highlighter } from '@bentwnghk/ui';
+import { ChatItem, ChatItemProps } from '@bentwnghk/ui/chat';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 import { avatar } from './data';
 

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.11](https://github.com/bentwnghk/lobe-ui/compare/v1.34.10...v1.34.11)
+
+<sup>Released on **2025-02-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve editing width issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve editing width issue, closes [#264](https://github.com/bentwnghk/lobe-ui/issues/264) ([b1b4e5b](https://github.com/bentwnghk/lobe-ui/commit/b1b4e5b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.10](https://github.com/bentwnghk/lobe-ui/compare/v1.34.9...v1.34.10)
 
 <sup>Released on **2025-02-14**</sup>

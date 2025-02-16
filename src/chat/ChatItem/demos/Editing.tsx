@@ -1,4 +1,4 @@
-import { ChatItem } from '@lobehub/ui/chat';
+import { ChatItem } from '@bentwnghk/ui/chat';
 
 import { avatar } from './data';
 

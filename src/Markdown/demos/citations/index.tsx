@@ -1,4 +1,4 @@
-import { Markdown, SearchResultCards } from '@lobehub/ui';
+import { Markdown, SearchResultCards } from '@bentwnghk/ui';
 import { Divider, Radio } from 'antd';
 import { useState } from 'react';
 import { Flexbox } from 'react-layout-kit';

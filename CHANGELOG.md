@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.35.0](https://github.com/bentwnghk/lobe-ui/compare/v1.34.12...v1.35.0)
+
+<sup>Released on **2025-02-19**</sup>
+
+#### ✨ Features
+
+- **misc**: Support search citations.
+
+#### 💄 Styles
+
+- **misc**: Fix citation panel url max width.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support search citations, closes [#271](https://github.com/bentwnghk/lobe-ui/issues/271) ([b054c38](https://github.com/bentwnghk/lobe-ui/commit/b054c38))
+
+#### Styles
+
+- **misc**: Fix citation panel url max width ([cf2ad75](https://github.com/bentwnghk/lobe-ui/commit/cf2ad75))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.12](https://github.com/bentwnghk/lobe-ui/compare/v1.34.11...v1.34.12)
 
 <sup>Released on **2025-02-16**</sup>

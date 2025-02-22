@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.35.1](https://github.com/bentwnghk/lobe-ui/compare/v1.35.0...v1.35.1)
+
+<sup>Released on **2025-02-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add enableCustomFootnotes props, add enableCustomFootnotes props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add enableCustomFootnotes props, closes [#274](https://github.com/bentwnghk/lobe-ui/issues/274) ([1311456](https://github.com/bentwnghk/lobe-ui/commit/1311456))
+- **misc**: Add enableCustomFootnotes props, closes [#273](https://github.com/bentwnghk/lobe-ui/issues/273) ([c818497](https://github.com/bentwnghk/lobe-ui/commit/c818497))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.35.0](https://github.com/bentwnghk/lobe-ui/compare/v1.34.12...v1.35.0)
 
 <sup>Released on **2025-02-19**</sup>

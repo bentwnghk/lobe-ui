@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.4](https://github.com/bentwnghk/lobe-ui/compare/v1.35.3...v1.35.4)
+
+<sup>Released on **2025-03-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix chat item width.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix chat item width, closes [#290](https://github.com/bentwnghk/lobe-ui/issues/290) ([e05e432](https://github.com/bentwnghk/lobe-ui/commit/e05e432))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.3](https://github.com/bentwnghk/lobe-ui/compare/v1.35.2...v1.35.3)
 
 <sup>Released on **2025-03-08**</sup>

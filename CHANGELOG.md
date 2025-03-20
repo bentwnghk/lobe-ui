@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.5](https://github.com/bentwnghk/lobe-ui/compare/v1.35.4...v1.35.5)
+
+<sup>Released on **2025-03-20**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix Mermaid gantt render.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix Mermaid gantt render ([0b55bd3](https://github.com/bentwnghk/lobe-ui/commit/0b55bd3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.4](https://github.com/bentwnghk/lobe-ui/compare/v1.35.3...v1.35.4)
 
 <sup>Released on **2025-03-12**</sup>

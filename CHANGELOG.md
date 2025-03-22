@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.6](https://github.com/bentwnghk/lobe-ui/compare/v1.35.5...v1.35.6)
+
+<sup>Released on **2025-03-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix shiki theme (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix shiki theme (resolve, closes [#292](https://github.com/bentwnghk/lobe-ui/issues/292) ([35d8738](https://github.com/bentwnghk/lobe-ui/commit/35d8738))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.5](https://github.com/bentwnghk/lobe-ui/compare/v1.35.4...v1.35.5)
 
 <sup>Released on **2025-03-20**</sup>

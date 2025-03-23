@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.36.0](https://github.com/bentwnghk/lobe-ui/compare/v1.35.6...v1.36.0)
+
+<sup>Released on **2025-03-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add HotkeyInput, Add Hotkeys, Add zoom & pan support to mermaid.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Make `node` prop in LinkProps optional.
+
+#### 💄 Styles
+
+- **misc**: Update mermaid error style, Update mermaid theme.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add HotkeyInput ([c4be493](https://github.com/bentwnghk/lobe-ui/commit/c4be493))
+- **misc**: Add Hotkeys ([0d56289](https://github.com/bentwnghk/lobe-ui/commit/0d56289))
+- **misc**: Add zoom & pan support to mermaid ([abe9ea9](https://github.com/bentwnghk/lobe-ui/commit/abe9ea9))
+
+#### What's fixed
+
+- **misc**: Make `node` prop in LinkProps optional, closes [#295](https://github.com/bentwnghk/lobe-ui/issues/295) ([def6287](https://github.com/bentwnghk/lobe-ui/commit/def6287))
+
+#### Styles
+
+- **misc**: Update mermaid error style ([76f9fce](https://github.com/bentwnghk/lobe-ui/commit/76f9fce))
+- **misc**: Update mermaid theme ([d986574](https://github.com/bentwnghk/lobe-ui/commit/d986574))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.168.0](https://github.com/lobehub/lobe-ui/compare/v1.167.0...v1.168.0)
 
 <sup>Released on **2025-03-23**</sup>

@@ -1,5 +1,5 @@
-import { Hotkey, type HotkeyProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Hotkey, type HotkeyProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Center } from 'react-layout-kit';
 
 export default () => {

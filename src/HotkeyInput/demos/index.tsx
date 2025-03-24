@@ -1,5 +1,5 @@
-import { HotkeyInput, type HotkeyInputProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { HotkeyInput, type HotkeyInputProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useState } from 'react';
 
 const DEFAULT_VALUE = 'alt+k';

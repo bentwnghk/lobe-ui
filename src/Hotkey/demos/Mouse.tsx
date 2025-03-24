@@ -1,4 +1,4 @@
-import { Hotkey } from '@lobehub/ui';
+import { Hotkey } from '@bentwnghk/ui';
 import { Center } from 'react-layout-kit';
 
 export default () => {

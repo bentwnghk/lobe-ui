@@ -1,4 +1,4 @@
-import { Hotkey } from '@lobehub/ui';
+import { Hotkey } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { Center } from 'react-layout-kit';
 

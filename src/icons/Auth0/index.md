@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: Auth0
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Auth0/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Auth0/index.ts'
 ---

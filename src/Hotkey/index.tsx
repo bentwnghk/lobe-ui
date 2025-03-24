@@ -1,23 +1,58 @@
 'use client';
 
-import { isString } from 'lodash-es';
-import { ChevronUpIcon, Command, Delete, Option } from 'lucide-react';
+import {
+  ArrowBigUpIcon,
+  ArrowDownIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ArrowRightToLineIcon,
+  ArrowUpIcon,
+  ChevronUpIcon,
+  Command,
+  CornerDownLeftIcon,
+  Delete,
+  Grid2X2Icon,
+  MouseIcon,
+  Option,
+  SpaceIcon,
+} from 'lucide-react';
 import { type CSSProperties, memo, useEffect, useMemo, useState } from 'react';
 import { Flexbox, type FlexboxProps } from 'react-layout-kit';
 
 import Icon from '@/Icon';
 
+import LeftClickIcon from './components/LeftClickIcon';
+import RightClickIcon from './components/RightClickIcon';
 import { useStyles } from './style';
-import {
-  ALT_KEY,
-  BACKSPACE_KEY,
-  CONTROL_KEY,
-  META_KEY,
-  MOD_KEY,
-  checkIsAppleDevice,
-  splitKeysByPlus,
-  startCase,
-} from './utils';
+import { KeyMap } from './type';
+import { checkIsAppleDevice, splitKeysByPlus, startCase } from './utils';
+
+const mappingKey = (isAppleDevice: boolean) => ({
+  [KeyMap.Alt]: isAppleDevice ? <Icon icon={Option} /> : 'Alt',
+  [KeyMap.Backspace]: isAppleDevice ? <Icon icon={Delete} /> : 'Backspace',
+  [KeyMap.Ctrl]: isAppleDevice ? <Icon icon={ChevronUpIcon} /> : 'Ctrl',
+  [KeyMap.Down]: <Icon icon={ArrowDownIcon} />,
+  [KeyMap.Enter]: isAppleDevice ? <Icon icon={CornerDownLeftIcon} /> : 'Enter',
+  [KeyMap.LeftClick]: (
+    <Icon icon={LeftClickIcon} size={{ fontSize: '1.15em', strokeWidth: 1.75 }} />
+  ),
+  [KeyMap.Left]: <Icon icon={ArrowLeftIcon} />,
+  [KeyMap.Meta]: isAppleDevice ? <Icon icon={Command} /> : <Icon icon={Grid2X2Icon} />,
+  [KeyMap.MiddleClick]: <Icon icon={MouseIcon} size={{ fontSize: '1.15em', strokeWidth: 1.75 }} />,
+  [KeyMap.Mod]: isAppleDevice ? <Icon icon={Command} /> : 'Ctrl',
+  [KeyMap.RightClick]: (
+    <Icon icon={RightClickIcon} size={{ fontSize: '1.15em', strokeWidth: 1.75 }} />
+  ),
+  [KeyMap.Right]: <Icon icon={ArrowRightIcon} />,
+  [KeyMap.Shift]: isAppleDevice ? (
+    <Icon icon={ArrowBigUpIcon} size={{ fontSize: '1.15em', strokeWidth: 1.75 }} />
+  ) : (
+    'Shift'
+  ),
+  [KeyMap.Space]: <Icon icon={SpaceIcon} />,
+  [KeyMap.Tab]: isAppleDevice ? <Icon icon={ArrowRightToLineIcon} /> : 'Tab',
+  [KeyMap.Up]: <Icon icon={ArrowUpIcon} />,
+});
 
 export interface HotkeyProps extends Omit<FlexboxProps, 'children'> {
   classNames?: {
@@ -25,7 +60,6 @@ export interface HotkeyProps extends Omit<FlexboxProps, 'children'> {
     kbdClassName?: string;
   };
   compact?: boolean;
-  desc?: string;
   inverseTheme?: boolean;
   isApple?: boolean;
   keys: string;
@@ -36,34 +70,18 @@ export interface HotkeyProps extends Omit<FlexboxProps, 'children'> {
 }
 
 const Hotkey = memo<HotkeyProps>(
-  ({
-    classNames,
-    styles,
-    keys,
-    desc,
-    inverseTheme,
-    isApple,
-    compact,
-    className,
-    style,
-    ...rest
-  }) => {
+  ({ classNames, styles, keys, inverseTheme, isApple, compact, className, style, ...rest }) => {
     const { cx, styles: s } = useStyles(inverseTheme);
     const [keysGroup, setKeysGroup] = useState(splitKeysByPlus(keys));
     const visibility = typeof window === 'undefined' ? 'hidden' : 'visible';
     const isAppleDevice = useMemo(() => checkIsAppleDevice(isApple), [isApple]);
 
     useEffect(() => {
-      const mapping: Record<string, any> = {
-        [ALT_KEY]: isAppleDevice ? <Icon icon={Option} /> : 'alt',
-        [BACKSPACE_KEY]: isAppleDevice ? <Icon icon={Delete} /> : 'backspace',
-        [CONTROL_KEY]: isAppleDevice ? <Icon icon={ChevronUpIcon} /> : 'ctrl',
-        [META_KEY]: isAppleDevice ? <Icon icon={Command} /> : 'win',
-        [MOD_KEY]: isAppleDevice ? <Icon icon={Command} /> : 'ctrl',
-      };
-      const newValue = splitKeysByPlus(keys).map((k) => mapping[k] ?? k);
+      const newValue = splitKeysByPlus(keys);
       setKeysGroup(newValue);
-    }, [keys, isAppleDevice]);
+    }, [keys]);
+
+    const mapping: Record<string, any> = useMemo(() => mappingKey(isAppleDevice), [isAppleDevice]);
 
     return (
       <Flexbox
@@ -74,17 +92,6 @@ const Hotkey = memo<HotkeyProps>(
         style={{ visibility, ...style }}
         {...rest}
       >
-        {desc && (
-          <span
-            className={classNames?.descClassName}
-            style={{
-              marginRight: 10,
-              ...styles?.descStyle,
-            }}
-          >
-            {desc}
-          </span>
-        )}
         {compact ? (
           <Flexbox
             align={'center'}
@@ -95,13 +102,13 @@ const Hotkey = memo<HotkeyProps>(
             style={styles?.kbdStyle}
           >
             {keysGroup.map((key, index) => (
-              <div key={index}>{isString(key) ? startCase(key) : key}</div>
+              <div key={index}>{mapping[key] ?? startCase(key)}</div>
             ))}
           </Flexbox>
         ) : (
           keysGroup.map((key, index) => (
             <kbd className={classNames?.descClassName} key={index} style={styles?.kbdStyle}>
-              {isString(key) ? startCase(key) : key}
+              {mapping[key] ?? startCase(key)}
             </kbd>
           ))
         )}

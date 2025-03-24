@@ -1,9 +1,3 @@
-export const ALT_KEY = 'alt';
-export const MOD_KEY = 'mod';
-export const META_KEY = 'meta';
-export const BACKSPACE_KEY = 'backspace';
-export const CONTROL_KEY = 'ctrl';
-
 export const splitKeysByPlus = (keys: string): string[] => {
   const placeholder = 'PLACEHOLDER';
   const parts = keys.replaceAll('++', `+${placeholder}`).split('+');

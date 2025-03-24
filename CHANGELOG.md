@@ -2,6 +2,35 @@
 
 # Changelog
 
+### [Version 1.36.1](https://github.com/bentwnghk/lobe-ui/compare/v1.36.0...v1.36.1)
+
+<sup>Released on **2025-03-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Hotkey support to Tooltip, Export KeyMap, Update Hotkey and HotkeyInput, Update HotkeyInput props, Update HotkeyInput style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Hotkey support to Tooltip ([f04f13d](https://github.com/bentwnghk/lobe-ui/commit/f04f13d))
+- **misc**: Export KeyMap ([173c013](https://github.com/bentwnghk/lobe-ui/commit/173c013))
+- **misc**: Update Hotkey and HotkeyInput ([720c3c1](https://github.com/bentwnghk/lobe-ui/commit/720c3c1))
+- **misc**: Update HotkeyInput props ([a37d264](https://github.com/bentwnghk/lobe-ui/commit/a37d264))
+- **misc**: Update HotkeyInput style ([15e2c75](https://github.com/bentwnghk/lobe-ui/commit/15e2c75))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.36.0](https://github.com/bentwnghk/lobe-ui/compare/v1.35.6...v1.36.0)
 
 <sup>Released on **2025-03-23**</sup>

@@ -2,6 +2,35 @@
 
 # Changelog
 
+### [Version 1.36.3](https://github.com/bentwnghk/lobe-ui/compare/v1.36.2...v1.36.3)
+
+<sup>Released on **2025-03-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update EditableMessage hotkey display, Update Hotkey, Update HotkeyInput cursor style, Update KeyMapEnum, Update SearchBar hotkey.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update EditableMessage hotkey display ([0172722](https://github.com/bentwnghk/lobe-ui/commit/0172722))
+- **misc**: Update Hotkey ([3c2a1cf](https://github.com/bentwnghk/lobe-ui/commit/3c2a1cf))
+- **misc**: Update HotkeyInput cursor style ([2501388](https://github.com/bentwnghk/lobe-ui/commit/2501388))
+- **misc**: Update KeyMapEnum ([affde66](https://github.com/bentwnghk/lobe-ui/commit/affde66))
+- **misc**: Update SearchBar hotkey ([029e3a3](https://github.com/bentwnghk/lobe-ui/commit/029e3a3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.36.2](https://github.com/bentwnghk/lobe-ui/compare/v1.36.1...v1.36.2)
 
 <sup>Released on **2025-03-25**</sup>

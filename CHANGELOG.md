@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.36.2](https://github.com/bentwnghk/lobe-ui/compare/v1.36.1...v1.36.2)
+
+<sup>Released on **2025-03-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Remove chat item log.
+
+#### 💄 Styles
+
+- **misc**: Update remark-gfm config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Remove chat item log, closes [#302](https://github.com/bentwnghk/lobe-ui/issues/302) ([7718c2b](https://github.com/bentwnghk/lobe-ui/commit/7718c2b))
+
+#### Styles
+
+- **misc**: Update remark-gfm config ([e4f4466](https://github.com/bentwnghk/lobe-ui/commit/e4f4466))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.36.1](https://github.com/bentwnghk/lobe-ui/compare/v1.36.0...v1.36.1)
 
 <sup>Released on **2025-03-24**</sup>

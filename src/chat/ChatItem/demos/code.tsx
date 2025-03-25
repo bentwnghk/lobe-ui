@@ -1,5 +1,5 @@
-import { ActionIconGroup } from '@lobehub/ui';
-import { ChatItem } from '@lobehub/ui/chat';
+import { ActionIconGroup } from '@bentwnghk/ui';
+import { ChatItem } from '@bentwnghk/ui/chat';
 import { useState } from 'react';
 
 import { longCode } from './code';

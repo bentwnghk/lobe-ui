@@ -1,6 +1,8 @@
 import { createLucideIcon } from 'lucide-react';
 
-const RightClickIcon = createLucideIcon('right-click', [
+import { KeyMapEnum } from '../type';
+
+const Icon = createLucideIcon(KeyMapEnum.RightClick, [
   [
     'path',
     {
@@ -17,4 +19,4 @@ const RightClickIcon = createLucideIcon('right-click', [
   ],
 ]);
 
-export default RightClickIcon;
+export default Icon;

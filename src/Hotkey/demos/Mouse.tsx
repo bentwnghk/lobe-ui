@@ -1,12 +1,14 @@
-import { Hotkey } from '@bentwnghk/ui';
+import { Hotkey, KeyMapEnum } from '@bentwnghk/ui';
 import { Center } from 'react-layout-kit';
 
 export default () => {
   return (
     <Center gap={2} horizontal wrap={'wrap'}>
-      <Hotkey keys={'left-click'} />
-      <Hotkey keys={'right-click'} />
-      <Hotkey keys={'mid-click'} />
+      <Hotkey keys={KeyMapEnum.LeftClick} />
+      <Hotkey keys={KeyMapEnum.RightClick} />
+      <Hotkey keys={KeyMapEnum.MiddleClick} />
+      <Hotkey keys={KeyMapEnum.RightDoubleClick} />
+      <Hotkey keys={KeyMapEnum.LeftDoubleClick} />
     </Center>
   );
 };

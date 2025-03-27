@@ -57,9 +57,7 @@ export {
   type SyntaxHighlighterProps,
 } from './Highlighter';
 export { useChatListActionsBar } from './hooks/useChatListActionsBar';
-export { default as Hotkey, type HotkeyProps } from './Hotkey';
-export { KeyMapEnum } from './Hotkey/type';
-export { combineKeys } from './Hotkey/utils';
+export { combineKeys, default as Hotkey, type HotkeyProps, KeyMapEnum } from './Hotkey';
 export { default as HotkeyInput, type HotkeyInputProps } from './HotkeyInput';
 export { default as Icon, type IconProps, type IconSize } from './Icon';
 export * from './Icon/icons';
@@ -84,7 +82,7 @@ export {
 } from './Layout';
 export { default as List, type ListItemProps } from './List';
 export { default as Markdown, type MarkdownProps } from './Markdown';
-export { Typography, type TypographyProps } from './Markdown/Typography';
+export { default as Typography, type TypographyProps } from './Markdown/Typography';
 export {
   default as MaterialFileTypeIcon,
   type MaterialFileTypeIconProps,

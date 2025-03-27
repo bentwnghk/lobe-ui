@@ -1,31 +1,26 @@
 import { Markdown, MarkdownProps } from '@bentwnghk/ui';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
-import { content } from '@/Markdown/demos/data';
+import { content } from './data';
 
-const thinking = `<thinking>
-this is a thinking
-<thinking>
-`;
 export default () => {
   const store = useCreateStore();
-  const options: MarkdownProps | any = useControls(
+  const { children, ...rest }: MarkdownProps | any = useControls(
     {
       children: {
         rows: true,
-        value: thinking + '\n\n' + content,
+        value: content,
       },
-      variant: {
-        options: ['normal', 'chat'],
-        value: 'chat',
-      },
+      fullFeaturedCodeBlock: true,
     },
     { store },
   );
 
   return (
     <StoryBook levaStore={store}>
-      <Markdown {...options} />
+      <Markdown variant={'chat'} {...rest}>
+        {children}
+      </Markdown>
     </StoryBook>
   );
 };

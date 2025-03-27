@@ -2,6 +2,51 @@
 
 # Changelog
 
+### [Version 1.36.4](https://github.com/bentwnghk/lobe-ui/compare/v1.36.3...v1.36.4)
+
+<sup>Released on **2025-03-27**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor markdown.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix use client, Fix use client, Fix use client.
+
+#### 💄 Styles
+
+- **misc**: Update border color, Update hotkey variant, Update markdown style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor markdown, closes [#311](https://github.com/bentwnghk/lobe-ui/issues/311) ([02c48c8](https://github.com/bentwnghk/lobe-ui/commit/02c48c8))
+
+#### What's fixed
+
+- **misc**: Fix use client ([9c7ae09](https://github.com/bentwnghk/lobe-ui/commit/9c7ae09))
+- **misc**: Fix use client ([bdf0fc4](https://github.com/bentwnghk/lobe-ui/commit/bdf0fc4))
+- **misc**: Fix use client ([484b5ed](https://github.com/bentwnghk/lobe-ui/commit/484b5ed))
+
+#### Styles
+
+- **misc**: Update border color ([0aa59fe](https://github.com/bentwnghk/lobe-ui/commit/0aa59fe))
+- **misc**: Update hotkey variant ([6e0315c](https://github.com/bentwnghk/lobe-ui/commit/6e0315c))
+- **misc**: Update markdown style ([a1c5798](https://github.com/bentwnghk/lobe-ui/commit/a1c5798))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.36.3](https://github.com/bentwnghk/lobe-ui/compare/v1.36.2...v1.36.3)
 
 <sup>Released on **2025-03-25**</sup>

@@ -64,7 +64,7 @@ const mappingKey = (isAppleDevice: boolean) => ({
   [KeyMapEnum.Up]: <Icon icon={ArrowUpIcon} />,
   [KeyMapEnum.Comma]: ',',
   [KeyMapEnum.Period]: '.',
-  [KeyMapEnum.Slash]: '/',
+  [KeyMapEnum.Slash]: '?',
   [KeyMapEnum.Semicolon]: ';',
   [KeyMapEnum.Quote]: "'",
   [KeyMapEnum.Backquote]: '`',
@@ -72,7 +72,7 @@ const mappingKey = (isAppleDevice: boolean) => ({
   [KeyMapEnum.BracketLeft]: '[',
   [KeyMapEnum.BracketRight]: ']',
   [KeyMapEnum.Minus]: '-',
-  [KeyMapEnum.Equal]: '=',
+  [KeyMapEnum.Equal]: '+',
 });
 
 export interface HotkeyProps extends Omit<FlexboxProps, 'children'> {
@@ -121,7 +121,7 @@ const Hotkey = memo<HotkeyProps>(
       <Flexbox
         align={'center'}
         className={cx(s, className)}
-        gap={2}
+        gap={isPure ? 6 : 2}
         horizontal
         style={{ visibility, ...style }}
         {...rest}

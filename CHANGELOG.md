@@ -2,6 +2,42 @@
 
 # Changelog
 
+## [Version 1.37.0](https://github.com/bentwnghk/lobe-ui/compare/v1.36.4...v1.37.0)
+
+<sup>Released on **2025-03-28**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Draw.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix export, Fix highlight, Fix HotkeyInput reset on record, Fix mermaid id.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Draw ([d190493](https://github.com/bentwnghk/lobe-ui/commit/d190493))
+
+#### What's fixed
+
+- **misc**: Fix export ([b99d129](https://github.com/bentwnghk/lobe-ui/commit/b99d129))
+- **misc**: Fix highlight ([bc46aa4](https://github.com/bentwnghk/lobe-ui/commit/bc46aa4))
+- **misc**: Fix HotkeyInput reset on record ([cc30905](https://github.com/bentwnghk/lobe-ui/commit/cc30905))
+- **misc**: Fix mermaid id ([4e3d337](https://github.com/bentwnghk/lobe-ui/commit/4e3d337))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.36.4](https://github.com/bentwnghk/lobe-ui/compare/v1.36.3...v1.36.4)
 
 <sup>Released on **2025-03-27**</sup>

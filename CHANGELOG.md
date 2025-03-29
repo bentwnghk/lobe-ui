@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.37.1](https://github.com/bentwnghk/lobe-ui/compare/v1.37.0...v1.37.1)
+
+<sup>Released on **2025-03-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refacotr form.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refacotr form, closes [#315](https://github.com/bentwnghk/lobe-ui/issues/315) ([472f1c8](https://github.com/bentwnghk/lobe-ui/commit/472f1c8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.37.0](https://github.com/bentwnghk/lobe-ui/compare/v1.36.4...v1.37.0)
 
 <sup>Released on **2025-03-28**</sup>

@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.38.0](https://github.com/bentwnghk/lobe-ui/compare/v1.37.1...v1.38.0)
+
+<sup>Released on **2025-03-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add ColorSwatches.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Avatar, Fix ColorSwatches switch, Fix mermaid on switch theme.
+
+#### 💄 Styles
+
+- **misc**: Fix Form style, Update ColorSwatches style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add ColorSwatches ([e5aa646](https://github.com/bentwnghk/lobe-ui/commit/e5aa646))
+
+#### What's fixed
+
+- **misc**: Fix Avatar ([851ba65](https://github.com/bentwnghk/lobe-ui/commit/851ba65))
+- **misc**: Fix ColorSwatches switch ([51e4ccc](https://github.com/bentwnghk/lobe-ui/commit/51e4ccc))
+- **misc**: Fix mermaid on switch theme ([aba43ee](https://github.com/bentwnghk/lobe-ui/commit/aba43ee))
+
+#### Styles
+
+- **misc**: Fix Form style ([2e5e202](https://github.com/bentwnghk/lobe-ui/commit/2e5e202))
+- **misc**: Update ColorSwatches style ([c10ec8f](https://github.com/bentwnghk/lobe-ui/commit/c10ec8f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.37.1](https://github.com/bentwnghk/lobe-ui/compare/v1.37.0...v1.37.1)
 
 <sup>Released on **2025-03-29**</sup>

@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.38.1](https://github.com/bentwnghk/lobe-ui/compare/v1.38.0...v1.38.1)
+
+<sup>Released on **2025-03-30**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Drawer style, Update SumbitFooter.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Drawer style ([80261d8](https://github.com/bentwnghk/lobe-ui/commit/80261d8))
+- **misc**: Update SumbitFooter ([39ad9b9](https://github.com/bentwnghk/lobe-ui/commit/39ad9b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.38.0](https://github.com/bentwnghk/lobe-ui/compare/v1.37.1...v1.38.0)
 
 <sup>Released on **2025-03-30**</sup>

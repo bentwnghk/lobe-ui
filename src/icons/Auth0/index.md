@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { Auth0 } from '@lobehub/ui/icons';
+import { Auth0 } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Auth0 size={64} />;

@@ -1,5 +1,5 @@
-import { ColorSwatches, type ColorSwatchesProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { ColorSwatches, type ColorSwatchesProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useTheme } from 'antd-style';
 
 export default () => {

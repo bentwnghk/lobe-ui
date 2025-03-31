@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.38.2](https://github.com/bentwnghk/lobe-ui/compare/v1.38.1...v1.38.2)
+
+<sup>Released on **2025-03-31**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add colorBgContainerSecondary, Update darkmode style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add colorBgContainerSecondary ([cbab68b](https://github.com/bentwnghk/lobe-ui/commit/cbab68b))
+- **misc**: Update darkmode style ([72f6b63](https://github.com/bentwnghk/lobe-ui/commit/72f6b63))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.38.1](https://github.com/bentwnghk/lobe-ui/compare/v1.38.0...v1.38.1)
 
 <sup>Released on **2025-03-30**</sup>

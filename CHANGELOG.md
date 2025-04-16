@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.39.0](https://github.com/bentwnghk/lobe-ui/compare/v1.38.2...v1.39.0)
+
+<sup>Released on **2025-04-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Add tooltipHotkey prop to ActionIcon component.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add tooltipHotkey prop to ActionIcon component, closes [#324](https://github.com/bentwnghk/lobe-ui/issues/324) ([d6e8a63](https://github.com/bentwnghk/lobe-ui/commit/d6e8a63))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.38.2](https://github.com/bentwnghk/lobe-ui/compare/v1.38.1...v1.38.2)
 
 <sup>Released on **2025-03-31**</sup>

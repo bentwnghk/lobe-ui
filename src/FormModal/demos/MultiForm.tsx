@@ -1,6 +1,5 @@
-import { Form, FormModal } from '@bentwnghk/ui';
+import { Button, Form, FormModal } from '@bentwnghk/ui';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
-import { Button } from 'antd';
 import { useState } from 'react';
 
 import { items } from './data';
@@ -26,8 +25,8 @@ export default () => {
   const { variant }: any = useControls(
     {
       variant: {
-        options: ['default', 'block', 'ghost', 'pure'],
-        value: 'pure',
+        options: ['borderless', 'filled', 'outlined'],
+        value: 'borderless',
       },
     },
     { store },

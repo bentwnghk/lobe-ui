@@ -1,4 +1,4 @@
-import { Giscus } from '@bentwnghk/ui';
+import { Giscus } from '@bentwnghk/ui/awesome';
 
 export default () => {
   return (

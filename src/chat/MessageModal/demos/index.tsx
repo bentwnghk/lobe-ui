@@ -1,5 +1,5 @@
+import { Button } from '@bentwnghk/ui';
 import { MessageModal } from '@bentwnghk/ui/chat';
-import { Button } from 'antd';
 import { useState } from 'react';
 
 export default () => {

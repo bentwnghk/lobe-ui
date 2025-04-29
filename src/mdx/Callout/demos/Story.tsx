@@ -1,10 +1,10 @@
 import { Typography } from '@bentwnghk/ui';
-import { Callout } from '@bentwnghk/ui/mdx';
+import { Callout, type CalloutProps } from '@bentwnghk/ui/mdx';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();
-  const { content, type }: any = useControls(
+  const { content, type } = useControls(
     {
       content: 'A callout is a short piece of text intended to attract attention.',
       type: {
@@ -13,7 +13,7 @@ export default () => {
       },
     },
     { store },
-  );
+  ) as CalloutProps;
 
   return (
     <StoryBook levaStore={store}>

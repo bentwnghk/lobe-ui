@@ -1,5 +1,4 @@
-import { Markdown } from '@bentwnghk/ui';
-import { Button } from 'antd';
+import { Button, Markdown } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { PropsWithChildren, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';

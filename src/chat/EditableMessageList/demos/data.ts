@@ -1,4 +1,4 @@
-import { LLMMessage } from '@bentwnghk/ui';
+import type { LLMMessage } from '@bentwnghk/ui/chat';
 
 export const data: LLMMessage[] = [
   {

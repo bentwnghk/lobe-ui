@@ -1,5 +1,5 @@
-import { Modal } from '@bentwnghk/ui';
-import { Button, Typography } from 'antd';
+import { Button, Modal } from '@bentwnghk/ui';
+import { Typography } from 'antd';
 import { useState } from 'react';
 
 export default () => {

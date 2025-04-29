@@ -3,20 +3,21 @@ import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook'
 
 export default () => {
   const store = useCreateStore();
-  const control: SnippetProps | any = useControls(
+  const control = useControls(
     {
       children: 'pnpm install @bentwnghk/ui',
       copyable: true,
       language: 'sh',
+      prefix: '$',
+      shadow: false,
       spotlight: false,
-      symbol: '$',
-      type: {
-        options: ['ghost', 'block'],
-        value: 'ghost',
+      variant: {
+        options: ['filled', 'outlined', 'borderless'],
+        value: 'filled',
       },
     },
     { store },
-  );
+  ) as SnippetProps;
 
   return (
     <StoryBook levaStore={store}>

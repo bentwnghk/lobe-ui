@@ -1,9 +1,32 @@
-import { ThemeSwitch } from '@bentwnghk/ui';
+import { ThemeSwitch, type ThemeSwitchProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { type ThemeMode } from 'antd-style';
 import { useState } from 'react';
 
 export default () => {
   const [themeMode, setThemeMode] = useState<ThemeMode>('auto');
+  const store = useCreateStore();
+  const control = useControls(
+    {
+      size: {
+        options: ['large', 'middle', 'small'],
+        value: 'middle',
+      },
+      type: {
+        options: ['icon', 'select'],
+        value: 'icon',
+      },
+      variant: {
+        options: ['borderless', 'filled', 'outlined'],
+        value: 'borderless',
+      },
+    },
+    { store },
+  ) as ThemeSwitchProps;
 
-  return <ThemeSwitch onThemeSwitch={setThemeMode} themeMode={themeMode} />;
+  return (
+    <StoryBook levaStore={store}>
+      <ThemeSwitch {...control} onThemeSwitch={setThemeMode} themeMode={themeMode} />
+    </StoryBook>
+  );
 };

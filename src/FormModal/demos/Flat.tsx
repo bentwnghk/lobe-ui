@@ -1,6 +1,6 @@
-import { FormModal, type FormProps } from '@bentwnghk/ui';
+import { Button, FormModal, type FormProps, Select } from '@bentwnghk/ui';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
-import { Button, Select, Switch } from 'antd';
+import { Switch } from 'antd';
 import { useState } from 'react';
 
 const setting = {
@@ -48,8 +48,8 @@ export default () => {
   const { variant }: any = useControls(
     {
       variant: {
-        options: ['default', 'block', 'ghost', 'pure'],
-        value: 'pure',
+        options: ['borderless', 'filled', 'outlined'],
+        value: 'borderless',
       },
     },
     { store },

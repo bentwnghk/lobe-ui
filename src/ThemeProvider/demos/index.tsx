@@ -1,5 +1,4 @@
-import { ThemeProvider } from '@bentwnghk/ui';
-import { Button } from 'antd';
+import { Button, ThemeProvider } from '@bentwnghk/ui';
 
 export default () => {
   return (

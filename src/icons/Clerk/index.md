@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: Clerk
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Clerk/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Clerk/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { Clerk } from '@lobehub/ui/icons';
+import { Clerk } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Clerk size={64} />;
@@ -20,7 +20,7 @@ export default () => <Clerk size={64} />;
 ## Color
 
 ```tsx
-import { Clerk } from '@lobehub/ui/icons';
+import { Clerk } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Clerk.Color size={64} />;
@@ -29,7 +29,7 @@ export default () => <Clerk.Color size={64} />;
 ## Avatars
 
 ```tsx
-import { Clerk } from '@lobehub/ui/icons';
+import { Clerk } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

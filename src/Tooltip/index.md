@@ -30,7 +30,7 @@ The Tooltip component includes special integration with the Hotkey component. Wh
 Example:
 
 ```tsx
-import { Button, Tooltip } from '@lobehub/ui';
+import { Button, Tooltip } from '@bentwnghk/ui';
 
 export default () => (
   <Tooltip title="Search" hotkey="mod+k">

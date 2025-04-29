@@ -42,7 +42,7 @@ Additionally, Hotkey accepts all properties from the Flexbox component except fo
 The `keys` prop should be a string with keys separated by `+`. For example:
 
 ```tsx
-import { Hotkey } from '@lobehub/ui';
+import { Hotkey } from '@bentwnghk/ui';
 
 export default () => {
   return (
@@ -62,7 +62,7 @@ export default () => {
 For convenience, common keys are available as constants via the exported `KeyMapEnum` object:
 
 ```tsx
-import { Hotkey, KeyMapEnum } from '@lobehub/ui';
+import { Hotkey, KeyMapEnum } from '@bentwnghk/ui';
 
 export default () => {
   return (

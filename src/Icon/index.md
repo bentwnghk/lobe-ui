@@ -58,7 +58,7 @@ For more fine-grained control, you can provide a configuration object:
 The Icon component can be wrapped with IconProvider to set default properties for all icons within its scope:
 
 ```tsx
-import { Icon, IconProvider } from '@lobehub/ui';
+import { Icon, IconProvider } from '@bentwnghk/ui';
 import { PlusCircle, Settings } from 'lucide-react';
 
 export default () => (

@@ -1,5 +1,5 @@
-import { Avatar, type AvatarGroupProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Avatar, type AvatarGroupProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 const url = 'https://avatars.githubusercontent.com/u/17870709?v=4';
 

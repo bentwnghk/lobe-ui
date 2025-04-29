@@ -1,4 +1,4 @@
-import { type DropdownProps, Icon } from '@lobehub/ui';
+import { type DropdownProps, Icon } from '@bentwnghk/ui';
 import { BoxSelectIcon, CopyIcon, ZoomInIcon, ZoomOutIcon } from 'lucide-react';
 
 export const menu: DropdownProps['menu'] = {

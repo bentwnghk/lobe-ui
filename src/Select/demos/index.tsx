@@ -1,5 +1,5 @@
-import { Select, SelectProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Select, SelectProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);

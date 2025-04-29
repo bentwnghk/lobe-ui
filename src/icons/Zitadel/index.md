@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: Zitadel
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Zitadel/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Zitadel/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { Zitadel } from '@lobehub/ui/icons';
+import { Zitadel } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Zitadel size={64} />;
@@ -20,7 +20,7 @@ export default () => <Zitadel size={64} />;
 ## Color
 
 ```tsx
-import { Zitadel } from '@lobehub/ui/icons';
+import { Zitadel } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Zitadel.Color size={64} />;
@@ -29,7 +29,7 @@ export default () => <Zitadel.Color size={64} />;
 ## Avatars
 
 ```tsx
-import { Zitadel } from '@lobehub/ui/icons';
+import { Zitadel } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

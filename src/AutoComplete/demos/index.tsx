@@ -1,5 +1,5 @@
-import { AutoComplete, AutoCompleteProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { AutoComplete, AutoCompleteProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useState } from 'react';
 
 export default () => {

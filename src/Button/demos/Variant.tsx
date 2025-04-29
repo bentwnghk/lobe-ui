@@ -1,4 +1,4 @@
-import { Button } from '@lobehub/ui';
+import { Button } from '@bentwnghk/ui';
 import { Divider } from 'antd';
 import { Flexbox } from 'react-layout-kit';
 

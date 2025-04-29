@@ -1,5 +1,5 @@
-import { Menu, type MenuProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Menu, type MenuProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

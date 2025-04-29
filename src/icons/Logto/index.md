@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: Logto
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Logto/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Logto/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { Logto } from '@lobehub/ui/icons';
+import { Logto } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Logto size={64} />;
@@ -20,7 +20,7 @@ export default () => <Logto size={64} />;
 ## Color
 
 ```tsx
-import { Logto } from '@lobehub/ui/icons';
+import { Logto } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Logto.Color size={64} />;
@@ -29,7 +29,7 @@ export default () => <Logto.Color size={64} />;
 ## Avatars
 
 ```tsx
-import { Logto } from '@lobehub/ui/icons';
+import { Logto } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

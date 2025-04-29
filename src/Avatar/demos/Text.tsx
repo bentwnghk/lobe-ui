@@ -1,4 +1,4 @@
-import { Avatar } from '@lobehub/ui';
+import { Avatar } from '@bentwnghk/ui';
 import { Center } from 'react-layout-kit';
 
 export default () => {

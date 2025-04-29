@@ -1,5 +1,5 @@
-import { ActionIcon, Tag } from '@lobehub/ui';
-import { ChatHeader } from '@lobehub/ui/mobile';
+import { ActionIcon, Tag } from '@bentwnghk/ui';
+import { ChatHeader } from '@bentwnghk/ui/mobile';
 import { MessageCircle } from 'lucide-react';
 import { Flexbox } from 'react-layout-kit';
 

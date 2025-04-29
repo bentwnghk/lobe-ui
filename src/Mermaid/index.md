@@ -22,7 +22,7 @@ description: Mermaid is a component for rendering Mermaid diagrams in React. It 
 ### Flowchart
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const flowchart = `flowchart LR
     A[Hard edge] -->|Link text| B(Round edge)
@@ -39,7 +39,7 @@ export default () => {
 ### Sequence Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const sequenceDiagram = `sequenceDiagram
     autonumber
@@ -61,7 +61,7 @@ export default () => {
 ### Class Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const classDiagram = `classDiagram
     note "From Duck till Zebra"
@@ -96,7 +96,7 @@ export default () => {
 ### State Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const stateDiagram = `stateDiagram-v2
     [*] --> Still
@@ -116,7 +116,7 @@ export default () => {
 ### Entity Relationship Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const erDiagram = `
 erDiagram
@@ -133,7 +133,7 @@ export default () => {
 ### User Journey Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const userJourney = `journey
     title My working day
@@ -154,7 +154,7 @@ export default () => {
 ### Gantt
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const gantt = `gantt
     title A Gantt Diagram
@@ -175,7 +175,7 @@ export default () => {
 ### Pie Chart
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const pie = `pie title Pets adopted by volunteers
     "Dogs" : 386
@@ -191,7 +191,7 @@ export default () => {
 ### Quadrant Chart
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const quadrantChart = `quadrantChart
     title Reach and engagement of campaigns
@@ -217,7 +217,7 @@ export default () => {
 ### Requirement Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const requirementDiagram = `requirementDiagram
 
@@ -243,7 +243,7 @@ export default () => {
 ### Gitgraph Diagrams
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const gitGraph = `gitGraph
    commit
@@ -266,7 +266,7 @@ export default () => {
 ### Mindmap
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const mindmap = `mindmap
   root((mindmap))
@@ -295,7 +295,7 @@ export default () => {
 ### Timeline Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const timeline = `timeline
     title History of Social Media Platform
@@ -314,7 +314,7 @@ export default () => {
 ### Sankey diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const sankey = `sankey-beta
 
@@ -332,7 +332,7 @@ export default () => {
 ### XY Chart
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const xychart = `xychart-beta
     title "Sales Revenue"
@@ -351,7 +351,7 @@ export default () => {
 ### Kanban Diagram
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const kanban = `kanban
   column1[Column Title]
@@ -366,7 +366,7 @@ export default () => {
 ### Architecture Diagrams
 
 ```tsx
-import { Mermaid } from '@lobehub/ui';
+import { Mermaid } from '@bentwnghk/ui';
 
 const architecture = `architecture-beta
     group api(cloud)[API]

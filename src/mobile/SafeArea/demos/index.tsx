@@ -1,4 +1,4 @@
-import { SafeArea } from '@lobehub/ui/mobile';
+import { SafeArea } from '@bentwnghk/ui/mobile';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => {

@@ -46,7 +46,7 @@ The ThemeProvider component provides several key features:
 The ThemeProvider allows for extensive customization:
 
 ```tsx
-import { ThemeProvider } from '@lobehub/ui';
+import { ThemeProvider } from '@bentwnghk/ui';
 
 export default () => (
   <ThemeProvider

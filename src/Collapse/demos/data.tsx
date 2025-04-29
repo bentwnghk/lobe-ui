@@ -1,4 +1,4 @@
-import { ActionIcon, type CollapseProps } from '@lobehub/ui';
+import { ActionIcon, type CollapseProps } from '@bentwnghk/ui';
 import { SettingsIcon } from 'lucide-react';
 
 export const items: CollapseProps['items'] = [

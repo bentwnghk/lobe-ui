@@ -1,4 +1,4 @@
-import { Image } from '@lobehub/ui';
+import { Image } from '@bentwnghk/ui';
 
 const url = 'https://error';
 

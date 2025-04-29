@@ -1,4 +1,4 @@
-import { Icon, type ItemType } from '@lobehub/ui';
+import { Icon, type ItemType } from '@bentwnghk/ui';
 import { AppleIcon, MailIcon, SettingsIcon } from 'lucide-react';
 
 export const items: ItemType[] = [

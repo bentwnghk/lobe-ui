@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: Github
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/Github/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-icons/tree/master/src/Github/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { Github } from '@lobehub/ui/icons';
+import { Github } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <Github size={64} />;
@@ -20,7 +20,7 @@ export default () => <Github size={64} />;
 ## Avatars
 
 ```tsx
-import { Github } from '@lobehub/ui/icons';
+import { Github } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

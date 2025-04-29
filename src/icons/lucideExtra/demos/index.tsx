@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import {
   DiscordIcon,
   GlobeOffIcon,
@@ -6,7 +6,7 @@ import {
   LeftDoubleClickIcon,
   RightClickIcon,
   RightDoubleClickIcon,
-} from '@lobehub/ui/icons';
+} from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

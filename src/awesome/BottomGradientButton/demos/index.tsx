@@ -1,5 +1,5 @@
-import { BottomGradientButton, type BottomGradientButtonProps } from '@lobehub/ui/awesome';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { BottomGradientButton, type BottomGradientButtonProps } from '@bentwnghk/ui/awesome';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 
 export default () => {
   const store = useCreateStore();

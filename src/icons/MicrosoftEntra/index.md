@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: MicrosoftEntra
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/MicrosoftEntra/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/MicrosoftEntra/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { MicrosoftEntra } from '@lobehub/ui/icons';
+import { MicrosoftEntra } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <MicrosoftEntra size={64} />;
@@ -20,7 +20,7 @@ export default () => <MicrosoftEntra size={64} />;
 ## Color
 
 ```tsx
-import { MicrosoftEntra } from '@lobehub/ui/icons';
+import { MicrosoftEntra } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <MicrosoftEntra.Color size={64} />;
@@ -29,7 +29,7 @@ export default () => <MicrosoftEntra.Color size={64} />;
 ## Avatars
 
 ```tsx
-import { MicrosoftEntra } from '@lobehub/ui/icons';
+import { MicrosoftEntra } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

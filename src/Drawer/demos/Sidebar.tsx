@@ -1,5 +1,5 @@
-import { Drawer, type DrawerProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Drawer, type DrawerProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useRef } from 'react';
 
 export default () => {

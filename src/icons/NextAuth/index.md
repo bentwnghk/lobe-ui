@@ -3,7 +3,7 @@ nav: Components
 group: Auth Icons
 title: NextAuth
 apiHeader:
-  pkg: '@lobehub/ui/icons'
+  pkg: '@bentwnghk/ui/icons'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/NextAuth/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/icons/NextAuth/index.ts'
 ---
@@ -11,7 +11,7 @@ apiHeader:
 ## Icons
 
 ```tsx
-import { NextAuth } from '@lobehub/ui/icons';
+import { NextAuth } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <NextAuth size={64} />;
@@ -20,7 +20,7 @@ export default () => <NextAuth size={64} />;
 ## Color
 
 ```tsx
-import { NextAuth } from '@lobehub/ui/icons';
+import { NextAuth } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => <NextAuth.Color size={64} />;
@@ -29,7 +29,7 @@ export default () => <NextAuth.Color size={64} />;
 ## Avatars
 
 ```tsx
-import { NextAuth } from '@lobehub/ui/icons';
+import { NextAuth } from '@bentwnghk/ui/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (

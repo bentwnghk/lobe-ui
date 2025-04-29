@@ -1,5 +1,5 @@
-import { Icon, Segmented, type SegmentedProps } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { Icon, Segmented, type SegmentedProps } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { Moon, Sun } from 'lucide-react';
 
 export default () => {

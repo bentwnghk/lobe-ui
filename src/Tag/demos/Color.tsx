@@ -1,4 +1,4 @@
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { Center } from 'react-layout-kit';
 

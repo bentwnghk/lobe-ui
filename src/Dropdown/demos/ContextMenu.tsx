@@ -1,4 +1,4 @@
-import { Dropdown } from '@lobehub/ui';
+import { Dropdown } from '@bentwnghk/ui';
 import { Flexbox } from 'react-layout-kit';
 
 import { menu } from './data';

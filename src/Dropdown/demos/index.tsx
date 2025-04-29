@@ -1,4 +1,4 @@
-import { Button, Dropdown } from '@lobehub/ui';
+import { Button, Dropdown } from '@bentwnghk/ui';
 
 import { menu } from './data';
 

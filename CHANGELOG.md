@@ -2,6 +2,55 @@
 
 # Changelog
 
+## [Version 2.0.0](https://github.com/bentwnghk/lobe-ui/compare/v1.39.0...v2.0.0)
+
+<sup>Released on **2025-04-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Bump v2 \[force major].
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix MessageModal, Fix Textarea, Fix vercel build.
+
+#### 💄 Styles
+
+- **misc**: Fix button style, Update deps, Update Drawer props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Bump v2 \[force major], closes [#322](https://github.com/bentwnghk/lobe-ui/issues/322) ([4be6afb](https://github.com/bentwnghk/lobe-ui/commit/4be6afb))
+
+#### What's fixed
+
+- **misc**: Fix MessageModal ([e72bf86](https://github.com/bentwnghk/lobe-ui/commit/e72bf86))
+- **misc**: Fix Textarea ([dbfbba2](https://github.com/bentwnghk/lobe-ui/commit/dbfbba2))
+- **misc**: Fix vercel build ([88dd6d9](https://github.com/bentwnghk/lobe-ui/commit/88dd6d9))
+
+#### Styles
+
+- **misc**: Fix button style ([33248f0](https://github.com/bentwnghk/lobe-ui/commit/33248f0))
+- **misc**: Update deps ([cabffc3](https://github.com/bentwnghk/lobe-ui/commit/cabffc3))
+- **misc**: Update Drawer props ([9a1d0e0](https://github.com/bentwnghk/lobe-ui/commit/9a1d0e0))
+
+</details>
+
+#### 💥 BREAKING CHANGES
+
+- **misc**: <https://github.com/lobehub/lobe-ui/discussions/136>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.39.0](https://github.com/bentwnghk/lobe-ui/compare/v1.38.2...v1.39.0)
 
 <sup>Released on **2025-04-16**</sup>

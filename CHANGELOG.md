@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 2.0.1](https://github.com/bentwnghk/lobe-ui/compare/v2.0.0...v2.0.1)
+
+<sup>Released on **2025-04-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update key validation logic in HotkeyInput component.
+
+#### 💄 Styles
+
+- **misc**: Fix draw style, Fix processing tag, Fix processing tag style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update key validation logic in HotkeyInput component, closes [#332](https://github.com/bentwnghk/lobe-ui/issues/332) ([3d66cca](https://github.com/bentwnghk/lobe-ui/commit/3d66cca))
+
+#### Styles
+
+- **misc**: Fix draw style ([4daef35](https://github.com/bentwnghk/lobe-ui/commit/4daef35))
+- **misc**: Fix processing tag ([8e3df8b](https://github.com/bentwnghk/lobe-ui/commit/8e3df8b))
+- **misc**: Fix processing tag style ([9bf54a3](https://github.com/bentwnghk/lobe-ui/commit/9bf54a3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.0.0](https://github.com/bentwnghk/lobe-ui/compare/v1.39.0...v2.0.0)
 
 <sup>Released on **2025-04-29**</sup>

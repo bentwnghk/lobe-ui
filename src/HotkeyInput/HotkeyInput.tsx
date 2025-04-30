@@ -20,13 +20,10 @@ import useControlledState from 'use-merge-value';
 
 import ActionIcon from '@/ActionIcon';
 import Hotkey from '@/Hotkey';
-import { checkIsAppleDevice, splitKeysByPlus } from '@/Hotkey/utils';
+import { NORMATIVE_MODIFIER, checkIsAppleDevice, splitKeysByPlus } from '@/Hotkey/utils';
 
 import { useStyles } from './style';
 import type { HotkeyInputProps } from './type';
-
-// 修饰键列表
-const MODIFIER_KEYS = new Set(['alt', 'mod', 'shift', 'meta', 'ctrl', 'control']);
 
 const HotkeyInput = memo<HotkeyInputProps>(
   ({
@@ -124,8 +121,8 @@ const HotkeyInput = memo<HotkeyInputProps>(
 
       for (const key of keysSet) {
         // 处理不同表示的修饰键
-        const normalizedKey = key.toLowerCase();
-        if (MODIFIER_KEYS.has(normalizedKey)) {
+        const normalizedKey: any = key.toLowerCase();
+        if (NORMATIVE_MODIFIER.includes(normalizedKey)) {
           // 统一修饰键表示
           if (
             (!isAppleDevice && normalizedKey === 'ctrl') ||
@@ -147,12 +144,12 @@ const HotkeyInput = memo<HotkeyInputProps>(
 
       // 只允许一个非修饰键，如果有多个，只保留最后一个
       const finalKey = normalKeys.length > 0 ? [normalKeys.at(-1)] : [];
-      const validKeys = [...modifiers, ...finalKey];
+      const shortcuts = [modifiers, finalKey];
 
-      // 组合必须包含至少一个按键
       return {
-        isValid: validKeys.length > 0,
-        keys: validKeys,
+        // 组合必须包含至少一个按键
+        isValid: shortcuts.every((k) => k.length > 0),
+        keys: shortcuts.flat(),
       };
     }, []);
 
@@ -168,7 +165,7 @@ const HotkeyInput = memo<HotkeyInputProps>(
           .some((conflictKey) => {
             const newKeys = splitKeysByPlus(newHotkey);
             const conflictKeys = splitKeysByPlus(conflictKey);
-            return isEqual(newKeys.sort(), conflictKeys.sort());
+            return isEqual(newKeys, conflictKeys);
           });
       },
       [hotkeyConflicts],

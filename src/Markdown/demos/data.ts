@@ -201,3 +201,150 @@ export function foo() {
 }
 \`\`\`
 `;
+
+export const fullContent = `
+好的,让我来用新的视角解释一下"睡觉"这个词。
+
+<antThinking>这个请求适合创建一个新的SVG卡片artifact。它是一个独立的视觉元素,可以重复使用或修改,符合好的artifact标准。我将创建一个新的artifact,标识符为"sleep-interpretation-card"。</antThinking>
+
+<antArtifact identifier="sleep-interpretation-card" type="image/svg+xml" title="睡觉的新解释">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="400" height="600" fill="#F0EAD6"/>
+
+  <!-- 总结 -->
+  <text x="200" y="500" font-family="'Noto Serif SC', serif" font-size="20" text-anchor="middle" fill="#8B4513">睡觉：生产力的假死，创造力的重生。</text>
+</svg>
+</antArtifact>
+
+这是我为"睡觉"这个词创作的新解释卡片。
+
+
+# AI Assistant Response
+
+Hello! I'm an AI assistant. I can help you with various tasks like:
+
+1. Answering questions
+2. Providing information
+3. Writing code examples
+4. Explaining concepts
+
+## Code Example
+
+Here's a simple React component:
+
+\`\`\`tsx
+'use client';
+
+import { memo, useMemo } from 'react';
+import ReactMarkdown from 'react-markdown';
+
+import { PreviewGroup } from '@/Image';
+import { useMarkdown } from '@/hooks/useMarkdown';
+
+import { SyntaxMarkdownProps } from '../type';
+
+const SyntaxMarkdown = memo<SyntaxMarkdownProps>(
+  ({
+    children,
+    fullFeaturedCodeBlock,
+    animated,
+    enableLatex = true,
+    enableMermaid = true,
+    enableImageGallery = true,
+    enableCustomFootnotes,
+    componentProps,
+    allowHtml,
+    showFootnotes,
+    variant = 'default',
+    reactMarkdownProps,
+    rehypePlugins,
+    remarkPlugins,
+    remarkPluginsAhead,
+    components = {},
+    customRender,
+    citations,
+  }) => {
+    // Use our new hook to handle Markdown processing
+    const { escapedContent, memoComponents, rehypePluginsList, remarkPluginsList } = useMarkdown({
+      allowHtml,
+      animated,
+      children,
+      citations,
+      componentProps,
+      components,
+      enableCustomFootnotes,
+      enableImageGallery,
+      enableLatex,
+      enableMermaid,
+      fullFeaturedCodeBlock,
+      rehypePlugins,
+      remarkPlugins,
+      remarkPluginsAhead,
+      showFootnotes,
+      variant,
+    });
+
+    // 渲染默认内容
+    const defaultDOM = useMemo(
+      () => (
+        <PreviewGroup enable={enableImageGallery}>
+          <ReactMarkdown
+            {...reactMarkdownProps}
+            components={memoComponents}
+            rehypePlugins={rehypePluginsList}
+            remarkPlugins={remarkPluginsList}
+          >
+            {escapedContent}
+          </ReactMarkdown>
+        </PreviewGroup>
+      ),
+      [
+        escapedContent,
+        memoComponents,
+        rehypePluginsList,
+        remarkPluginsList,
+        enableImageGallery,
+        reactMarkdownProps,
+      ],
+    );
+
+    // 应用自定义渲染
+    const markdownContent = customRender
+      ? customRender(defaultDOM, { text: escapedContent || '' })
+      : defaultDOM;
+
+    return markdownContent;
+  },
+);
+
+SyntaxMarkdown.displayName = 'SyntaxMarkdown';
+
+export default SyntaxMarkdown;
+\`\`\`
+
+## Math Support
+
+I can also render mathematical formulas:
+
+$$
+f(x) = \\int_{-\\infty}^{\\infty} \\hat{f}(\\xi) e^{2\\pi i \\xi x} d\\xi
+$$
+
+## Data Visualization
+
+\`\`\`mermaid
+graph TD
+  A[User Input] --> B[AI Processing]
+  B --> C[Response Generation]
+  C --> D[Content Display]
+\`\`\`
+
+Thank you for your attention!
+`;

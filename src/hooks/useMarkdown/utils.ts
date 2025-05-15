@@ -1,3 +1,4 @@
+import { renderToString } from 'katex';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import remarkBreaks from 'remark-breaks';
@@ -5,8 +6,9 @@ import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import type { Pluggable } from 'unified';
 
-import { rehypeFootnoteLinks, remarkCustomFootnotes } from './plugins/footnote';
-import { rehypeKatexDir } from './plugins/katexDir';
+import { animatedPlugin } from '@/Markdown/plugins/animated';
+import { rehypeFootnoteLinks, remarkCustomFootnotes } from '@/Markdown/plugins/footnote';
+import { rehypeKatexDir } from '@/Markdown/plugins/katexDir';
 
 // 使用普通 Map 代替 WeakMap，并限制缓存大小
 const CACHE_SIZE = 50;
@@ -25,6 +27,7 @@ export const addToCache = (key: string, value: string) => {
 // 使用工厂函数处理插件，减少组件中的逻辑负担
 export const createPlugins = (props: {
   allowHtml?: boolean;
+  animated?: boolean;
   enableCustomFootnotes?: boolean;
   enableLatex?: boolean;
   isChatMode: boolean;
@@ -40,6 +43,7 @@ export const createPlugins = (props: {
     rehypePlugins,
     remarkPlugins,
     remarkPluginsAhead,
+    animated,
   } = props;
 
   // 预处理插件数组
@@ -67,6 +71,7 @@ export const createPlugins = (props: {
     enableLatex && rehypeKatex,
     enableLatex && rehypeKatexDir,
     enableCustomFootnotes && rehypeFootnoteLinks,
+    animated && animatedPlugin,
     ...normalizedRehypePlugins,
   ].filter(Boolean) as Pluggable[];
 
@@ -164,4 +169,39 @@ export const transformCitations = (rawContent: string, length: number = 0) => {
   return rawContent
     .replaceAll(pattern, (match, id) => `[#citation-${id}](citation-${id})`)
     .replaceAll('][', '] [');
+};
+
+// 新增: 检测LaTeX公式是否可渲染
+const extractFormulas = (text: string) => {
+  // 计算$$的数量
+  const dollarsCount = (text.match(/\$\$/g) || []).length;
+
+  // 奇数个$$时，获取最后一个$$后的内容
+  if (dollarsCount % 2 === 1) {
+    const match = text.match(/\$\$([^]*)$/);
+    return match ? match[1] : '';
+  }
+
+  // 偶数个$$时，返回空字符串
+  return '';
+};
+
+// 只检查最后一个公式
+export const areFormulasRenderable = (text: string) => {
+  const formulas = extractFormulas(text);
+
+  // 如果没有公式，返回true
+  if (!formulas) return true;
+
+  // 仅检查最后一个公式是否可渲染
+  try {
+    renderToString(formulas, {
+      displayMode: true,
+      throwOnError: true,
+    });
+    return true;
+  } catch (error) {
+    console.log(`LaTeX公式渲染错误: ${error}`);
+    return false;
+  }
 };

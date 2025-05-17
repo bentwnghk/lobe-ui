@@ -1,4 +1,4 @@
-import { Button, Markdown } from '@bentwnghk/ui';
+import { Button, Markdown, highlighterThemes, mermaidThemes } from '@bentwnghk/ui';
 import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useEffect, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -15,13 +15,25 @@ const components = Object.fromEntries(
 
 export default () => {
   const store = useCreateStore();
-  const { streamingSpeed, animated, ...rest } = useControls(
+  const { children, streamingSpeed, animated, highlightTheme, mermaidTheme, ...rest } = useControls(
     {
       animated: {
         value: true,
       },
+      children: {
+        rows: true,
+        value: fullContent,
+      },
       fullFeaturedCodeBlock: {
         value: true,
+      },
+      highlightTheme: {
+        options: highlighterThemes.map((item) => item.id),
+        value: highlighterThemes[0].id,
+      },
+      mermaidTheme: {
+        options: mermaidThemes.map((item) => item.id),
+        value: mermaidThemes[0].id,
       },
       streamingSpeed: {
         max: 100,
@@ -60,10 +72,10 @@ export default () => {
     }
 
     const intervalId = setInterval(() => {
-      if (currentPosition < fullContent.length) {
+      if (currentPosition < children.length) {
         // Stream character by character
-        const nextChunkSize = Math.min(3, fullContent.length - currentPosition);
-        const nextContent = fullContent.slice(0, Math.max(0, currentPosition + nextChunkSize));
+        const nextChunkSize = Math.min(3, children.length - currentPosition);
+        const nextContent = children.slice(0, Math.max(0, currentPosition + nextChunkSize));
         setStreamedContent(nextContent);
         currentPosition += nextChunkSize;
       } else {
@@ -73,11 +85,18 @@ export default () => {
     }, streamingSpeed);
 
     return () => clearInterval(intervalId);
-  }, [streamingSpeed, isStreaming, isPaused, streamedContent.length]);
+  }, [children, streamingSpeed, isStreaming, isPaused, streamedContent.length]);
 
   return (
     <StoryBook levaStore={store}>
-      <Flexbox gap={16} width={'100%'}>
+      <Flexbox
+        gap={16}
+        height={'100%'}
+        style={{
+          overflow: 'auto',
+        }}
+        width={'100%'}
+      >
         <Flexbox direction="horizontal" gap={8}>
           <Button block loading={isStreaming} onClick={restartStreaming} type={'primary'}>
             Restart Streaming
@@ -93,6 +112,14 @@ export default () => {
         </Flexbox>
         <Markdown
           animated={animated}
+          componentProps={{
+            highlight: {
+              theme: highlightTheme as any,
+            },
+            mermaid: {
+              theme: mermaidTheme as any,
+            },
+          }}
           components={components}
           fullFeaturedCodeBlock={rest.fullFeaturedCodeBlock}
           rehypePlugins={rehypePlugins}

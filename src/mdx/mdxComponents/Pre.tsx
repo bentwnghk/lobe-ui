@@ -11,7 +11,7 @@ import { FALLBACK_LANG } from '@/hooks/useHighlight';
 const useStyles = createStyles(({ css }) => ({
   container: css`
     overflow: hidden;
-    margin-block: 1em;
+    margin-block: 0.5em;
     border-radius: calc(var(--lobe-markdown-border-radius) * 1px);
     box-shadow: 0 0 0 1px var(--lobe-markdown-border-color) inset;
   `,
@@ -29,6 +29,7 @@ export const Pre: FC<PreProps> = ({
   style,
   variant = 'filled',
   icon,
+  theme,
   ...rest
 }) => {
   const { styles, cx } = useStyles();
@@ -42,6 +43,7 @@ export const Pre: FC<PreProps> = ({
       icon={icon}
       language={language}
       style={style}
+      theme={theme}
       variant={variant}
       {...rest}
     >
@@ -80,6 +82,7 @@ export const PreMermaid: FC<MermaidProps> = ({
   className,
   style,
   variant = 'filled',
+  theme,
   ...rest
 }) => {
   const { styles, cx } = useStyles();
@@ -89,6 +92,7 @@ export const PreMermaid: FC<MermaidProps> = ({
       className={cx(styles.container, className)}
       fullFeatured={fullFeatured}
       style={style}
+      theme={theme}
       variant={variant}
       {...rest}
     >

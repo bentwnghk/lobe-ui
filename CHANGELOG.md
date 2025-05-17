@@ -2,6 +2,227 @@
 
 # Changelog
 
+### [Version 2.1.6](https://github.com/lobehub/lobe-ui/compare/v2.1.5...v2.1.6)
+
+<sup>Released on **2025-05-16**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor Markdown.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix typo, Fix typo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor Markdown ([0b80f15](https://github.com/lobehub/lobe-ui/commit/0b80f15))
+
+#### What's fixed
+
+- **misc**: Fix typo ([a045617](https://github.com/lobehub/lobe-ui/commit/a045617))
+- **misc**: Fix typo ([8f25f59](https://github.com/lobehub/lobe-ui/commit/8f25f59))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.5](https://github.com/lobehub/lobe-ui/compare/v2.1.4...v2.1.5)
+
+<sup>Released on **2025-05-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix highlight rerender on streamming.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix highlight rerender on streamming ([467c6a1](https://github.com/lobehub/lobe-ui/commit/467c6a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.4](https://github.com/lobehub/lobe-ui/compare/v2.1.3...v2.1.4)
+
+<sup>Released on **2025-05-16**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update style ([6428253](https://github.com/lobehub/lobe-ui/commit/6428253))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.3](https://github.com/lobehub/lobe-ui/compare/v2.1.2...v2.1.3)
+
+<sup>Released on **2025-05-16**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix FormModal custom footer.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix FormModal custom footer ([92002b7](https://github.com/lobehub/lobe-ui/commit/92002b7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.2](https://github.com/lobehub/lobe-ui/compare/v2.1.1...v2.1.2)
+
+<sup>Released on **2025-05-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix props, Lock father, Lock father.
+
+#### 💄 Styles
+
+- **misc**: Update Markdown style, Update neutral color.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix props ([ec0a329](https://github.com/lobehub/lobe-ui/commit/ec0a329))
+- **misc**: Lock father ([2ea4edc](https://github.com/lobehub/lobe-ui/commit/2ea4edc))
+- **misc**: Lock father ([13752f3](https://github.com/lobehub/lobe-ui/commit/13752f3))
+
+#### Styles
+
+- **misc**: Update Markdown style ([8190197](https://github.com/lobehub/lobe-ui/commit/8190197))
+- **misc**: Update neutral color ([67f7f88](https://github.com/lobehub/lobe-ui/commit/67f7f88))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.1](https://github.com/lobehub/lobe-ui/compare/v2.1.0...v2.1.1)
+
+<sup>Released on **2025-05-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rollback.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Rollback ([4d8e548](https://github.com/lobehub/lobe-ui/commit/4d8e548))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.1.0](https://github.com/lobehub/lobe-ui/compare/v2.0.17...v2.1.0)
+
+<sup>Released on **2025-05-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Use MarkdownHooks.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Use MarkdownHooks ([296d3a8](https://github.com/lobehub/lobe-ui/commit/296d3a8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.0.17](https://github.com/lobehub/lobe-ui/compare/v2.0.16...v2.0.17)
+
+<sup>Released on **2025-05-15**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix type, Update preprocessLaTeX.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix type ([d614abe](https://github.com/lobehub/lobe-ui/commit/d614abe))
+- **misc**: Update preprocessLaTeX, closes [#345](https://github.com/lobehub/lobe-ui/issues/345) ([f2b7d1f](https://github.com/lobehub/lobe-ui/commit/f2b7d1f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.0.16](https://github.com/lobehub/lobe-ui/compare/v2.0.15...v2.0.16)
 
 <sup>Released on **2025-05-14**</sup>

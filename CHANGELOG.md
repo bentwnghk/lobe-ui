@@ -2,66 +2,22 @@
 
 # Changelog
 
-## [Version 2.1.0](https://github.com/bentwnghk/lobe-ui/compare/v2.0.1...v2.1.0)
+### [Version 2.1.7](https://github.com/lobehub/lobe-ui/compare/v2.1.6...v2.1.7)
 
-<sup>Released on **2025-05-17**</sup>
-
-#### ♻ Code Refactoring
-
-- **misc**: Refactor Markdown.
-
-#### ✨ Features
-
-- **misc**: Use MarkdownHooks.
+<sup>Released on **2025-05-21**</sup>
 
 #### 🐛 Bug Fixes
 
-- **misc**: Do not directly re-export antd's internal type, Fix highlight rerender on streamming, Fix props, Fix typo, Fix typo, Lock father, Lock father, Rollback.
-
-#### 💄 Styles
-
-- **misc**: Allow `SliderWithInput` to have no input limit, Fix FormModal custom footer, Fix mermaid font-size, Fix type, Remove CodeEditor from MessageInput on mobile, Support streaming Markdown animation, Update delayedAnimated in Markdown, Update demo, Update demo, Update Highlight style, Update Markdown style, Update neutral color, Update preprocessLaTeX, Update style.
+- **misc**: Update 'destroyOnClose' to 'destroyOnHidden' in FormModal, Modal, and MessageModal components.
 
 <br/>
 
 <details>
 <summary><kbd>Improvements and Fixes</kbd></summary>
 
-#### Code refactoring
-
-- **misc**: Refactor Markdown ([0b80f15](https://github.com/bentwnghk/lobe-ui/commit/0b80f15))
-
-#### What's improved
-
-- **misc**: Use MarkdownHooks ([296d3a8](https://github.com/bentwnghk/lobe-ui/commit/296d3a8))
-
 #### What's fixed
 
-- **misc**: Do not directly re-export antd's internal type, closes [#343](https://github.com/bentwnghk/lobe-ui/issues/343) ([b5ae861](https://github.com/bentwnghk/lobe-ui/commit/b5ae861))
-- **misc**: Fix highlight rerender on streamming ([467c6a1](https://github.com/bentwnghk/lobe-ui/commit/467c6a1))
-- **misc**: Fix props ([ec0a329](https://github.com/bentwnghk/lobe-ui/commit/ec0a329))
-- **misc**: Fix typo ([a045617](https://github.com/bentwnghk/lobe-ui/commit/a045617))
-- **misc**: Fix typo ([8f25f59](https://github.com/bentwnghk/lobe-ui/commit/8f25f59))
-- **misc**: Lock father ([2ea4edc](https://github.com/bentwnghk/lobe-ui/commit/2ea4edc))
-- **misc**: Lock father ([13752f3](https://github.com/bentwnghk/lobe-ui/commit/13752f3))
-- **misc**: Rollback ([4d8e548](https://github.com/bentwnghk/lobe-ui/commit/4d8e548))
-
-#### Styles
-
-- **misc**: Allow `SliderWithInput` to have no input limit, closes [#341](https://github.com/bentwnghk/lobe-ui/issues/341) ([948ab67](https://github.com/bentwnghk/lobe-ui/commit/948ab67))
-- **misc**: Fix FormModal custom footer ([92002b7](https://github.com/bentwnghk/lobe-ui/commit/92002b7))
-- **misc**: Fix mermaid font-size ([8b273b3](https://github.com/bentwnghk/lobe-ui/commit/8b273b3))
-- **misc**: Fix type ([d614abe](https://github.com/bentwnghk/lobe-ui/commit/d614abe))
-- **misc**: Remove CodeEditor from MessageInput on mobile ([3536394](https://github.com/bentwnghk/lobe-ui/commit/3536394))
-- **misc**: Support streaming Markdown animation ([260afcc](https://github.com/bentwnghk/lobe-ui/commit/260afcc))
-- **misc**: Update delayedAnimated in Markdown ([a8e8c9d](https://github.com/bentwnghk/lobe-ui/commit/a8e8c9d))
-- **misc**: Update demo ([c69c629](https://github.com/bentwnghk/lobe-ui/commit/c69c629))
-- **misc**: Update demo ([6a7c54a](https://github.com/bentwnghk/lobe-ui/commit/6a7c54a))
-- **misc**: Update Highlight style ([16e7eca](https://github.com/bentwnghk/lobe-ui/commit/16e7eca))
-- **misc**: Update Markdown style ([8190197](https://github.com/bentwnghk/lobe-ui/commit/8190197))
-- **misc**: Update neutral color ([67f7f88](https://github.com/bentwnghk/lobe-ui/commit/67f7f88))
-- **misc**: Update preprocessLaTeX, closes [#345](https://github.com/bentwnghk/lobe-ui/issues/345) ([f2b7d1f](https://github.com/bentwnghk/lobe-ui/commit/f2b7d1f))
-- **misc**: Update style ([6428253](https://github.com/bentwnghk/lobe-ui/commit/6428253))
+- **misc**: Update 'destroyOnClose' to 'destroyOnHidden' in FormModal, Modal, and MessageModal components, closes [#356](https://github.com/lobehub/lobe-ui/issues/356) ([dad51db](https://github.com/lobehub/lobe-ui/commit/dad51db))
 
 </details>
 

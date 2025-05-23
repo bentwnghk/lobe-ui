@@ -2,6 +2,7 @@ import {
   convertLatexDelimiters,
   escapeLatexPipes,
   escapeMhchemCommands,
+  escapeTextUnderscores,
   isLastFormulaRenderable,
   preprocessLaTeX,
 } from './latex';
@@ -12,11 +13,11 @@ describe('preprocessLaTeX', () => {
     expect(preprocessLaTeX(content)).toBe(content);
   });
 
-  test('escapes dollar signs followed by digits', () => {
-    const content = 'Price is $50 and $100';
-    const expected = 'Price is \\$50 and \\$100';
-    expect(preprocessLaTeX(content)).toBe(expected);
-  });
+  // test('escapes dollar signs followed by digits', () => {
+  //   const content = 'Price is $50 and $100';
+  //   const expected = 'Price is \\$50 and \\$100';
+  //   expect(preprocessLaTeX(content)).toBe(expected);
+  // });
 
   test('does not escape dollar signs not followed by digits', () => {
     const content = 'This $variable is not escaped';
@@ -28,11 +29,11 @@ describe('preprocessLaTeX', () => {
     expect(preprocessLaTeX(content)).toBe(content);
   });
 
-  test('handles mixed LaTeX and currency', () => {
-    const content = 'LaTeX $x^2$ and price $50';
-    const expected = 'LaTeX $x^2$ and price \\$50';
-    expect(preprocessLaTeX(content)).toBe(expected);
-  });
+  // test('handles mixed LaTeX and currency', () => {
+  //   const content = 'LaTeX $x^2$ and price $50';
+  //   const expected = 'LaTeX $x^2$ and price \\$50';
+  //   expect(preprocessLaTeX(content)).toBe(expected);
+  // });
 
   test('converts LaTeX delimiters', () => {
     const content = 'Brackets \\[x^2\\] and parentheses \\(y^2\\)';
@@ -49,13 +50,11 @@ describe('preprocessLaTeX', () => {
   test('handles complex mixed content', () => {
     const content = `
       LaTeX inline $x^2$ and block $$y^2$$
-      Currency $100 and $200
       Chemical $\\ce{H2O}$
       Brackets \\[z^2\\]
     `;
     const expected = `
       LaTeX inline $x^2$ and block $$y^2$$
-      Currency \\$100 and \\$200
       Chemical $\\\\ce{H2O}$
       Brackets $$z^2$$
     `;
@@ -68,26 +67,26 @@ describe('preprocessLaTeX', () => {
 
   test('preserves code blocks', () => {
     const content = '```\n$100\n```\nOutside $200';
-    const expected = '```\n$100\n```\nOutside \\$200';
+    const expected = '```\n$100\n```\nOutside $200';
     expect(preprocessLaTeX(content)).toBe(expected);
   });
 
-  test('handles multiple currency values in a sentence', () => {
-    const content = 'I have $50 in my wallet and $100 in the bank.';
-    const expected = 'I have \\$50 in my wallet and \\$100 in the bank.';
-    expect(preprocessLaTeX(content)).toBe(expected);
-  });
+  // test('handles multiple currency values in a sentence', () => {
+  //   const content = 'I have $50 in my wallet and $100 in the bank.';
+  //   const expected = 'I have \\$50 in my wallet and \\$100 in the bank.';
+  //   expect(preprocessLaTeX(content)).toBe(expected);
+  // });
 
   test('preserves LaTeX expressions with numbers', () => {
     const content = 'The equation is $f(x) = 2x + 3$ where x is a variable.';
     expect(preprocessLaTeX(content)).toBe(content);
   });
 
-  test('handles currency values with commas', () => {
-    const content = 'The price is $1,000,000 for this item.';
-    const expected = 'The price is \\$1,000,000 for this item.';
-    expect(preprocessLaTeX(content)).toBe(expected);
-  });
+  // test('handles currency values with commas', () => {
+  //   const content = 'The price is $1,000,000 for this item.';
+  //   const expected = 'The price is \\$1,000,000 for this item.';
+  //   expect(preprocessLaTeX(content)).toBe(expected);
+  // });
 
   test('preserves LaTeX expressions with special characters', () => {
     const content = 'The set is defined as $\\{x | x > 0\\}$.';
@@ -185,5 +184,49 @@ describe('isLastFormulaRenderable', () => {
     // This should attempt to render "x^{" and return false since it's invalid
     // Note: This test assumes that "x^{" is invalid LaTeX which the renderer will reject
     expect(isLastFormulaRenderable('Text $$formula1$$ $$x^{')).toBe(false);
+  });
+});
+
+describe('escapeTextUnderscores', () => {
+  test('escapes underscores within \\text{} commands', () => {
+    const content = '$\\text{node_domain}$';
+    const expected = '$\\text{node\\_domain}$';
+    expect(escapeTextUnderscores(content)).toBe(expected);
+  });
+
+  test('escapes multiple underscores within \\text{} commands', () => {
+    const content = '$\\text{node_domain_name}$';
+    const expected = '$\\text{node\\_domain\\_name}$';
+    expect(escapeTextUnderscores(content)).toBe(expected);
+  });
+
+  test('escapes underscores in multiple \\text{} commands', () => {
+    const content = '$\\text{node_domain}$ and $\\text{user_name}$';
+    const expected = '$\\text{node\\_domain}$ and $\\text{user\\_name}$';
+    expect(escapeTextUnderscores(content)).toBe(expected);
+  });
+
+  test('does not affect text without \\text{} commands', () => {
+    const content = 'This is a regular_text with underscores';
+    expect(escapeTextUnderscores(content)).toBe(content);
+  });
+
+  test('does not escape underscores in \\text{} commands with \\text{} commands', () => {
+    const content = '$\\text{node\\_domain}$ and $\\text{user\\_name}$';
+    const expected = '$\\text{node\\_domain}$ and $\\text{user\\_name}$';
+    expect(escapeTextUnderscores(content)).toBe(expected);
+  });
+
+  test('does not modify \\text{} commands without underscores', () => {
+    const content = '$\\text{regular text}$';
+    expect(escapeTextUnderscores(content)).toBe(content);
+  });
+
+  test('handles complex mixed content', () => {
+    const content =
+      'LaTeX $x^2 + \\text{var_name}$ and $\\text{no underscore} + \\text{with_score}$';
+    const expected =
+      'LaTeX $x^2 + \\text{var\\_name}$ and $\\text{no underscore} + \\text{with\\_score}$';
+    expect(escapeTextUnderscores(content)).toBe(expected);
   });
 });

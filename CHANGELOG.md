@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 2.1.2](https://github.com/bentwnghk/lobe-ui/compare/v2.1.1...v2.1.2)
+
+<sup>Released on **2025-05-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: `_` cause rendering failure in text mode, escapeTextUnderscores, LaTeX bug.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: `_` cause rendering failure in text mode, closes [#359](https://github.com/bentwnghk/lobe-ui/issues/359) ([0d4e989](https://github.com/bentwnghk/lobe-ui/commit/0d4e989))
+- **misc**: EscapeTextUnderscores, closes [#360](https://github.com/bentwnghk/lobe-ui/issues/360) ([ce334f5](https://github.com/bentwnghk/lobe-ui/commit/ce334f5))
+- **misc**: LaTeX bug, closes [#357](https://github.com/bentwnghk/lobe-ui/issues/357) ([2874468](https://github.com/bentwnghk/lobe-ui/commit/2874468))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.1.10](https://github.com/lobehub/lobe-ui/compare/v2.1.9...v2.1.10)
 
 <sup>Released on **2025-05-23**</sup>

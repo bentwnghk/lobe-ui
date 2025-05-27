@@ -2,24 +2,47 @@
 
 # Changelog
 
-### [Version 2.1.2](https://github.com/bentwnghk/lobe-ui/compare/v2.1.1...v2.1.2)
+### [Version 2.1.12](https://github.com/lobehub/lobe-ui/compare/v2.1.11...v2.1.12)
 
-<sup>Released on **2025-05-23**</sup>
+<sup>Released on **2025-05-26**</sup>
 
-#### 🐛 Bug Fixes
+#### 💄 Styles
 
-- **misc**: `_` cause rendering failure in text mode, escapeTextUnderscores, LaTeX bug.
+- **misc**: Fix collapse-header-text.
 
 <br/>
 
 <details>
 <summary><kbd>Improvements and Fixes</kbd></summary>
 
-#### What's fixed
+#### Styles
 
-- **misc**: `_` cause rendering failure in text mode, closes [#359](https://github.com/bentwnghk/lobe-ui/issues/359) ([0d4e989](https://github.com/bentwnghk/lobe-ui/commit/0d4e989))
-- **misc**: EscapeTextUnderscores, closes [#360](https://github.com/bentwnghk/lobe-ui/issues/360) ([ce334f5](https://github.com/bentwnghk/lobe-ui/commit/ce334f5))
-- **misc**: LaTeX bug, closes [#357](https://github.com/bentwnghk/lobe-ui/issues/357) ([2874468](https://github.com/bentwnghk/lobe-ui/commit/2874468))
+- **misc**: Fix collapse-header-text ([6862ac3](https://github.com/lobehub/lobe-ui/commit/6862ac3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.11](https://github.com/lobehub/lobe-ui/compare/v2.1.10...v2.1.11)
+
+<sup>Released on **2025-05-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix collapse-header.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix collapse-header ([5895d66](https://github.com/lobehub/lobe-ui/commit/5895d66))
 
 </details>
 

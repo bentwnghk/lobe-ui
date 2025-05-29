@@ -2,13 +2,13 @@
 
 # Changelog
 
-### [Version 2.1.3](https://github.com/bentwnghk/lobe-ui/compare/v2.1.2...v2.1.3)
+### [Version 2.1.15](https://github.com/lobehub/lobe-ui/compare/v2.1.14...v2.1.15)
 
 <sup>Released on **2025-05-27**</sup>
 
 #### 💄 Styles
 
-- **misc**: Fix collapse-header, Fix collapse-header-text.
+- **misc**: Fix Hotkey Hydration failed.
 
 <br/>
 
@@ -17,8 +17,57 @@
 
 #### Styles
 
-- **misc**: Fix collapse-header ([5895d66](https://github.com/bentwnghk/lobe-ui/commit/5895d66))
-- **misc**: Fix collapse-header-text ([6862ac3](https://github.com/bentwnghk/lobe-ui/commit/6862ac3))
+- **misc**: Fix Hotkey Hydration failed ([02b005e](https://github.com/lobehub/lobe-ui/commit/02b005e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.14](https://github.com/lobehub/lobe-ui/compare/v2.1.13...v2.1.14)
+
+<sup>Released on **2025-05-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Markdown style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Markdown style ([4f4cb82](https://github.com/lobehub/lobe-ui/commit/4f4cb82))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.1.13](https://github.com/lobehub/lobe-ui/compare/v2.1.12...v2.1.13)
+
+<sup>Released on **2025-05-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Highligher props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Highligher props ([f30b658](https://github.com/lobehub/lobe-ui/commit/f30b658))
 
 </details>
 

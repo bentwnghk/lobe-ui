@@ -1,4 +1,4 @@
-import { DownloadButton } from '@lobehub/ui';
+import { DownloadButton } from '@bentwnghk/ui';
 
 export default () => {
   const svgContent =

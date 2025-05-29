@@ -1,5 +1,5 @@
-import { DownloadButton } from '@lobehub/ui';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
+import { DownloadButton } from '@bentwnghk/ui';
+import { StoryBook, useControls, useCreateStore } from '@bentwnghk/ui/storybook';
 import { useEffect, useState } from 'react';
 
 export default () => {

@@ -2,31 +2,22 @@
 
 # Changelog
 
-### [Version 2.1.4](https://github.com/bentwnghk/lobe-ui/compare/v2.1.3...v2.1.4)
+## [Version 2.2.0](https://github.com/lobehub/lobe-ui/compare/v2.1.15...v2.2.0)
 
-<sup>Released on **2025-05-29**</sup>
+<sup>Released on **2025-06-02**</sup>
 
-#### 🐛 Bug Fixes
+#### ✨ Features
 
-- **misc**: Fix Highligher props.
-
-#### 💄 Styles
-
-- **misc**: Fix Hotkey Hydration failed, Update Markdown style.
+- **misc**: 添加 changeOnWheel 属性到 SliderWithInput 组件.
 
 <br/>
 
 <details>
 <summary><kbd>Improvements and Fixes</kbd></summary>
 
-#### What's fixed
+#### What's improved
 
-- **misc**: Fix Highligher props ([f30b658](https://github.com/bentwnghk/lobe-ui/commit/f30b658))
-
-#### Styles
-
-- **misc**: Fix Hotkey Hydration failed ([02b005e](https://github.com/bentwnghk/lobe-ui/commit/02b005e))
-- **misc**: Update Markdown style ([4f4cb82](https://github.com/bentwnghk/lobe-ui/commit/4f4cb82))
+- **misc**: 添加 changeOnWheel 属性到 SliderWithInput 组件，closes [#369](https://github.com/lobehub/lobe-ui/issues/369) ([b37a931](https://github.com/lobehub/lobe-ui/commit/b37a931))
 
 </details>
 

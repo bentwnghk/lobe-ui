@@ -2,13 +2,13 @@
 
 # Changelog
 
-## [Version 2.2.0](https://github.com/bentwnghk/lobe-ui/compare/v2.1.4...v2.2.0)
+## [Version 2.3.0](https://github.com/lobehub/lobe-ui/compare/v2.2.0...v2.3.0)
 
-<sup>Released on **2025-06-02**</sup>
+<sup>Released on **2025-06-06**</sup>
 
 #### ✨ Features
 
-- **misc**: 添加 changeOnWheel 属性到 SliderWithInput 组件.
+- **misc**: 在 fixMarkdownBold 函数中添加在开头粗体标记前添加空格的处理.
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 #### What's improved
 
-- **misc**: 添加 changeOnWheel 属性到 SliderWithInput 组件，closes [#369](https://github.com/bentwnghk/lobe-ui/issues/369) ([b37a931](https://github.com/bentwnghk/lobe-ui/commit/b37a931))
+- **misc**: 在 fixMarkdownBold 函数中添加在开头粗体标记前添加空格的处理，closes [#373](https://github.com/lobehub/lobe-ui/issues/373) ([1cc01e9](https://github.com/lobehub/lobe-ui/commit/1cc01e9))
 
 </details>
 

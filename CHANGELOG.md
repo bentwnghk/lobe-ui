@@ -2,13 +2,13 @@
 
 # Changelog
 
-## [Version 2.3.0](https://github.com/bentwnghk/lobe-ui/compare/v2.2.0...v2.3.0)
+## [Version 2.4.0](https://github.com/lobehub/lobe-ui/compare/v2.3.0...v2.4.0)
 
-<sup>Released on **2025-06-06**</sup>
+<sup>Released on **2025-06-11**</sup>
 
 #### ✨ Features
 
-- **misc**: 在 fixMarkdownBold 函数中添加在开头粗体标记前添加空格的处理.
+- **misc**: Add MDX rendering component with enhanced plugin support and memoization.
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 #### What's improved
 
-- **misc**: 在 fixMarkdownBold 函数中添加在开头粗体标记前添加空格的处理，closes [#373](https://github.com/bentwnghk/lobe-ui/issues/373) ([1cc01e9](https://github.com/bentwnghk/lobe-ui/commit/1cc01e9))
+- **misc**: Add MDX rendering component with enhanced plugin support and memoization ([f4fb6cc](https://github.com/lobehub/lobe-ui/commit/f4fb6cc))
 
 </details>
 

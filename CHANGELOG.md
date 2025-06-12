@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 2.4.1](https://github.com/bentwnghk/lobe-ui/compare/v2.4.0...v2.4.1)
+
+<sup>Released on **2025-06-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix hotkey, Fix SearchBar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix hotkey ([32837be](https://github.com/bentwnghk/lobe-ui/commit/32837be))
+- **misc**: Fix SearchBar ([971c479](https://github.com/bentwnghk/lobe-ui/commit/971c479))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.4.2](https://github.com/lobehub/lobe-ui/compare/v2.4.1...v2.4.2)
 
 <sup>Released on **2025-06-12**</sup>

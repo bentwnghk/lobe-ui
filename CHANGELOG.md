@@ -2,13 +2,38 @@
 
 # Changelog
 
-### [Version 2.4.1](https://github.com/bentwnghk/lobe-ui/compare/v2.4.0...v2.4.1)
+### [Version 2.5.6](https://github.com/lobehub/lobe-ui/compare/v2.5.5...v2.5.6)
 
-<sup>Released on **2025-06-12**</sup>
+<sup>Released on **2025-06-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Text style order.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Text style order ([8d8d3c0](https://github.com/lobehub/lobe-ui/commit/8d8d3c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.5](https://github.com/lobehub/lobe-ui/compare/v2.5.4...v2.5.5)
+
+<sup>Released on **2025-06-13**</sup>
 
 #### 🐛 Bug Fixes
 
-- **misc**: Fix hotkey, Fix SearchBar.
+- **misc**: Fix Text Tooltip.
 
 <br/>
 
@@ -17,8 +42,132 @@
 
 #### What's fixed
 
-- **misc**: Fix hotkey ([32837be](https://github.com/bentwnghk/lobe-ui/commit/32837be))
-- **misc**: Fix SearchBar ([971c479](https://github.com/bentwnghk/lobe-ui/commit/971c479))
+- **misc**: Fix Text Tooltip ([995a090](https://github.com/lobehub/lobe-ui/commit/995a090))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.4](https://github.com/lobehub/lobe-ui/compare/v2.5.3...v2.5.4)
+
+<sup>Released on **2025-06-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix Text Tooptip.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix Text Tooptip ([208250d](https://github.com/lobehub/lobe-ui/commit/208250d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.3](https://github.com/lobehub/lobe-ui/compare/v2.5.2...v2.5.3)
+
+<sup>Released on **2025-06-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Text style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Text style ([e278874](https://github.com/lobehub/lobe-ui/commit/e278874))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.2](https://github.com/lobehub/lobe-ui/compare/v2.5.1...v2.5.2)
+
+<sup>Released on **2025-06-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Text style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Text style ([eb75157](https://github.com/lobehub/lobe-ui/commit/eb75157))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.1](https://github.com/lobehub/lobe-ui/compare/v2.5.0...v2.5.1)
+
+<sup>Released on **2025-06-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Text style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Text style ([2c782c4](https://github.com/lobehub/lobe-ui/commit/2c782c4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.5.0](https://github.com/lobehub/lobe-ui/compare/v2.4.2...v2.5.0)
+
+<sup>Released on **2025-06-13**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Text.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Text ([f85d76d](https://github.com/lobehub/lobe-ui/commit/f85d76d))
 
 </details>
 

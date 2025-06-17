@@ -2,6 +2,51 @@
 
 # Changelog
 
+## [Version 2.5.0](https://github.com/bentwnghk/lobe-ui/compare/v2.4.1...v2.5.0)
+
+<sup>Released on **2025-06-17**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Text.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Text Tooltip.
+
+#### 💄 Styles
+
+- **misc**: Fix Text Tooptip, Update Text style, Update Text style, Update Text style, Update Text style order.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Text ([f85d76d](https://github.com/bentwnghk/lobe-ui/commit/f85d76d))
+
+#### What's fixed
+
+- **misc**: Fix Text Tooltip ([995a090](https://github.com/bentwnghk/lobe-ui/commit/995a090))
+
+#### Styles
+
+- **misc**: Fix Text Tooptip ([208250d](https://github.com/bentwnghk/lobe-ui/commit/208250d))
+- **misc**: Update Text style ([e278874](https://github.com/bentwnghk/lobe-ui/commit/e278874))
+- **misc**: Update Text style ([eb75157](https://github.com/bentwnghk/lobe-ui/commit/eb75157))
+- **misc**: Update Text style ([2c782c4](https://github.com/bentwnghk/lobe-ui/commit/2c782c4))
+- **misc**: Update Text style order ([8d8d3c0](https://github.com/bentwnghk/lobe-ui/commit/8d8d3c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.5.6](https://github.com/lobehub/lobe-ui/compare/v2.5.5...v2.5.6)
 
 <sup>Released on **2025-06-13**</sup>

@@ -2,21 +2,13 @@
 
 # Changelog
 
-## [Version 2.5.0](https://github.com/bentwnghk/lobe-ui/compare/v2.4.1...v2.5.0)
+## [Version 2.6.0](https://github.com/lobehub/lobe-ui/compare/v2.5.6...v2.6.0)
 
-<sup>Released on **2025-06-17**</sup>
+<sup>Released on **2025-06-18**</sup>
 
 #### ✨ Features
 
-- **misc**: Add Text.
-
-#### 🐛 Bug Fixes
-
-- **misc**: Fix Text Tooltip.
-
-#### 💄 Styles
-
-- **misc**: Fix Text Tooptip, Update Text style, Update Text style, Update Text style, Update Text style order.
+- **misc**: ActionIconGorup items support loading.
 
 <br/>
 
@@ -25,19 +17,7 @@
 
 #### What's improved
 
-- **misc**: Add Text ([f85d76d](https://github.com/bentwnghk/lobe-ui/commit/f85d76d))
-
-#### What's fixed
-
-- **misc**: Fix Text Tooltip ([995a090](https://github.com/bentwnghk/lobe-ui/commit/995a090))
-
-#### Styles
-
-- **misc**: Fix Text Tooptip ([208250d](https://github.com/bentwnghk/lobe-ui/commit/208250d))
-- **misc**: Update Text style ([e278874](https://github.com/bentwnghk/lobe-ui/commit/e278874))
-- **misc**: Update Text style ([eb75157](https://github.com/bentwnghk/lobe-ui/commit/eb75157))
-- **misc**: Update Text style ([2c782c4](https://github.com/bentwnghk/lobe-ui/commit/2c782c4))
-- **misc**: Update Text style order ([8d8d3c0](https://github.com/bentwnghk/lobe-ui/commit/8d8d3c0))
+- **misc**: ActionIconGorup items support loading, closes [#376](https://github.com/lobehub/lobe-ui/issues/376) ([ef8388d](https://github.com/lobehub/lobe-ui/commit/ef8388d))
 
 </details>
 
